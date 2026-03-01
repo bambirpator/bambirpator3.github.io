@@ -561,7 +561,7 @@
     "correct": "E"
   },
   {
-    "problem_number": 6,
+    "problem_number": 9,
     "statement": "There are five people in a room. They each simultaneously pick two of the other people in the room independently and uniformly at random and point at them. Compute the probability that there exists a group of three people such that each of them is pointing at the other two in the group.",
     "subject": "C",
     "choice1": "$\\tfrac{1}{27}$",
@@ -770,7 +770,7 @@
     "correct": "D"
   },
   {
-    "problem_number": 4,
+    "problem_number": 8,
     "statement": "Let $ABCD$ be a square of side length $2$. Let points $X,Y,Z$ be constructed inside $ABCD$ such that $\\triangle ABX$, $\\triangle BCY$, and $\\triangle CDZ$ are equilateral triangles. Let point $W$ be outside $ABCD$ such that $\\triangle DAW$ is equilateral. Let the area of quadrilateral $WXYZ$ be $a+\\sqrt{b}$, where $a,b$ are integers. Find $a+b.$",
     "subject": "G",
     "choice1": "$12$",
@@ -792,7 +792,7 @@
     "correct": "A"
   },
   {
-    "problem_number": 6,
+    "problem_number": 13,
     "statement": "Let $ABCDEF$ be a regular hexagon and let point $O$ be the center. How many ways can you color these seven points either red or blue such that there doesn’t exist any equilateral triangle with vertices of all the same color?",
     "subject": "C",
     "choice1": "$7$",
@@ -825,7 +825,7 @@
     "correct": "B"
   },
   {
-    "problem_number": 9,
+    "problem_number": 14,
     "statement": "Let $ABCD$ be a trapezoid such that $AB\\parallel CD$, $\\angle BAC=25^\\circ$, $\\angle ABC=125^\\circ$, and $AB+AD=CD$. Compute $\\angle ADC$.",
     "subject": "G",
     "choice1": "$65^\\circ$",
@@ -836,7 +836,7 @@
     "correct": "C"
   },
   {
-    "problem_number": 10,
+    "problem_number": 16,
     "statement": "A real number $x$ is chosen uniformly at random from $[0,1000]$. Find the probability that $\\left\\lfloor\\left\\lfloor \\frac{x}{2.5}\\right\\rfloor\\!/2.5\\right\\rfloor=\\left\\lfloor\\frac{x}{6.25}\\right\\rfloor.$",
     "subject": "A",
     "choice1": "$\\tfrac{8}{10}$",
