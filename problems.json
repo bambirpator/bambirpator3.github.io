@@ -526,6 +526,248 @@
     "choice4": "$2\\sqrt{3}+4\\sqrt{2}$",
     "choice5": "$\\sqrt{6}+2\\sqrt{2}$",
     "correct": "B"
+  },
+  {
+    "problem_number": 1,
+    "statement": "The formula to convert Celsius to Fahrenheit is $F^{\\circ}=1.8\\cdot C^{\\circ}+32$. In Celsius, it is $10^{\\circ}$ warmer in New York right now than in Boston. In Fahrenheit, how much warmer is it in New York than in Boston?",
+    "subject": "A",
+    "choice1": "$22$",
+    "choice2": "$16$",
+    "choice3": "$18$",
+    "choice4": "$20$",
+    "choice5": "$12$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 2,
+    "statement": "Compute the number of dates in the year 2023 such that when put in $\\mathrm{MM/DD/YY}$ form, the three numbers are in strictly increasing order. For example, $06/18/23$ is such a date since $6<18<23$, while $11/11/23$ is not. How many such dates are there?",
+    "subject": "C",
+    "choice1": "$171$",
+    "choice2": "$195$",
+    "choice3": "$186$",
+    "choice4": "$180$",
+    "choice5": "$190$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 3,
+    "statement": "Let $ABCD$ be a rectangle with $AB=20$ and $AD=23$. Let $M$ be the midpoint of $CD$, and let $X$ be the reflection of $M$ across point $A$. Compute the area of triangle $XBD$.",
+    "subject": "G",
+    "choice1": "$690$",
+    "choice2": "$525$",
+    "choice3": "$600$",
+    "choice4": "$460$",
+    "choice5": "$575$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 4,
+    "statement": "The number $5.6$ may be expressed uniquely (ignoring order) as a product $a.b\\times c.d$ for digits $a,b,c,d$ all nonzero. Compute $a.b+c.d$.",
+    "subject": "A",
+    "choice1": "$4.9$",
+    "choice2": "$6.3$",
+    "choice3": "$5.6$",
+    "choice4": "$4.8$",
+    "choice5": "$5.1$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 6,
+    "statement": "There are five people in a room. They each simultaneously pick two of the other people in the room independently and uniformly at random and point at them. Compute the probability that there exists a group of three people such that each of them is pointing at the other two in the group.",
+    "subject": "C",
+    "choice1": "$\\tfrac{1}{27}$",
+    "choice2": "$\\tfrac{5}{108}$",
+    "choice3": "$\\tfrac{1}{18}$",
+    "choice4": "$\\tfrac{5}{36}$",
+    "choice5": "$\\tfrac{1}{54}$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 8,
+    "statement": "Six standard fair six-sided dice are rolled and arranged in a row at random. Compute the expected number of dice showing the same number as the sixth die in the row.",
+    "subject": "C",
+    "choice1": "$2$",
+    "choice2": "$\\tfrac{13}{6}$",
+    "choice3": "$\\tfrac{11}{6}$",
+    "choice4": "$\\tfrac{7}{6}$",
+    "choice5": "$\\tfrac{5}{6}$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 9,
+    "statement": "The largest prime factor of $101101101101$ is a four-digit number $N$. Compute $N$.",
+    "subject": "N",
+    "choice1": "$9907$",
+    "choice2": "$9973$",
+    "choice3": "$9923$",
+    "choice4": "$9901$",
+    "choice5": "$10007$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 10,
+    "statement": "A real number $x$ is chosen uniformly at random from the interval $(0,10)$. Compute the probability that $\\sqrt{x}$, $\\sqrt{x+7}$, and $\\sqrt{10-x}$ are the side lengths of a non-degenerate triangle.",
+    "subject": "A",
+    "choice1": "$\\tfrac{21}{25}$",
+    "choice2": "$\\tfrac{2}{3}$",
+    "choice3": "$\\tfrac{9}{10}$",
+    "choice4": "$\\tfrac{3}{4}$",
+    "choice5": "$\\tfrac{22}{25}$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 11,
+    "statement": "Let $ABCD$ and $WXYZ$ be two squares that share the same center such that $WX\\parallel AB$ and $WX<AB$. Lines $CX$ and $AB$ intersect at $P$, and lines $CZ$ and $AD$ intersect at $Q$. If points $P$, $W$, and $Q$ are collinear, compute the ratio $AB/WX$.",
+    "subject": "G",
+    "choice1": "$1$",
+    "choice2": "$\\sqrt{2}+1$",
+    "choice3": "$\\sqrt{2}-1$",
+    "choice4": "$2$",
+    "choice5": "$1+\\tfrac{1}{\\sqrt{2}}$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 12,
+    "statement": "A jar contains $97$ marbles that are either red, green, or blue. Neil draws two marbles from the jar without replacement and notes that the probability that they would be the same color is $\\tfrac{5}{12}$. After Neil puts his marbles back, Jerry draws two marbles from the jar with replacement. Compute the probability that the marbles that Jerry draws are the same color.",
+    "subject": "N",
+    "choice1": "$\\tfrac{41}{96}$",
+    "choice2": "$\\tfrac{5}{12}$",
+    "choice3": "$\\tfrac{41}{97}$",
+    "choice4": "$\\tfrac{40}{97}$",
+    "choice5": "$\\tfrac{42}{97}$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 14,
+    "statement": "Suppose that point $D$ lies on side $BC$ of triangle $ABC$ such that $AD$ bisects $\\angle BAC$, and let $\\ell$ denote the line through $A$ perpendicular to $AD$. If the distances from $B$ and $C$ to $\\ell$ are $5$ and $6$, respectively, compute $AD$.",
+    "subject": "A",
+    "choice1": "$\\tfrac{65}{11}$",
+    "choice2": "$6$",
+    "choice3": "$\\tfrac{120}{11}$",
+    "choice4": "$\\tfrac{60}{11}$",
+    "choice5": "$\\tfrac{55}{11}$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 15,
+    "statement": "Lucas writes two distinct positive integers on a whiteboard. He decreases the smaller number by $20$ and increases the larger number by $23$, only to discover the product of the two original numbers is equal to the product of the two altered numbers. Compute the minimum possible sum of the original two numbers on the board.",
+    "subject": "N",
+    "choice1": "$322$",
+    "choice2": "$320$",
+    "choice3": "$341$",
+    "choice4": "$301$",
+    "choice5": "$321$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 16,
+    "statement": "Compute the number of tuples $(a_0,a_1,a_2,a_3,a_4,a_5)$ of (not necessarily positive) integers such that $a_i\\le i$ for all $0\\le i\\le5$ and $a_0+a_1+\\cdots+a_5=6$.",
+    "subject": "C",
+    "choice1": "$2100$",
+    "choice2": "$2002$",
+    "choice3": "$1998$",
+    "choice4": "$2010$",
+    "choice5": "$1800$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 17,
+    "statement": "Let $ABC$ be an equilateral triangle of side length $15$. Let $A_b$ and $B_a$ be points on side $AB$, $A_c$ and $C_a$ be points on side $AC$, and $B_c$ and $C_b$ be points on side $BC$ such that $\\triangle AA_bA_c$, $\\triangle BB_cB_a$, and $\\triangle CC_aC_b$ are equilateral triangles with side lengths $3$, $4$, and $5$, respectively. Compute the radius of the circle tangent to segments $A_bA_c$, $B_aB_c$, and $C_aC_b$.",
+    "subject": "G",
+    "choice1": "$3$",
+    "choice2": "$6$",
+    "choice3": "$3\\sqrt{3}$",
+    "choice4": "$2\\sqrt{3}$",
+    "choice5": "$4\\sqrt{3}$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 18,
+    "statement": "Over all real numbers $x$ and $y$ such that $x^{3}=3x+y$ and $y^{3}=3y+x$, compute the sum of all possible values of $x^{2}+y^{2}$.",
+    "subject": "A",
+    "choice1": "$9$",
+    "choice2": "$18$",
+    "choice3": "$21$",
+    "choice4": "$15$",
+    "choice5": "$12$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 20,
+    "statement": "Let $ABCD$ be a square of side length $10$. Point $E$ is on ray $\\overrightarrow{AB}$ such that $AE=17$, and point $F$ is on ray $\\overrightarrow{AD}$ such that $AF=14$. The line through $B$ parallel to $CE$ and the line through $D$ parallel to $CF$ meet at $P$. Compute the area of quadrilateral $AEPF$.",
+    "subject": "G",
+    "choice1": "$110$",
+    "choice2": "$90$",
+    "choice3": "$120$",
+    "choice4": "$95$",
+    "choice5": "$100$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 21,
+    "statement": "An integer $n$ is chosen uniformly at random from the set $\\{1,2,3,\\ldots,2023!\\}$. Compute the probability that $\\gcd\\bigl(n^{n+50},n+1\\bigr)=1$.",
+    "subject": "N",
+    "choice1": "$\\tfrac{265}{356}$",
+    "choice2": "$\\tfrac{265}{357}$",
+    "choice3": "$\\tfrac{260}{357}$",
+    "choice4": "$\\tfrac{270}{357}$",
+    "choice5": "$\\tfrac{265}{360}$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 22,
+    "statement": "There is a $6\\times6$ grid of lights. There is a switch at the top of each column and on the left of each row. A light will only turn on if the switches corresponding to both its column and its row are in the “on” position. Compute the number of different configurations of lights.",
+    "subject": "C",
+    "choice1": "$3870$",
+    "choice2": "$4096$",
+    "choice3": "$3970$",
+    "choice4": "$3969$",
+    "choice5": "$4000$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 23,
+    "statement": "The points $A=(4,\\tfrac{1}{4})$ and $B=(-5,-\\tfrac{1}{5})$ lie on the hyperbola $xy=1$. The circle with diameter $AB$ intersects this hyperbola again at points $X$ and $Y$. Compute $XY$.",
+    "subject": "G",
+    "choice1": "$\\dfrac{\\sqrt{401}}{6}$",
+    "choice2": "$\\dfrac{\\sqrt{401}}{10}$",
+    "choice3": "$\\sqrt{401}$",
+    "choice4": "$\\dfrac{\\sqrt{401}}{5}$",
+    "choice5": "$\\dfrac{\\sqrt{401}}{4}$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 24,
+    "statement": "Compute the smallest positive integer $k$ such that $49$ divides $\\binom{2k}{k}$.",
+    "subject": "N",
+    "choice1": "$24$",
+    "choice2": "$26$",
+    "choice3": "$49$",
+    "choice4": "$7$",
+    "choice5": "$25$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 25,
+    "statement": "A right triangle and a circle are drawn such that the circle is tangent to the legs of the right triangle. The circle cuts the hypotenuse into three segments of lengths $1$, $24$, and $3$, and the segment of length $24$ is a chord of the circle. Compute the area of the triangle.",
+    "subject": "G",
+    "choice1": "$96$",
+    "choice2": "$192$",
+    "choice3": "$200$",
+    "choice4": "$180$",
+    "choice5": "$384$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 26,
+    "statement": "Compute the smallest multiple of $63$ with an odd number of ones in its base two representation.",
+    "subject": "N",
+    "choice1": "$201$",
+    "choice2": "$4222$",
+    "choice3": "$4221$",
+    "choice4": "$4095$",
+    "choice5": "$63$",
+    "correct": "C"
   }
   
 ]
