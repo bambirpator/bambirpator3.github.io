@@ -989,7 +989,218 @@
     "choice4": "$9$",
     "choice5": "$10$",
     "correct": "C"
-  }
+  },
+{
+"problem_number": 1,
+"statement": "Arjun eats twice as many chocolates as Theo, and Wen eats twice as many chocolates as Arjun. If Arjun eats 6 chocolates, compute the total number of chocolates that Arjun, Theo, and Wen eat.",
+"subject": "A",
+"choice1": "$18$",
+"choice2": "$21$",
+"choice3": "$24$",
+"choice4": "$12$",
+"choice5": "$15$",
+"correct": "B"
+},
+{
+"problem_number": 2,
+"statement": "Compute $1\\times 4 - 2\\times 3 + 2\\times 5 - 3\\times 4 + 3\\times 6 - 4\\times 5 + 4\\times 7 - 5\\times 6 + 5\\times 8 - 6\\times 7.$",
+"subject": "A",
+"choice1": "$-10$",
+"choice2": "$10$",
+"choice3": "$0$",
+"choice4": "$-5$",
+"choice5": "$5$",
+"correct": "A"
+},
+{
+"problem_number": 3,
+"statement": "A semicircle of radius 2 is inscribed inside of a rectangle, as shown in the diagram below. The diameter of the semicircle coincides with the bottom side of the rectangle, and the semicircle is tangent to the rectangle at all points of intersection. Compute the length of the diagonal of the rectangle.",
+"subject": "G",
+"choice1": "$2\\sqrt{5}$",
+"choice2": "$4\\sqrt{2}$",
+"choice3": "$2\\sqrt{3}$",
+"choice4": "$4$",
+"choice5": "$2\\sqrt{6}$",
+"correct": "A"
+},
+{
+"problem_number": 4,
+"statement": "Suppose $a,b$ , and $c$ are numbers satisfying the three equations:\n\na\n+\n2\nb\n=\n20\n,\na+2b=20, \nb\n+\n2\nc\n=\n2\n,\nb+2c=2, \nc\n+\n2\na\n=\n3.\nc+2a=3. Find $9a + 9b + 9c$",
+"subject": "A",
+"choice1": "$25$",
+"choice2": "$50$",
+"choice3": "$75$",
+"choice4": "$100$",
+"choice5": "$125$",
+"correct": "C"
+},
+{
+"problem_number": 5,
+"statement": "Lakshay chooses two numbers, $m$ and $n$ , and draws two lines, $y = mx + 3$ and $y = nx + 23$ . Given that the two lines intersect at $(20, 23)$ , compute $m + n$ .",
+"subject": "A",
+"choice1": "$0$",
+"choice2": "$1$",
+"choice3": "$2$",
+"choice4": "$3$",
+"choice5": "$4$",
+"correct": "B"
+},
+{
+"problem_number": 6,
+"statement": "Compute the three-digit number that satisfies the following properties:\n• The hundreds digit and ones digit are the same, but the tens digit is different.\n• The number is divisible by 9.\n• When the number is divided by 5, the remainder is 1.",
+"subject": "N",
+"choice1": "$171$",
+"choice2": "$666$",
+"choice3": "$441$",
+"choice4": "$225$",
+"choice5": "$351$",
+"correct": "A"
+},
+{
+"problem_number": 7,
+"statement": "Recall that an arithmetic sequence is a sequence of numbers such that the difference between any two consecutive terms is the same. Suppose x1, x2, x3 forms an arithmetic sequence. If x2 = 2023, compute x1 + x2 + x3.",
+"subject": "A",
+"choice1": "$2023$",
+"choice2": "$4046$",
+"choice3": "$6069$",
+"choice4": "$8092$",
+"choice5": "$10115$",
+"correct": "C"
+},
+{
+"problem_number": 9,
+"statement": "The boxes in the expression below are filled with the numbers 3, 4, 5, 6, 7, and 8, so that each number is used exactly once. What is the least possible value of the expression? $\\_ \\times \\_ + \\_ \\times \\_ - \\_ \\times \\_$",
+"subject": "A",
+"choice1": "$-18$",
+"choice2": "$-20$",
+"choice3": "$-16$",
+"choice4": "$-14$",
+"choice5": "$-22$",
+"correct": "A"
+},
+{
+"problem_number": 10,
+"statement": "Consider an equilateral triangle with side length 9. Each side is divided into 3 equal segments by 2 points, for a total of 6 points. Compute the area of the circle passing through these 6 points.",
+"subject": "G",
+"choice1": "$9\\pi$",
+"choice2": "$12\\pi$",
+"choice3": "$6\\pi$",
+"choice4": "$18\\pi$",
+"choice5": "$27\\pi$",
+"correct": "A"
+},
+{
+"problem_number": 11,
+"statement": "Consider two geometric sequences 16, $a{1},a_{2},\\ldots$ and 56, $b_{1},b_{2},\\ldots$ with the same common nonzero ratio. Given that $a_{2023} = b_{2020}$ , compute $b_{6} - a_{6}$",
+"subject": "A",
+"choice1": "$490$",
+"choice2": "$392$",
+"choice3": "$588$",
+"choice4": "$686$",
+"choice5": "$196$",
+"correct": "A"
+},
+{
+"problem_number": 13,
+"statement": "Three people, Pranav, Sumith, and Jacklyn, are attending a fair. Every time a person enters or exits, the groundskeeper writes their name down in chronological order. If each person enters and exits the fairgrounds exactly once, in how many ways can the groundskeeper write down their names?",
+"subject": "C",
+"choice1": "$60$",
+"choice2": "$72$",
+"choice3": "$90$",
+"choice4": "$108$",
+"choice5": "$120$",
+"correct": "C"
+},
+{
+"problem_number": 14,
+"statement": "For real numbers $x$ and $y$ , suppose that $|x| - |y| = 20$ and $|x| + |y| = 23$ . Compute the sum of all possible distinct values of $|x - y|$ .",
+"subject": "A",
+"choice1": "$20$",
+"choice2": "$23$",
+"choice3": "$43$",
+"choice4": "$46$",
+"choice5": "$3$",
+"correct": "C"
+},
+{
+"problem_number": 15,
+"statement": "Find the number of positive integers $n$ less than 10000 such that there are more 4's in the digits of $n + 1$ than in the digits of $n$ .",
+"subject": "N",
+"choice1": "$1000$",
+"choice2": "$1111$",
+"choice3": "$1234$",
+"choice4": "$999$",
+"choice5": "$1100$",
+"correct": "B"
+},
+{
+"problem_number": 17,
+"statement": "Jingyuan is designing a bucket hat for BMT merchandise. The hat has the shape of a cylinder on top of a truncated cone, as shown in the diagram below. The cylinder has radius 9 and height 12. The truncated cone has base radius 15 and height 4, and its top radius is the same as the cylinder's radius. Compute the total volume of this bucket hat.",
+"subject": "G",
+"choice1": "$1560\\pi$",
+"choice2": "$1500\\pi$",
+"choice3": "$1620\\pi$",
+"choice4": "$1440\\pi$",
+"choice5": "$1680\\pi$",
+"correct": "A"
+},
+{
+"problem_number": 18,
+"statement": "Kait rolls a fair 6-sided die until she rolls a 6. If she rolls a 6 on the $N$ th roll, she then rolls the die $N$ more times. What is the probability that she rolls a 6 during these next $N$ times?",
+"subject": "C",
+"choice1": "$\\frac{5}{11}$",
+"choice2": "$\\frac{6}{11}$",
+"choice3": "$\\frac{1}{2}$",
+"choice4": "$\\frac{7}{11}$",
+"choice5": "$\\frac{4}{11}$",
+"correct": "B"
+},
+{
+"problem_number": 19,
+"statement": "Let ω be a circle with center O and radius 8, and let A be a point such that AO = 17. Let P and Q be points on ω such that line segments AP and AQ are tangent to ω. Let B and C be points chosen on AP and AQ, respectively, such that BC is also tangent to ω. Compute the perimeter of triangle △ABC.",
+"subject": "G",
+"choice1": "$30$",
+"choice2": "$34$",
+"choice3": "$40$",
+"choice4": "$25$",
+"choice5": "$32$",
+"correct": "A"
+},
+{
+"problem_number": 21,
+"statement": "Let $p,q$ , and $r$ be the three roots of the polynomial $x^{3} - 2x^{2} + 3x - 2023$ . Suppose that the polynomial $x^{3} + Bx^{2} + Mx + T$ has roots $p + q$ , $p + r$ , and $q + r$ for real numbers $B$ , $M$ , and $T$ . Compute $B - M + T$ .",
+"subject": "A",
+"choice1": "$2006$",
+"choice2": "$2017$",
+"choice3": "$2023$",
+"choice4": "$1999$",
+"choice5": "$2000$",
+"correct": "A"
+},
+{
+"problem_number": 24,
+"statement": "Let $a_n$ be a sequence such that $a_0=0$, $a_1=1$, and $a_n=a_{n-1}+xa_n$ for all $n \\ge 0$. Given that $\\sum_{i=0}^{\\infty}{\\frac{a_i}{10^i}}=1$, find $x$.",
+"subject": "A",
+"choice1": "$80$",
+"choice2": "$90$",
+"choice3": "$100$",
+"choice4": "$70$",
+"choice5": "$60$",
+"correct": "A"
+},
+{
+"problem_number": 25,
+"statement": "A tetrahedron has three edges of length 2 and three edges of length 4, and one of its faces is an equilateral triangle. Compute the radius of the sphere that is tangent to every edge of this tetrahedron.",
+"subject": "G",
+"choice1": "$\\frac{3\\sqrt{11}}{11}$",
+"choice2": "$\\frac{\\sqrt{11}}{3}$",
+"choice3": "$\\frac{3}{\\sqrt{11}}$",
+"choice4": "$\\frac{2\\sqrt{11}}{11}$",
+"choice5": "$\\frac{5\\sqrt{11}}{11}$",
+"correct": "A"
+}
+
+  
 
   
 ]
