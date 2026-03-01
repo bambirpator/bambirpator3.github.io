@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMC 10 Mock</title>
+  <style>
+    /* overall layout */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background: #f4f7f9;
+      color: #333;
+      margin: 0;
+    }
+
+    /* timer section */
+    #timerSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      color: #2a5278;
+    }
+
+    /* timer display */
+    #timer {
+      font-size: 3em;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 2px solid #2a5278;
+      border-radius: 8px;
+      background: #ffffff;
+      width: max-content;
+      min-width: 120px;
+    }
+
+    /* start button */
+    button {
+      padding: 12px 24px;
+      font-size: 1.1em;
+      background: #2a5278;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.1s ease;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #24456a;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    /* problems section */
+    #problemsSection {
+      display: none;
+      text-align: left;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    #problemsSection.show {
+      display: block;
+    }
+
+    .timer-header {
+      position: sticky;
+      top: 0;
+      background: #2a5278;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      z-index: 100;
+      text-align: center;
+    }
+
+    /* problem box styling */
+    .problem {
+      background: white;
+      border: 2px solid #2a5278;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .problem-number {
+      font-weight: bold;
+      color: #2a5278;
+      font-size: 1.1em;
+      display: inline;
+    }
+
+    .problem-text {
+      margin-top: 10px;
+      line-height: 1.6;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+    }
+
+    .options {
+      margin-top: 15px;
+      margin-left: 0;
+      clear: both;
+      /* stack each choice on its own line */
+      display: block;
+    }
+
+    /* make each answer fill the width and sit one per line */
+    .options button {
+      display: block;
+      width: 100%;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    .answer-btn {
+      padding: 10px 15px;
+      font-size: 16px;
+      background: #f0f0f0;
+      border: 2px solid #2a5278;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: #333;
+    }
+
+    .answer-btn:hover {
+      background: #e0e8f0;
+      transform: scale(1.05);
+    }
+
+    .answer-btn.selected {
+      background: #2a5278;
+      color: white;
+      font-weight: bold;
+    }
+
+
+  </style>
+  <style>
+    /* Results styling */
+    .result-score {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 12px 0;
+      background: #fff3cd;
+      padding: 12px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .result-score.target-hit {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    /* confetti pieces */
+    .confetti {
+      position: fixed;
+      top: -10px;
+      width: 8px;
+      height: 8px;
+      opacity: 0.9;
+      z-index: 10000;
+      animation: fall 4s linear forwards;
+    }
+    @keyframes fall {
+      to { transform: translateY(100vh) rotate(360deg); }
+    }
+    .result-question {
+      margin: 12px 0;
+      padding: 12px;
+      border: 2px solid #2a5278;
+      border-radius: 8px;
+      background: #fff;
+    }
+    .result-choices { margin-top: 8px; }
+    .result-choice { display:flex; justify-content:space-between; align-items:center; padding:8px; border-radius:4px; margin:6px 0; }
+    .result-choice.correct { background:#d4edda; color:#155724; border:1px solid #c3e6cb; }
+    .result-choice.incorrect { background:#f8d7da; color:#721c24; border:1px solid #f5c6cb; }
+    .result-choice.unanswered { background:#fff3cd; color:#856404; border:1px solid #ffeeba; }
+    .result-choice.unanswered .result-icon { color: #856404; }
+    .result-icon { font-weight:700; margin-left:12px; }
+  </style>
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <!-- TIMER SECTION -->
+  <div id="timerSection">
+    <h1>AMC 10 Mock</h1>
+    <div style="margin-bottom:10px;">
+      <label for="targetInput" style="font-size:1em;">
+        Target score:&nbsp;
+        <input id="targetInput" type="number" min="0" step="0.1" placeholder="e.g. 120" style="font-size:1em;padding:4px 6px;" />
+      </label>
+    </div>
+    <button id="startBtn">Start 75-minute timer</button>
+    <div id="timer">75:00</div>
+  </div>
+
+  <!-- PROBLEMS SECTION -->
+  <div id="problemsSection">
+    <div class="timer-header" id="timerDisplay">75:00</div>
+    <div id="problemsContainer"></div>
+  </div>
+
+  <script>
+    const startBtn = document.getElementById('startBtn');
+    const timerEl = document.getElementById('timer');
+    const timerSection = document.getElementById('timerSection');
+    const problemsSection = document.getElementById('problemsSection');
+    const timerDisplay = document.getElementById('timerDisplay');
+    let intervalId;
+    let timeRemaining = 75 * 60;
+
+    function formatTime(minutes, seconds) {
+      return String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+    }
+
+    function startCountdown(duration) {
+      timeRemaining = duration;
+      updateTimerDisplay();
+
+      // Hide start section, show problems
+      timerSection.style.display = 'none';
+      problemsSection.style.display = '';
+      problemsSection.classList.add('show');
+
+      intervalId = setInterval(() => {
+        timeRemaining--;
+        if (timeRemaining < 0) {
+          clearInterval(intervalId);
+          timerDisplay.textContent = 'Time\'s up!';
+          return;
+        }
+        updateTimerDisplay();
+      }, 1000);
+    }
+
+    function updateTimerDisplay() {
+      const minutes = Math.floor(timeRemaining / 60);
+      const seconds = timeRemaining % 60;
+      const timeStr = formatTime(minutes, seconds);
+      timerEl.textContent = timeStr;
+      timerDisplay.textContent = timeStr;
+    }
+
+    // target score input field value
+    let targetScore = null;
+
+    startBtn.addEventListener('click', () => {
+      const inputEl = document.getElementById('targetInput');
+      const val = parseFloat(inputEl.value);
+      if (!isNaN(val)) {
+        targetScore = val;
+      }
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+      startCountdown(75 * 60);
+    });
+
+    // ensure answer labels appear as plain bold text and are on separate lines
+    function fixLabels() {
+      document.querySelectorAll('.answer-btn').forEach(btn => {
+        const ans = btn.dataset.answer;
+        // remove anything at the start of the innerHTML that looks like a label
+        let html = btn.innerHTML;
+        // strip existing <strong>(X)</strong> if present
+        html = html.replace(/^\s*<strong>\([A-E]\)<\/strong>\s*/, '');
+        // strip old math-mode label or plain letter with/without parentheses
+        html = html.replace(/^\s*\(?\\?\s*\\?\textbf\{?[A-E]?\}?\)?\s*/, '');
+        html = html.replace(/^\s*\(?[A-E]\)?\s*/, '');
+        btn.innerHTML = `<strong>(${ans})</strong> ` + html.trim();
+      });
+    }
+    fixLabels();
+
+    // ensure each answer button's data-problem matches its problem's on-page index
+    function normalizeDataProblem() {
+      const allProblems = Array.from(document.querySelectorAll('#problemsSection .problem'));
+      allProblems.forEach((problemEl, idx) => {
+        const p = String(idx + 1);
+        problemEl.querySelectorAll('.answer-btn').forEach(btn => {
+          btn.dataset.problem = p;
+        });
+      });
+    }
+    normalizeDataProblem();
+
+    // Answer button functionality
+    const selectedAnswers = {};
+
+    document.addEventListener('click', (e) => {
+      const button = e.target.closest('.answer-btn');
+      if (button) {
+        const problemNum = String(button.dataset.problem);
+        const answer = button.dataset.answer;
+
+        if (selectedAnswers[problemNum] === answer) {
+          button.classList.remove('selected');
+          delete selectedAnswers[problemNum];
+        } else {
+          const optionsContainer = button.parentElement;
+          optionsContainer.querySelectorAll('.answer-btn').forEach(btn => btn.classList.remove('selected'));
+          button.classList.add('selected');
+          selectedAnswers[problemNum] = answer;
+        }
+
+        if (window.MathJax) {
+          MathJax.typesetPromise().catch(err => console.log(err));
+        }
+      }
+    });
+
+    // --- Results / Submission UI ---
+    // Answer key (to be built from JSON)
+    let answerKey = [];
+
+    // Load problems from JSON
+    async function loadProblems() {
+      try {
+        const response = await fetch('problems.json');
+        if (!response.ok) {
+          console.error('Failed to fetch problems.json:', response.status);
+          return;
+        }
+        const allProblems = await response.json();
+        
+        console.log('Loaded', allProblems.length, 'total problems');
+
+        // Arrange problems so that for each slot n (1..25) we pick a random
+        // problem whose `problem_number === n` (if any exist). Any remaining
+        // empty slots are filled with random leftover problems.
+        const totalSlots = 25;
+
+        // Group problems by their numeric problem_number
+        const byNum = new Map();
+        for (const p of allProblems) {
+          const n = p && p.problem_number;
+          if (typeof n === 'number' && Number.isInteger(n) && n >= 1 && n <= totalSlots) {
+            if (!byNum.has(n)) byNum.set(n, []);
+            byNum.get(n).push(p);
+          }
+        }
+
+        // Helper: Fisher-Yates shuffle
+        function shuffleInPlace(arr) {
+          for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+          }
+          return arr;
+        }
+
+        // Pick one random problem for each numbered slot when available
+        const arranged = new Array(totalSlots).fill(null);
+        const chosen = new Set();
+        for (let n = 1; n <= totalSlots; n++) {
+          const list = byNum.get(n) || [];
+          if (list.length > 0) {
+            const pick = list[Math.floor(Math.random() * list.length)];
+            arranged[n - 1] = pick;
+            chosen.add(pick);
+          }
+        }
+
+
+        // Remaining pool: all problems not yet chosen
+        const remaining = allProblems.filter(p => !chosen.has(p));
+        shuffleInPlace(remaining);
+
+        // Fill any empty slots with remaining problems
+        let remIdx = 0;
+        for (let i = 0; i < arranged.length; i++) {
+          if (arranged[i] === null) {
+            if (remIdx < remaining.length) {
+              arranged[i] = remaining[remIdx++];
+            } else {
+              // No remaining problems: insert a placeholder
+              arranged[i] = {
+                problem_number: i + 1,
+                statement: '<em>No problem available.</em>',
+                choice1: '', choice2: '', choice3: '', choice4: '', choice5: '',
+                correct: ''
+              };
+            }
+          }
+        }
+    
+
+        const problems = arranged;
+        console.log('Rendering', problems.length, 'problems (arranged by problem_number)');
+
+        // Build answerKey from arranged problems
+        answerKey = problems.map(p => p.correct || '');
+        
+        // Build a map from 'correct' value ('D', 'B', etc.) to index
+        const choiceMap = { 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4 };
+        
+        // Render each problem
+        const container = document.getElementById('problemsContainer');
+        console.log('Container element:', container);
+        
+        if (!container) {
+          console.error('problemsContainer element not found!');
+          return;
+        }
+        
+        problems.forEach((prob, idx) => {
+          const problemIdx = idx + 1;
+          
+          const problemDiv = document.createElement('div');
+          problemDiv.className = 'problem';
+          
+          const numberSpan = document.createElement('span');
+          numberSpan.className = 'problem-number';
+          numberSpan.textContent = problemIdx + '.';
+          problemDiv.appendChild(numberSpan);
+          
+          const textDiv = document.createElement('div');
+          textDiv.className = 'problem-text';
+          textDiv.innerHTML = prob.statement;
+          problemDiv.appendChild(textDiv);
+          
+          const optionsDiv = document.createElement('div');
+          optionsDiv.className = 'options';
+          
+          const choices = ['choice1', 'choice2', 'choice3', 'choice4', 'choice5'];
+          const letters = ['A', 'B', 'C', 'D', 'E'];
+          
+          letters.forEach((letter, choiceIdx) => {
+            const btn = document.createElement('button');
+            btn.className = 'answer-btn';
+            btn.dataset.problem = String(problemIdx);
+            btn.dataset.answer = letter;
+            btn.innerHTML = `<strong>(${letter})</strong> ${prob[choices[choiceIdx]]}`;
+            optionsDiv.appendChild(btn);
+          });
+          
+          problemDiv.appendChild(optionsDiv);
+          container.appendChild(problemDiv);
+        });
+        
+        console.log('Rendered', problems.length, 'problems into container');
+        console.log('#problemsContainer now has', container.children.length, 'children');
+        
+        // After rendering, typesetMath if available
+        if (window.MathJax) {
+          MathJax.typesetPromise().catch(err => console.log(err));
+        }
+        
+        // Fix labels and normalize problem data
+        fixLabels();
+        normalizeDataProblem();
+
+        // Add submit button after problems are loaded
+        const submitBtn = document.createElement('button');
+        submitBtn.id = 'submitBtn';
+        submitBtn.textContent = 'Submit Answers';
+        submitBtn.style.display = 'block';
+        submitBtn.style.width = '90%';
+        submitBtn.style.margin = '24px auto';
+        document.getElementById('problemsSection').appendChild(submitBtn);
+        
+        // Set up submit button listener
+        submitBtn.addEventListener('click', () => {
+          // disable further interaction
+          document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
+          submitBtn.disabled = true;
+
+          const {resultsSection} = createResults();
+
+          // hide interactive problems and show results
+          problemsSection.style.display = 'none';
+          document.body.insertBefore(resultsSection, document.body.firstChild);
+
+          // typeset math in results
+          if (window.MathJax) MathJax.typesetPromise().catch(e => console.log(e));
+
+          // scroll to top to show score
+          window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+      } catch (err) {
+        console.error('Failed to load problems:', err);
+      }
+    }
+
+    // Load problems on page initialization
+    loadProblems();
+
+
+    function createResults() {
+      // gather problem elements in displayed order
+      const allProblems = Array.from(document.querySelectorAll('#problemsSection .problem'));
+
+      // compute counts
+      let correct = 0, blank = 0, incorrect = 0;
+      allProblems.forEach((problemEl, idx) => {
+        const problemNum = idx + 1;
+        const key = answerKey[idx];
+        const sel = selectedAnswers[problemNum] || selectedAnswers[String(problemNum)] || null;
+        if (!sel) blank++;
+        else if (sel === key) correct++;
+        else incorrect++;
+      });
+
+      const score = (6 * correct) + (1.5 * blank);
+
+      // build results section
+      const resultsSection = document.createElement('div');
+      resultsSection.id = 'resultsSection';
+      resultsSection.style.margin = '20px';
+
+      const scoreBox = document.createElement('div');
+      scoreBox.className = 'result-score';
+      scoreBox.textContent = 'Score: ' + (Number.isInteger(score) ? score : score.toFixed(1));
+
+      // if a target was set and we've reached it, highlight and confetti
+      if (targetScore !== null && score >= targetScore) {
+        scoreBox.classList.add('target-hit');
+        launchConfetti();
+      }
+
+      resultsSection.appendChild(scoreBox);
+
+      // prepare a "Go Back" button (appended at the end of results)
+      const goBackBtn = document.createElement('button');
+      goBackBtn.id = 'goBackBtn';
+      goBackBtn.textContent = 'Go Back';
+      // match submit button layout (color/font comes from global button styles)
+      goBackBtn.style.display = 'block';
+      goBackBtn.style.width = '90%';
+      goBackBtn.style.margin = '12px auto';
+      // click handler will reset progress and return to the main timer section
+      goBackBtn.addEventListener('click', () => {
+        // remove results view
+        resultsSection.remove();
+
+        // clear selected answers and UI selection
+        for (const k in selectedAnswers) delete selectedAnswers[k];
+        document.querySelectorAll('.answer-btn').forEach(b => {
+          b.disabled = false;
+          b.classList.remove('selected');
+        });
+
+        // reset submit button
+        const submit = document.getElementById('submitBtn');
+        if (submit) submit.disabled = false;
+
+        // reset timer
+        if (intervalId) { clearInterval(intervalId); intervalId = null; }
+        timeRemaining = 75 * 60;
+        updateTimerDisplay();
+
+        // show main timer section and hide problems
+        timerSection.style.display = 'flex';
+        problemsSection.classList.remove('show');
+        problemsSection.style.display = 'none';
+
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      });
+      // helper defined earlier? nothing
+
+      // For each problem element (preserve on-page order)
+      allProblems.forEach((problemEl, idx) => {
+        const i = idx + 1;
+        const key = answerKey[idx];
+        const sel = selectedAnswers[i] || selectedAnswers[String(i)] || null;
+
+        // question text
+        const qt = problemEl.querySelector('.problem-text');
+        const qText = qt ? qt.innerHTML : '';
+
+        const qBox = document.createElement('div');
+        qBox.className = 'result-question';
+        const qHeader = document.createElement('div');
+        qHeader.innerHTML = `<strong>${i}.</strong> ${qText}`;
+        qBox.appendChild(qHeader);
+
+        // choices
+        const options = document.createElement('div');
+        options.className = 'result-choices';
+
+        const originalBtns = Array.from(problemEl.querySelectorAll('.answer-btn'));
+        const letters = ['A','B','C','D','E'];
+
+        letters.forEach(letter => {
+          const choiceDiv = document.createElement('div');
+          choiceDiv.className = 'result-choice';
+          let contentHTML = '';
+          const orig = originalBtns.find(b => b.dataset.answer === letter);
+          if (orig) contentHTML = orig.innerHTML;
+          else contentHTML = `<strong>(${letter})</strong>`;
+
+          choiceDiv.innerHTML = `<div class="choice-label">${contentHTML}</div><div class="result-icon"></div>`;
+
+          if (letter === key) {
+            if (!sel) {
+              choiceDiv.classList.add('unanswered');
+              choiceDiv.querySelector('.result-icon').textContent = '✔';
+            } else {
+              choiceDiv.classList.add('correct');
+              choiceDiv.querySelector('.result-icon').textContent = '✔';
+            }
+          }
+
+          if (sel === letter && sel !== key) {
+            choiceDiv.classList.add('incorrect');
+            choiceDiv.querySelector('.result-icon').textContent = '✖';
+          }
+
+          options.appendChild(choiceDiv);
+        });
+
+        qBox.appendChild(options);
+        resultsSection.appendChild(qBox);
+      });
+
+      // append the Go Back button at the bottom of the results
+      resultsSection.appendChild(goBackBtn);
+
+      return {resultsSection, correct, blank, incorrect, score};
+    }
+
+    function launchConfetti() {
+      const colors = ['#ff0','#f0f','#0ff','#0f0','#f00','#00f'];
+      for (let i = 0; i < 200; i++) {
+        const conf = document.createElement('div');
+        conf.className = 'confetti';
+        conf.style.background = colors[Math.floor(Math.random() * colors.length)];
+        conf.style.left = Math.random() * 100 + '%';
+        conf.style.animationDelay = (Math.random() * 2) + 's';
+        document.body.appendChild(conf);
+        setTimeout(() => conf.remove(), 5000);
+      }
+    }
+
+    // All event listeners are set up in loadProblems function
+
+  </script>
+</body>
+</html>
