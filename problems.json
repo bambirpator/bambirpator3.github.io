@@ -948,7 +948,7 @@
   },
   {
     "problem_number": 22,
-    "statement": "Find the number of pairs $(a,b)$ with $1\\le a<b\\le57$ such that $a^2$ has a smaller remainder than $b^2$ modulo $57$.",
+    "statement": "Find the number of pairs $(a,b)$ with $1 \\le a,b \\le 57$ and $a<b$ such that $a^2$ has a smaller remainder than $b^2$ modulo $57$.",
     "subject": "N",
     "choice1": "$700$",
     "choice2": "$720$",
@@ -1091,7 +1091,7 @@
 },
 {
 "problem_number": 11,
-"statement": "Consider two geometric sequences 16, $a{1},a_{2},\\ldots$ and 56, $b_{1},b_{2},\\ldots$ with the same common nonzero ratio. Given that $a_{2023} = b_{2020}$ , compute $b_{6} - a_{6}$",
+"statement": "Consider two geometric sequences 16, $a_{1},a_{2},\\ldots$ and 56, $b_{1},b_{2},\\ldots$ with the same common nonzero ratio. Given that $a_{2023} = b_{2020}$ , compute $b_{6} - a_{6}$",
 "subject": "A",
 "choice1": "$490$",
 "choice2": "$392$",
