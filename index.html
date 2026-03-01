@@ -477,8 +477,6 @@
         fixLabels();
         normalizeDataProblem();
 
-        // Add submit button after problems are loaded
-        document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = document.createElement('button');
     submitBtn.id = 'submitBtn';
     submitBtn.textContent = 'Submit Answers';
@@ -492,7 +490,6 @@
     submitBtn.addEventListener('click', () => {
         document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
         submitBtn.disabled = true;
-    });
 
           const {resultsSection} = createResults();
 
