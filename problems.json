@@ -407,7 +407,7 @@
     "correct": "B"
   },
   {
-    "problem_number": 15,
+    "problem_number": 19,
     "statement": "What is the sum of the three smallest positive integers $n$ for which $\\dfrac{1+2+\\cdots+2024n}{1+2+\\cdots+4n}$ is an integer?",
     "subject": "N",
     "choice1": "$89$",
@@ -416,17 +416,6 @@
     "choice4": "$86$",
     "choice5": "$94$",
     "correct": "A"
-  },
-  {
-    "problem_number": 16,
-    "statement": "Evaluate the expression $\\dfrac{2+3+\\cdots+100}{1+2+\\cdots+100}+\\dfrac{3+4+\\cdots+100}{1+2+\\cdots+100}+\\dfrac{1+2+\\cdots+99}{1+2+\\cdots+100}$; what is the value?",
-    "subject": "A",
-    "choice1": "$9800$",
-    "choice2": "$9900$",
-    "choice3": "$10000$",
-    "choice4": "$9950$",
-    "choice5": "$9850$",
-    "correct": "B"
   },
   {
     "problem_number": 17,
