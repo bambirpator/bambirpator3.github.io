@@ -478,20 +478,21 @@
         normalizeDataProblem();
 
         // Add submit button after problems are loaded
-        const submitBtn = document.createElement('button');
-        submitBtn.id = 'submitBtn';
-        submitBtn.textContent = 'Submit Answers';
-        submitBtn.style.display = 'block';
-        submitBtn.style.width = '90%';
-        submitBtn.style.margin = '24px auto';
-        submitBtn.disabled = false;
-        document.getElementById('problemsSection').appendChild(submitBtn);
-        
-        // Set up submit button listener
-        submitBtn.addEventListener('click', () => {
-          // disable further interaction
-          document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
-          submitBtn.disabled = true;
+        document.addEventListener('DOMContentLoaded', () => {
+    const submitBtn = document.createElement('button');
+    submitBtn.id = 'submitBtn';
+    submitBtn.textContent = 'Submit Answers';
+    submitBtn.style.display = 'block';
+    submitBtn.style.width = '90%';
+    submitBtn.style.margin = '24px auto';
+    submitBtn.disabled = false;
+
+    document.getElementById('problemsSection').appendChild(submitBtn);
+
+    submitBtn.addEventListener('click', () => {
+        document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
+        submitBtn.disabled = true;
+    });
 
           const {resultsSection} = createResults();
 
