@@ -151,7 +151,7 @@
     "choice3": "$126$",
     "choice4": "$132$",
     "choice5": "$144$",
-    "correct": "G"
+    "correct": "E"
   },
   {
     "problem_number": 15,
@@ -217,7 +217,7 @@
     "choice3": "$198$",
     "choice4": "$202$",
     "choice5": "$206$",
-    "correct": "B"
+    "correct": "E"
   },
   {
     "problem_number": 21,
@@ -716,13 +716,13 @@
   },
   {
     "problem_number": 24,
-    "statement": "Compute the smallest positive integer $k$ such that $49$ divides $\\binom{2k}{k}$.",
+    "statement": "Compute sum of the digits of the positive integer $k$ such that $49$ divides $\\binom{2k}{k}$.",
     "subject": "N",
-    "choice1": "$24$",
-    "choice2": "$26$",
-    "choice3": "$49$",
-    "choice4": "$7$",
-    "choice5": "$25$",
+    "choice1": "$6$",
+    "choice2": "$8$",
+    "choice3": "$9$",
+    "choice4": "$10$",
+    "choice5": "$7$",
     "correct": "E"
   },
   {
@@ -738,14 +738,14 @@
   },
   {
     "problem_number": 24,
-    "statement": "Compute the smallest multiple of $63$ with an odd number of ones in its base two representation.",
+    "statement": "Compute the remainder when the smallest multiple of $63$ with an odd number of ones in its base two representation is divided by 5.",
     "subject": "N",
-    "choice1": "$201$",
-    "choice2": "$4222$",
-    "choice3": "$4221$",
-    "choice4": "$4095$",
-    "choice5": "$63$",
-    "correct": "C"
+    "choice1": "$0$",
+    "choice2": "$1$",
+    "choice3": "$2$",
+    "choice4": "$3$",
+    "choice5": "$4$",
+    "correct": "B"
   },
   {
     "problem_number": 7,
@@ -762,9 +762,9 @@
     "problem_number": 3,
     "statement": "A polygon $P$ is drawn on the plane. Each side of $P$ is either parallel to the $x$-axis or the $y$-axis. Given that the interior of $P$ includes the interior of the circle $x^2+y^2=2022$, find the minimum possible perimeter of $P$.",
     "subject": "G",
-    "choice1": "$2$",
-    "choice2": "$0$",
-    "choice3": "$1$",
+    "choice1": "$2\\pi\\sqrt{2022}$",
+    "choice2": "$2022$",
+    "choice3": "$4\\sqrt{2022}$",
     "choice4": "$8\\sqrt{2022}$",
     "choice5": "$3$",
     "correct": "D"
@@ -917,8 +917,8 @@
     "problem_number": 19,
     "statement": "Define the annoyingness of a permutation of $1,\\dots,n$ to be the minimum number of copies of the permutation placed next to each other so that $1,2,\\dots,n$ appears as a subsequence. A random permutation of $1,\\dots,2022$ is selected. Compute the expected annoyingness.",
     "subject": "C",
-    "choice1": "$\\tfrac{2022}{2}$",
-    "choice2": "$\\tfrac{2024}{2}$",
+    "choice1": "$\\tfrac{2025}{2}$",
+    "choice2": "$1012$",
     "choice3": "$\\tfrac{2023}{2}$",
     "choice4": "$1011$",
     "choice5": "$2023$",
