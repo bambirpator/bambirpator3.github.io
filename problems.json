@@ -528,7 +528,7 @@
     "correct": "B"
   },
   {
-    "problem_number": 1,
+    "problem_number": 4,
     "statement": "The formula to convert Celsius to Fahrenheit is $F^{\\circ}=1.8\\cdot C^{\\circ}+32$. In Celsius, it is $10^{\\circ}$ warmer in New York right now than in Boston. In Fahrenheit, how much warmer is it in New York than in Boston?",
     "subject": "A",
     "choice1": "$22$",
@@ -539,7 +539,7 @@
     "correct": "B"
   },
   {
-    "problem_number": 2,
+    "problem_number": 8,
     "statement": "Compute the number of dates in the year 2023 such that when put in $\\mathrm{MM/DD/YY}$ form, the three numbers are in strictly increasing order. For example, $06/18/23$ is such a date since $6<18<23$, while $11/11/23$ is not. How many such dates are there?",
     "subject": "C",
     "choice1": "$171$",
@@ -550,7 +550,7 @@
     "correct": "C"
   },
   {
-    "problem_number": 3,
+    "problem_number": 8,
     "statement": "Let $ABCD$ be a rectangle with $AB=20$ and $AD=23$. Let $M$ be the midpoint of $CD$, and let $X$ be the reflection of $M$ across point $A$. Compute the area of triangle $XBD$.",
     "subject": "G",
     "choice1": "$690$",
@@ -583,7 +583,7 @@
     "correct": "B"
   },
   {
-    "problem_number": 8,
+    "problem_number": 12,
     "statement": "Six standard fair six-sided dice are rolled and arranged in a row at random. Compute the expected number of dice showing the same number as the sixth die in the row.",
     "subject": "C",
     "choice1": "$2$",
@@ -594,7 +594,7 @@
     "correct": "C"
   },
   {
-    "problem_number": 9,
+    "problem_number": 13,
     "statement": "The largest prime factor of $101101101101$ is a four-digit number $N$. Compute $N$.",
     "subject": "N",
     "choice1": "$9907$",
@@ -605,7 +605,7 @@
     "correct": "D"
   },
   {
-    "problem_number": 10,
+    "problem_number": 16,
     "statement": "A real number $x$ is chosen uniformly at random from the interval $(0,10)$. Compute the probability that $\\sqrt{x}$, $\\sqrt{x+7}$, and $\\sqrt{10-x}$ are the side lengths of a non-degenerate triangle.",
     "subject": "A",
     "choice1": "$\\tfrac{21}{25}$",
@@ -614,17 +614,6 @@
     "choice4": "$\\tfrac{3}{4}$",
     "choice5": "$\\tfrac{22}{25}$",
     "correct": "E"
-  },
-  {
-    "problem_number": 11,
-    "statement": "Let $ABCD$ and $WXYZ$ be two squares that share the same center such that $WX\\parallel AB$ and $WX<AB$. Lines $CX$ and $AB$ intersect at $P$, and lines $CZ$ and $AD$ intersect at $Q$. If points $P$, $W$, and $Q$ are collinear, compute the ratio $AB/WX$.",
-    "subject": "G",
-    "choice1": "$1$",
-    "choice2": "$\\sqrt{2}+1$",
-    "choice3": "$\\sqrt{2}-1$",
-    "choice4": "$2$",
-    "choice5": "$1+\\tfrac{1}{\\sqrt{2}}$",
-    "correct": "B"
   },
   {
     "problem_number": 12,
@@ -759,7 +748,7 @@
     "correct": "B"
   },
   {
-    "problem_number": 26,
+    "problem_number": 24,
     "statement": "Compute the smallest multiple of $63$ with an odd number of ones in its base two representation.",
     "subject": "N",
     "choice1": "$201$",
@@ -768,6 +757,250 @@
     "choice4": "$4095$",
     "choice5": "$63$",
     "correct": "C"
+  },
+  {
+    "problem_number": 7,
+    "statement": "The English alphabet, which has 26 letters, is randomly permuted. Let $p_1$ be the probability that $AB$, $CD$, and $EF$ all appear as contiguous substrings. Let $p_2$ be the probability that $ABC$ and $DEF$ both appear as contiguous substrings. Compute $\\dfrac{p_1}{p_2}.$",
+    "subject": "C",
+    "choice1": "$33$",
+    "choice2": "$25$",
+    "choice3": "$23$",
+    "choice4": "$73$",
+    "choice5": "$24$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 3,
+    "statement": "A polygon $P$ is drawn on the plane. Each side of $P$ is either parallel to the $x$-axis or the $y$-axis. Given that the interior of $P$ includes the interior of the circle $x^2+y^2=2022$, find the minimum possible perimeter of $P$.",
+    "subject": "G",
+    "choice1": "$2$",
+    "choice2": "$0$",
+    "choice3": "$1$",
+    "choice4": "$8\\sqrt{2022}$",
+    "choice5": "$3$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 4,
+    "statement": "Let $ABCD$ be a square of side length $2$. Let points $X,Y,Z$ be constructed inside $ABCD$ such that $\\triangle ABX$, $\\triangle BCY$, and $\\triangle CDZ$ are equilateral triangles. Let point $W$ be outside $ABCD$ such that $\\triangle DAW$ is equilateral. Let the area of quadrilateral $WXYZ$ be $a+\\sqrt{b}$, where $a,b$ are integers. Find $a+b.$",
+    "subject": "G",
+    "choice1": "$12$",
+    "choice2": "$20$",
+    "choice3": "$9$",
+    "choice4": "$10$",
+    "choice5": "$11$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 5,
+    "statement": "Suppose $x$ and $y$ are positive real numbers such that $$x+\\frac{1}{y}=y+\\frac{2}{x}=3.$$ Compute the maximum possible value of $xy.$",
+    "subject": "A",
+    "choice1": "$3+\\sqrt{7}$",
+    "choice2": "$0$",
+    "choice3": "$1$",
+    "choice4": "$2$",
+    "choice5": "$3$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 6,
+    "statement": "Let $ABCDEF$ be a regular hexagon and let point $O$ be the center. How many ways can you color these seven points either red or blue such that there doesn’t exist any equilateral triangle with vertices of all the same color?",
+    "subject": "C",
+    "choice1": "$7$",
+    "choice2": "$16$",
+    "choice3": "$8$",
+    "choice4": "$6$",
+    "choice5": "$5$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 7,
+    "statement": "All positive integers whose binary representations have at least as many $1$'s as $0$'s are put in increasing order. Compute the number of digits in the binary representation of the $200$th number.",
+    "subject": "N",
+    "choice1": "$9$",
+    "choice2": "$10$",
+    "choice3": "$8$",
+    "choice4": "$7$",
+    "choice5": "$11$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 8,
+    "statement": "Kimothy starts in the bottom-left square of a $4\\times4$ chessboard. In one step, he can move up, down, left, or right to an adjacent square. Kimothy takes $16$ steps and ends up where he started, visiting each square exactly once (except the starting/ending square). How many paths could he have taken?",
+    "subject": "C",
+    "choice1": "$10$",
+    "choice2": "$12$",
+    "choice3": "$8$",
+    "choice4": "$14$",
+    "choice5": "$16$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 9,
+    "statement": "Let $ABCD$ be a trapezoid such that $AB\\parallel CD$, $\\angle BAC=25^\\circ$, $\\angle ABC=125^\\circ$, and $AB+AD=CD$. Compute $\\angle ADC$.",
+    "subject": "G",
+    "choice1": "$65^\\circ$",
+    "choice2": "$75^\\circ$",
+    "choice3": "$70^\\circ$",
+    "choice4": "$80^\\circ$",
+    "choice5": "$60^\\circ$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 10,
+    "statement": "A real number $x$ is chosen uniformly at random from $[0,1000]$. Find the probability that $\\left\\lfloor\\left\\lfloor \\frac{x}{2.5}\\right\\rfloor\\!/2.5\\right\\rfloor=\\left\\lfloor\\frac{x}{6.25}\\right\\rfloor.$",
+    "subject": "A",
+    "choice1": "$\\tfrac{8}{10}$",
+    "choice2": "$\\tfrac{9}{10}$",
+    "choice3": "$\\tfrac{7}{10}$",
+    "choice4": "$\\tfrac{4}{5}$",
+    "choice5": "$\\tfrac{1}{2}$",
+    "correct": "B"
+  },
+
+  {
+    "problem_number": 11,
+    "statement": "Isosceles trapezoid $ABCD$ with bases $AB$ and $CD$ has a point $P$ on $AB$ with $AP=11$, $BP=27$, $CD=34$, and $\\angle CPD=90^\\circ$. Compute the height of the trapezoid.",
+    "subject": "G",
+    "choice1": "$12$",
+    "choice2": "$15$",
+    "choice3": "$18$",
+    "choice4": "$14$",
+    "choice5": "$16$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 12,
+    "statement": "Candice starts driving home at 5:00 PM. Starting at exactly 5:01 PM, and every minute after that, she encounters a new speed limit sign and slows down by $1$ mph. Her speed in mph is always a positive integer. Candice drives a total of $\\tfrac{2}{3}$ miles and for a whole number of minutes, arriving slower than when she left. What time is it when she gets home?",
+    "subject": "A",
+    "choice1": "$5:06\\ \\text{PM}$",
+    "choice2": "$5:07\\ \\text{PM}$",
+    "choice3": "$5:05\\ \\text{PM}$",
+    "choice4": "$5:08\\ \\text{PM}$",
+    "choice5": "$5:04\\ \\text{PM}$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 13,
+    "statement": "Consider lattice paths from $(0,0)$ to $(6,3)$ using only unit steps up and right. Compute the sum of the areas bounded by the path, the $x$-axis, and the line $x=6$ over all such paths.",
+    "subject": "C",
+    "choice1": "$700$",
+    "choice2": "$720$",
+    "choice3": "$756$",
+    "choice4": "$780$",
+    "choice5": "$800$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 15,
+    "statement": "Vijay chooses three distinct integers $a,b,c$ from $\\{1,\\dots,11\\}$. If $k$ is the minimum value of $a(x-b)(x-c)$ and $\\ell$ the minimum value of $a(x-b)(x+c)$ over real $x$, compute the maximum possible value of $k-\\ell$.",
+    "subject": "N",
+    "choice1": "$950$",
+    "choice2": "$1000$",
+    "choice3": "$990$",
+    "choice4": "$980$",
+    "choice5": "$1010$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 17,
+    "statement": "How many ways are there to color every integer red or blue such that $n$ and $n+7$ have the same color for all integers $n$, and there does not exist an integer $k$ such that $k,k+1,2k$ are all the same color?",
+    "subject": "C",
+    "choice1": "$8$",
+    "choice2": "$4$",
+    "choice3": "$6$",
+    "choice4": "$2$",
+    "choice5": "$10$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 18,
+    "statement": "A regular tetrahedron has a square shadow of area $16$ when projected perpendicularly. Compute the side length of the tetrahedron.",
+    "subject": "G",
+    "choice1": "$4$",
+    "choice2": "$2\\sqrt{2}$",
+    "choice3": "$4\\sqrt{2}$",
+    "choice4": "$8$",
+    "choice5": "$2$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 19,
+    "statement": "Define the annoyingness of a permutation of $1,\\dots,n$ to be the minimum number of copies of the permutation placed next to each other so that $1,2,\\dots,n$ appears as a subsequence. A random permutation of $1,\\dots,2022$ is selected. Compute the expected annoyingness.",
+    "subject": "C",
+    "choice1": "$\\tfrac{2022}{2}$",
+    "choice2": "$\\tfrac{2024}{2}$",
+    "choice3": "$\\tfrac{2023}{2}$",
+    "choice4": "$1011$",
+    "choice5": "$2023$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 20,
+    "statement": "Let $\\triangle ABC$ be an isosceles right triangle with $AB=AC=10$. Let $M$ be midpoint of $BC$ and $N$ midpoint of $BM$. Let $AN$ hit the circumcircle again at $T$. Compute area of $\\triangle TBC$.",
+    "subject": "G",
+    "choice1": "$25$",
+    "choice2": "$35$",
+    "choice3": "$40$",
+    "choice4": "$30$",
+    "choice5": "$20$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 21,
+    "statement": "Let $P(x)$ be quadratic with real coefficients, $P(1)=20$, $P(-1)=22$, and $P(P(0))=400$. Compute the largest possible value of $P(10)$.",
+    "subject": "A",
+    "choice1": "$2486$",
+    "choice2": "$2400$",
+    "choice3": "$2500$",
+    "choice4": "$2600$",
+    "choice5": "$2450$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 22,
+    "statement": "Find the number of pairs $(a,b)$ with $1\\le a<b\\le57$ such that $a^2$ has a smaller remainder than $b^2$ modulo $57$.",
+    "subject": "N",
+    "choice1": "$700$",
+    "choice2": "$720$",
+    "choice3": "$750$",
+    "choice4": "$738$",
+    "choice5": "$760$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 23,
+    "statement": "Let $ABC$ be triangle with $AB=2021$, $AC=2022$, $BC=2023$. Compute the minimum value of $AP+2BP+3CP$ over all points $P$.",
+    "subject": "G",
+    "choice1": "$6000$",
+    "choice2": "$6100$",
+    "choice3": "$6068$",
+    "choice4": "$6050$",
+    "choice5": "$6200$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 24,
+    "statement": "A string on alphabet $\\{A,C,G,U\\}$ is untranslatable iff it has no substring $AUG$. Let $a_n$ be number of untranslatable strings of length $n$. Given there exist unique real $(x,y,z)$ with $a_n=xa_{n-1}+ya_{n-2}+za_{n-3}$ for all $n\\ge100$, compute $(x,y,z)$.",
+    "subject": "C",
+    "choice1": "$(4,0,-1)$",
+    "choice2": "$(4,1,-1)$",
+    "choice3": "$(3,0,-1)$",
+    "choice4": "$(4,0,1)$",
+    "choice5": "$(5,0,-1)$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 25,
+    "statement": "In a convex quadrilateral $ABCD$ with $AB=11$ and $CD=13$, there is a point $P$ for which $\\triangle ADP$ and $\\triangle BCP$ are congruent equilateral triangles. Compute the side length of these triangles.",
+    "subject": "G",
+    "choice1": "$6$",
+    "choice2": "$8$",
+    "choice3": "$7$",
+    "choice4": "$9$",
+    "choice5": "$10$",
+    "correct": "C"
   }
+
   
 ]
