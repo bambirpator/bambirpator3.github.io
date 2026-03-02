@@ -1159,34 +1159,34 @@
 "problem_number": 19,
 "statement": "Let ω be a circle with center O and radius 8, and let A be a point such that AO = 17. Let P and Q be points on ω such that line segments AP and AQ are tangent to ω. Let B and C be points chosen on AP and AQ, respectively, such that BC is also tangent to ω. Compute the perimeter of triangle △ABC.",
 "subject": "G",
-"choice1": "$30$",
+"choice1": "$25$",
 "choice2": "$34$",
 "choice3": "$40$",
-"choice4": "$25$",
+"choice4": "$30$",
 "choice5": "$32$",
-"correct": "A"
+"correct": "D"
 },
 {
 "problem_number": 21,
 "statement": "Let $p,q$ , and $r$ be the three roots of the polynomial $x^{3} - 2x^{2} + 3x - 2023$ . Suppose that the polynomial $x^{3} + Bx^{2} + Mx + T$ has roots $p + q$ , $p + r$ , and $q + r$ for real numbers $B$ , $M$ , and $T$ . Compute $B - M + T$ .",
 "subject": "A",
-"choice1": "$2006$",
+"choice1": "$2023$",
 "choice2": "$2017$",
-"choice3": "$2023$",
+"choice3": "$2006$",
 "choice4": "$1999$",
 "choice5": "$2000$",
-"correct": "A"
+"correct": "C"
 },
 {
 "problem_number": 24,
 "statement": "Let $a_n$ be a sequence such that $a_0=0$, $a_1=1$, and $a_n=a_{n-1}+xa_n$ for all $n \\ge 0$. Given that $\\sum_{i=0}^{\\infty}{\\frac{a_i}{10^i}}=1$, find $x$.",
 "subject": "A",
-"choice1": "$80$",
+"choice1": "$100$",
 "choice2": "$90$",
-"choice3": "$100$",
+"choice3": "$80$",
 "choice4": "$70$",
 "choice5": "$60$",
-"correct": "A"
+"correct": "C"
 },
 {
 "problem_number": 25,
@@ -1198,7 +1198,283 @@
 "choice4": "$\\frac{2\\sqrt{11}}{11}$",
 "choice5": "$\\frac{5\\sqrt{11}}{11}$",
 "correct": "A"
+},
+{
+"problem_number": 1,
+"statement": "Compute $2 + 0 + 2 + 4 + 2\\times 0 + 2\\times 2 + 2\\times 4 + 0\\times 2 + 0\\times 4 + 2\\times 4$.",
+"subject": "A",
+"choice1": "$26$",
+"choice2": "$28$",
+"choice3": "$30$",
+"choice4": "$24$",
+"choice5": "$32$",
+"correct": "B"
+},
+{
+"problem_number": 2,
+"statement": "When the odd positive two-digit number 11 is added to 46, the result is 57, whose sum of digits is 12. What odd positive two-digit number can be added to 46 so the result is a number whose digits sum to 17?",
+"subject": "N",
+"choice1": "$52$",
+"choice2": "$41$",
+"choice3": "$42$",
+"choice4": "$43$",
+"choice5": "$53$",
+"correct": "D"
+},
+{
+"problem_number": 3,
+"statement": "At a certain point in time, Nikhil had 3 more apples than Brian. Theo then gave Nikhil 9 apples and took away 3 apples from Brian. Now, Nikhil has twice as many apples as Brian. Compute the number of apples that Nikhil and Brian now have in total.",
+"subject": "A",
+"choice1": "$45$",
+"choice2": "$48$",
+"choice3": "$33$",
+"choice4": "$36$",
+"choice5": "$42$",
+"correct": "A"
+},
+{
+"problem_number": 4,
+"statement": "Jessica cuts a pie into perfect sixths. If the pie's radius is 2, what is the perimeter of one slice of the pie?",
+"subject": "G",
+"choice1": "$4 + \\frac{\\pi}{3}$",
+"choice2": "$2\\pi$",
+"choice3": "$4 + \\frac{2\\pi}{3}$",
+"choice4": "$4 + 2\\pi$",
+"choice5": "$2 + \\frac{2\\pi}{3}$",
+"correct": "C"
+},
+{
+"problem_number": 5,
+"statement": "Find the smallest number among the following numbers: $\\frac{7}{13},\\frac{10}{19},\\frac{5}{9},\\frac{3}{5},\\frac{2023}{4045},\\frac{6}{11},\\frac{2024}{4047},\\frac{4}{7}$.",
+"subject": "A",
+"choice1": "$\\frac{2023}{4045}$",
+"choice2": "$\\frac{7}{13}$",
+"choice3": "$\\frac{10}{19}$",
+"choice4": "$\\frac{5}{9}$",
+"choice5": "$\\frac{2024}{4047}$",
+"correct": "E"
+},
+{
+"problem_number": 6,
+"statement": "Find the third-largest three-digit multiple of three that is a palindrome. (Recall that a palindrome is a number that reads the same forward and backward, such as 444 or 838, but not 227.)",
+"subject": "N",
+"choice1": "$969$",
+"choice2": "$939$",
+"choice3": "$909$",
+"choice4": "$888$",
+"choice5": "$858$",
+"correct": "B"
+},
+{
+"problem_number": 7,
+"statement": "Cafe BMT makes their famous Bacon, Mozzarella, Tomato sandwich with 3 strips of bacon, 1 slice of mozzarella, and 1 tomato slice stacked on top of each other. How many ways can the toppings of a Bacon, Mozzarella, Tomato sandwich be arranged?",
+"subject": "C",
+"choice1": "$120$",
+"choice2": "$60$",
+"choice3": "$10$",
+"choice4": "$20$",
+"choice5": "$30$",
+"correct": "D"
+},
+{
+"problem_number": 8,
+"statement": "On a chalkboard, Benji draws a square with side length 6. He then splits each side into 3 equal segments using 2 points for a total of 12 segments and 8 points. After trying some shapes, Benji finds that by using a circle, he can connect all 8 points together. What is the area of this circle?",
+"subject": "G",
+"choice1": "$10\\pi$",
+"choice2": "$9\\pi$",
+"choice3": "$18\\pi$",
+"choice4": "$16\\pi$",
+"choice5": "$12\\pi$",
+"correct": "A"
+},
+{
+"problem_number": 9,
+"statement": "Find the real number $x$ satisfying $\\frac{x^{2} - 20}{x^{2} + 20x + 4} = \\frac{x^{2} - 24}{x^{2} + 24x + 4} = \\frac{1}{2}$.",
+"subject": "A",
+"choice1": "$22$",
+"choice2": "$26$",
+"choice3": "$-2$",
+"choice4": "$0$",
+"choice5": "$2$",
+"correct": "C"
+},
+{
+"problem_number": 10,
+"statement": "Suppose $a_{1},a_{2},\\ldots$ is an arithmetic sequence, and suppose $g_{1},g_{2},\\ldots$ is a geometric sequence with common ratio 2. Suppose $a_{1} + g_{1} = 1$ and $a_{2} + g_{2} = 1$. If $a_{24} = g_{7}$, find $a_{2024}$.",
+"subject": "A",
+"choice1": "$-23$",
+"choice2": "$23$",
+"choice3": "$0$",
+"choice4": "$1$",
+"choice5": "$-22$",
+"correct": "E"
+},
+{
+"problem_number": 11,
+"statement": "The 35-step staircase of Sather Tower is being renovated. Each step will be painted a single color such that the stairs repeat color every 5 steps. There are 14 available stair colors, including blue and gold. Each color may only cover up to 10 steps, but both blue and gold must be used. With these restrictions, in how many different ways can the stairs be colored?",
+"subject": "C",
+"choice1": "$4400$",
+"choice2": "$26400$",
+"choice3": "$2640$",
+"choice4": "$34560$",
+"choice5": "$13200$",
+"correct": "B"
+},
+{
+"problem_number": 12,
+"statement": "Find the greatest integer less than $\\frac{2}{1} -\\frac{2}{2} +\\frac{2}{3} -\\frac{2}{4} +\\frac{2}{5} -\\frac{2}{6} +\\dots -\\frac{2}{2024}$.",
+"subject": "A",
+"choice1": "$0$",
+"choice2": "$2$",
+"choice3": "$3$",
+"choice4": "$1$",
+"choice5": "$4$",
+"correct": "D"
+},
+{
+"problem_number": 13,
+"statement": "Find the number of positive integers, $n$, such that $\\frac{20 + n}{24 - n}$ is an integer.",
+"subject": "N",
+"choice1": "$11$",
+"choice2": "$5$",
+"choice3": "$6$",
+"choice4": "$10$",
+"choice5": "$12$",
+"correct": "A"
+},
+{
+"problem_number": 14,
+"statement": "How many terms of the sequence $3^{1} + 1, 3^{2} + 2, 3^{3} + 3, \\ldots , 3^{2024} + 2024$ are divisible by 5?",
+"subject": "N",
+"choice1": "$404$",
+"choice2": "$405$",
+"choice3": "$406$",
+"choice4": "$400$",
+"choice5": "$410$",
+"correct": "C"
+},
+{
+"problem_number": 15,
+"statement": "For a real number $n$, let $\\lfloor n\\rfloor$ be the greatest integer less than or equal to $n$ and let $\\lceil n\\rceil$ be the smallest integer greater than or equal to $n$. For example, $\\lfloor 2.5\\rfloor = 2$ and $\\lceil 2\\rceil = 2$, while $\\lceil 2.5\\rceil = 3$ and $\\lfloor 2\\rfloor = 2$. Find the greatest integer $x$ such that $\\left\\lfloor \\frac{x}{20} +20\\right\\rfloor = \\left\\lceil \\frac{x}{24} +24\\right\\rceil$.",
+"subject": "A",
+"choice1": "$719$",
+"choice2": "$700$",
+"choice3": "$680$",
+"choice4": "$480$",
+"choice5": "$699$",
+"correct": "E"
+},
+{
+"problem_number": 16,
+"statement": "A square with side length 6 has a circle with radius 2 inside of it, with the centers of the square and circle vertically aligned. Aarush is standing 4 units directly above the center of the circle, at point $P$. What is the area of the region inside the square that he can see? (Assume that Aarush can only see parts of the square along straight lines of sight from $P$ that are unblocked by any other objects.)",
+"subject": "G",
+"choice1": "$13\\sqrt{3} - \\frac{2\\pi}{3}$",
+"choice2": "$13\\sqrt{3} - \\frac{4\\pi}{3}$",
+"choice3": "$13\\sqrt{3} - \\pi$",
+"choice4": "$12\\sqrt{3} - \\frac{4\\pi}{3}$",
+"choice5": "$14\\sqrt{3} - \\frac{4\\pi}{3}$",
+"correct": "B"
+},
+{
+"problem_number": 17,
+"statement": "Eight players are seated around a circular table. Each player is assigned to either Team Green or Team Yellow so that each team has at least one player. In how many ways can the players be assigned to the teams such that each player is on the same team as at least one player adjacent to them?",
+"subject": "C",
+"choice1": "$40$",
+"choice2": "$48$",
+"choice3": "$36$",
+"choice4": "$44$",
+"choice5": "$52$",
+"correct": "D"
+},
+{
+"problem_number": 18,
+"statement": "Two circles, $\\omega_1$ and $\\omega_2$, are internally tangent at $A$. Let $B$ be the point on $\\omega_2$ opposite of $A$. The radius of $\\omega_1$ is 4 times the radius of $\\omega_2$. Point $P$ is chosen on the circumference of $\\omega_1$ such that the ratio $\\frac{AP}{BP} = \\frac{2\\sqrt{3}}{\\sqrt{7}}$. Let $O$ denote the center of $\\omega_2$. Determine the ratio $\\frac{OP}{AO}$.",
+"subject": "G",
+"choice1": "$\\sqrt{37}$",
+"choice2": "$\\sqrt{35}$",
+"choice3": "$\\sqrt{38}$",
+"choice4": "$\\sqrt{40}$",
+"choice5": "$6$",
+"correct": "A"
+},
+{
+"problem_number": 19,
+"statement": "Consider an $n$-digit number $d_1 d_2 d_3 \\ldots d_n$ such that:\n- there are no leading zeroes,\n- the number formed from the first $k$ digits $d_1 \\ldots d_k$ is divisible by $k$ (for all $1 \\leq k \\leq n$),\n- all of the digits are either 0, 2, or 4.\nIf the number ends in the digits 2024, what's the minimum value the number can be?",
+"subject": "N",
+"choice1": "$240402402034$",
+"choice2": "$240402402014$",
+"choice3": "$240402402024$",
+"choice4": "$240402402124$",
+"choice5": "$240402402224$",
+"correct": "C"
+},
+{
+"problem_number": 20,
+"statement": "Let $U$ and $C$ be two circles, and kite $BERK$ have vertices that lie on $U$ and sides that are tangent to $C$. Given that the diagonals of the kite measure 5 and 6, find the ratio of the area of $U$ to the area of $C$.",
+"subject": "G",
+"choice1": "$\\frac{25}{66}$",
+"choice2": "$\\frac{75}{22}$",
+"choice3": "$\\frac{22}{75}$",
+"choice4": "$\\frac{66}{5}$",
+"choice5": "$\\frac{66}{25}$",
+"correct": "E"
+},
+{
+"problem_number": 21,
+"statement": "Clara has a pair of nine-sided fair dice, each of whose faces are labeled 1, 2, 3, ..., 9. Justin also has a pair of nine-sided fair dice, and the faces of his dice have positive integer labels, but one of Justin's dice has the number 13. When Clara and Justin roll their dice, it turns out that for every number $S$, the probability that the sum of the results of Clara's dice is $S$ is equal to the probability that the sum of the results of Justin's dice is $S$. What is the probability that when Justin's dice are rolled, the results of the dice are equal?",
+"subject": "C",
+"choice1": "$\\frac{1}{81}$",
+"choice2": "$\\frac{5}{81}$",
+"choice3": "$\\frac{4}{81}$",
+"choice4": "$\\frac{2}{81}$",
+"choice5": "$\\frac{6}{81}$",
+"correct": "B"
+},
+{
+"problem_number": 22,
+"statement": "There exist nonzero real numbers $B, M$, and $T$ that satisfy the equations:\n$2B + M + T - 2B^{2} - 2BM - 2MT - 2BT = 0$,\n$B + 2M + T - 3M^{2} - 3BM - 3MT - 3BT = 0$,\n$B + M + 2T - 4T^{2} - 4BM - 4MT - 4BT = 0$.\nCompute $2B + 3M + 4T$.",
+"subject": "A",
+"choice1": "$0$",
+"choice2": "$1$",
+"choice3": "$2$",
+"choice4": "$3$",
+"choice5": "$4$",
+"correct": "D"
+},
+{
+"problem_number": 23,
+"statement": "Find the greatest multiple of 43 whose base 6 representation is a permutation of the digits 1, 2, 3, 4, and 5. (Express your answer in base 10).",
+"subject": "N",
+"choice1": "$6020$",
+"choice2": "$5977$",
+"choice3": "$6063$",
+"choice4": "$6021$",
+"choice5": "$6019$",
+"correct": "A"
+},
+{
+"problem_number": 24,
+"statement": "Compute the number of positive integer triples $(B,M,T)$ satisfying $B,M,T< 24$ and\n$BM + MT + BT = (B + M + T)\\sqrt[3]{BMT}$.",
+"subject": "N",
+"choice1": "$66$",
+"choice2": "$23$",
+"choice3": "$89$",
+"choice4": "$69$",
+"choice5": "$86$",
+"correct": "C"
+},
+{
+"problem_number": 25,
+"statement": "For an arbitrary positive integer $n$, we define $f(n)$ to be the number of ordered 5-tuples of positive integers, $(a_{1},a_{2},a_{3},a_{4},a_{5})$, such that $a_{1}a_{2}a_{3}a_{4}a_{5}\\mid n$. Compute the sum of all $n$ for which $f(n) / n$ is maximized.",
+"subject": "N",
+"choice1": "$720$",
+"choice2": "$1440$",
+"choice3": "$1080$",
+"choice4": "$2880$",
+"choice5": "$2160$",
+"correct": "E"
 }
+
 
   
 
