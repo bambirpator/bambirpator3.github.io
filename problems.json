@@ -1014,7 +1014,7 @@
 },
 {
 "problem_number": 4,
-"statement": "Suppose $a,b$ , and $c$ are numbers satisfying the three equations:\n\na\n+\n2\nb\n=\n20\n,\na+2b=20, \nb\n+\n2\nc\n=\n2\n,\nb+2c=2, \nc\n+\n2\na\n=\n3.\nc+2a=3. Find $9a + 9b + 9c$",
+"statement": "Suppose $a,b,$ and $c$ are numbers satisfying the three equations $a+2b=20$, $b+2c=2$, $c+2a=3$. What is $9a+9b+9c$?",
 "subject": "A",
 "choice1": "$25$",
 "choice2": "$50$",
