@@ -1432,13 +1432,13 @@
 },
 {
 "problem_number": 23,
-"statement": "Find the greatest multiple of 43 whose base 6 representation is a permutation of the digits 1, 2, 3, 4, and 5. (Express your answer in base 10).",
+"statement": "Find the sum of the digits of the greatest multiple of 43 whose base 6 representation is a permutation of the digits 1, 2, 3, 4, and 5. (Express your answer in base 10).",
 "subject": "N",
-"choice1": "$6020$",
-"choice2": "$5977$",
-"choice3": "$6063$",
-"choice4": "$6021$",
-"choice5": "$6019$",
+"choice1": "$8$",
+"choice2": "$10$",
+"choice3": "$12$",
+"choice4": "$13$",
+"choice5": "$14$",
 "correct": "A"
 },
 {
@@ -1553,17 +1553,6 @@
   },
   {
     "set": 1,
-    "problem_number": 8,
-    "statement": "The figure below shows line $\\ell$ with a regular, infinite, recurring pattern of squares and line segments. How many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?\n\n- some rotation around a point of line $\\ell$\n- some translation in the direction parallel to line $\\ell$\n- the reflection across line $\\ell$\n- some reflection across a line perpendicular to line $\\ell$",
-    "choice1": "$0$",
-    "choice2": "$1$",
-    "choice3": "$2$",
-    "choice4": "$3$",
-    "choice5": "$4$",
-    "correct": "C"
-  },
-  {
-    "set": 1,
     "problem_number": 9,
     "statement": "What is the greatest three-digit positive integer $n$ for which the sum of the first $n$ positive integers is not a divisor of the product of the first $n$ positive integers?",
     "choice1": "$995$",
@@ -1638,17 +1627,6 @@
     "choice4": "$6061$",
     "choice5": "$8078$",
     "correct": "E"
-  },
-  {
-    "set": 1,
-    "problem_number": 16,
-    "statement": "The figure below shows $13$ circles of radius $1$ within a larger circle. All the intersections occur at points of tangency. What is the area of the region inside the larger circle but outside all the circles of radius $1$?",
-    "choice1": "$4\\pi\\sqrt{3}$",
-    "choice2": "$7\\pi$",
-    "choice3": "$\\pi(3\\sqrt{3}+2)$",
-    "choice4": "$10\\pi(\\sqrt{3}-1)$",
-    "choice5": "$\\pi(\\sqrt{3}+6)$",
-    "correct": "D"
   },
   {
     "set": 1,
@@ -1958,17 +1936,6 @@
     "choice4": "$119$",
     "choice5": "$121$",
     "correct": "D"
-  },
-  {
-    "set": 2,
-    "problem_number": 20,
-    "statement": "As shown, $AD$ is trisected by $B$ and $C$ so that $AB=BC=CD=2$. Three semicircles of radius $1$ with diameters on $AD$ are tangent to line $EG$ at $E,F,G$. A circle of radius $2$ centered on $F$ is drawn. The area of the region inside the circle but outside the three semicircles can be written $\\frac{a}{b}\\pi - \\sqrt{c}+d$. What is $a+b+c+d$?",
-    "choice1": "$13$",
-    "choice2": "$14$",
-    "choice3": "$15$",
-    "choice4": "$16$",
-    "choice5": "$17$",
-    "correct": "B"
   },
   {
     "set": 2,
