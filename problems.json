@@ -1093,7 +1093,7 @@
   },
   {
     "problem_number": 20,
-    "statement": "Let $\\triangle ABC$ be an isosceles right triangle with $AB=AC=10$. Let $M$ be midpoint of $BC$ and $N$ midpoint of $BM$. Let $AN$ hit the circumcircle again at $T$. Compute area of $\\triangle TBC$.",
+    "statement": "Let $\\triangle ABC$ be an isosceles right triangle with $AB=AC=10$. Let $M$ be midpoint of $BC$ and $N$ midpoint of $BM$. Let $AN$ hit the circumcircle again at $T$. Compute the area of $\\triangle TBC$.",
     "subject": "G",
     "choice1": "$25$",
     "choice2": "$35$",
@@ -1249,7 +1249,7 @@
   },
   {
     "problem_number": 9,
-    "statement": "The boxes in the expression below are filled with the numbers $3$, $4$, $5$, $6$, $7$, and $8$, so that each number is used exactly once. What is the least possible value of the expression? $\\_ \\times \\_ + \\_ \\times \\_ - \\_ \\times \\_$",
+    "statement": "The boxes in the expression below are filled with the numbers $3$, $4$, $5$, $6$, $7$, and $8$, so that each number is used exactly once. What is the least possible value of the following expression? $$\\_ \\times \\_ + \\_ \\times \\_ - \\_ \\times \\_$$",
     "subject": "A",
     "choice1": "$-18$",
     "choice2": "$-20$",
