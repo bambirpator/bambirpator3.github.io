@@ -9,7 +9,8 @@
     "choice4": "$\\dfrac{109}{33}$",
     "choice5": "$\\dfrac{15}{4}$",
     "correct": "D",
-    "id": 1
+    "id": 1,
+    "source": "AMC 10"
   },
   {
     "problem_number": 2,
@@ -21,7 +22,8 @@
     "choice4": "$11$",
     "choice5": "$13$",
     "correct": "B",
-    "id": 2
+    "id": 2,
+    "source": "AMC 10"
   },
   {
     "problem_number": 3,
@@ -33,7 +35,8 @@
     "choice4": "$4$",
     "choice5": "$5$",
     "correct": "E",
-    "id": 3
+    "id": 3,
+    "source": "AMC 10"
   },
   {
     "problem_number": 4,
@@ -45,7 +48,8 @@
     "choice4": "$\\dfrac{100}{x\\ell m}$",
     "choice5": "$\\dfrac{100\\ell m}{x}$",
     "correct": "E",
-    "id": 4
+    "id": 4,
+    "source": "AMC 10"
   },
   {
     "problem_number": 5,
@@ -57,7 +61,8 @@
     "choice4": "$1-\\dfrac{\\sqrt{2}}{4}$",
     "choice5": "$\\dfrac{2}{3}$",
     "correct": "C",
-    "id": 5
+    "id": 5,
+    "source": "AMC 10"
   },
   {
     "problem_number": 6,
@@ -69,7 +74,8 @@
     "choice4": "$a+1$",
     "choice5": "$3$",
     "correct": "A",
-    "id": 6
+    "id": 6,
+    "source": "AMC 10"
   },
   {
     "problem_number": 7,
@@ -81,7 +87,8 @@
     "choice4": "$9$",
     "choice5": "$12$",
     "correct": "B",
-    "id": 7
+    "id": 7,
+    "source": "AMC 10"
   },
   {
     "problem_number": 8,
@@ -93,11 +100,12 @@
     "choice4": "$36$",
     "choice5": "$40$",
     "correct": "D",
-    "id": 8
+    "id": 8,
+    "source": "AMC 10"
   },
   {
     "problem_number": 9,
-    "statement": "A rectangle is partitioned into $5$ regions as shown. Each region is to be painted a solid color—red, orange, yellow, blue, or green—so that regions that touch are painted different colors, and colors can be used more than once. How many different colorings are possible?",
+    "statement": "A rectangle is partitioned into $5$ regions as shown. Each region is to be painted a solid color\u2014red, orange, yellow, blue, or green\u2014so that regions that touch are painted different colors, and colors can be used more than once. How many different colorings are possible?",
     "subject": "C",
     "choice1": "$120$",
     "choice2": "$270$",
@@ -105,7 +113,8 @@
     "choice4": "$540$",
     "choice5": "$720$",
     "correct": "D",
-    "id": 9
+    "id": 9,
+    "source": "AMC 10"
   },
   {
     "problem_number": 10,
@@ -117,7 +126,8 @@
     "choice4": "$12\\sqrt{2}$",
     "choice5": "$18$",
     "correct": "E",
-    "id": 10
+    "id": 10,
+    "source": "AMC 10"
   },
   {
     "problem_number": 11,
@@ -129,7 +139,8 @@
     "choice4": "$8$",
     "choice5": "$9$",
     "correct": "C",
-    "id": 11
+    "id": 11,
+    "source": "AMC 10"
   },
   {
     "problem_number": 12,
@@ -141,7 +152,8 @@
     "choice4": "$27$",
     "choice5": "$31$",
     "correct": "A",
-    "id": 12
+    "id": 12,
+    "source": "AMC 10"
   },
   {
     "problem_number": 13,
@@ -153,7 +165,8 @@
     "choice4": "$11$",
     "choice5": "$13$",
     "correct": "C",
-    "id": 13
+    "id": 13,
+    "source": "AMC 10"
   },
   {
     "problem_number": 14,
@@ -165,7 +178,8 @@
     "choice4": "$132$",
     "choice5": "$144$",
     "correct": "E",
-    "id": 14
+    "id": 14,
+    "source": "AMC 10"
   },
   {
     "problem_number": 15,
@@ -177,7 +191,8 @@
     "choice4": "$1565$",
     "choice5": "$1997$",
     "correct": "D",
-    "id": 15
+    "id": 15,
+    "source": "AMC 10"
   },
   {
     "problem_number": 16,
@@ -189,7 +204,8 @@
     "choice4": "$30$",
     "choice5": "$48$",
     "correct": "D",
-    "id": 16
+    "id": 16,
+    "source": "AMC 10"
   },
   {
     "problem_number": 17,
@@ -201,7 +217,8 @@
     "choice4": "$11$",
     "choice5": "$12$",
     "correct": "D",
-    "id": 17
+    "id": 17,
+    "source": "AMC 10"
   },
   {
     "problem_number": 18,
@@ -213,7 +230,8 @@
     "choice4": "$720$",
     "choice5": "$721$",
     "correct": "A",
-    "id": 18
+    "id": 18,
+    "source": "AMC 10"
   },
   {
     "problem_number": 19,
@@ -225,7 +243,8 @@
     "choice4": "$4$",
     "choice5": "$5$",
     "correct": "C",
-    "id": 19
+    "id": 19,
+    "source": "AMC 10"
   },
   {
     "problem_number": 20,
@@ -237,7 +256,8 @@
     "choice4": "$202$",
     "choice5": "$206$",
     "correct": "E",
-    "id": 20
+    "id": 20,
+    "source": "AMC 10"
   },
   {
     "problem_number": 21,
@@ -249,7 +269,8 @@
     "choice4": "$8$",
     "choice5": "$9$",
     "correct": "B",
-    "id": 21
+    "id": 21,
+    "source": "AMC 10"
   },
   {
     "problem_number": 22,
@@ -261,7 +282,8 @@
     "choice4": "$8178$",
     "choice5": "$8191$",
     "correct": "D",
-    "id": 22
+    "id": 22,
+    "source": "AMC 10"
   },
   {
     "problem_number": 23,
@@ -273,7 +295,8 @@
     "choice4": "$\\dfrac{2}{3}$",
     "choice5": "$\\dfrac{3}{4}$",
     "correct": "B",
-    "id": 23
+    "id": 23,
+    "source": "AMC 10"
   },
   {
     "problem_number": 24,
@@ -285,7 +308,8 @@
     "choice4": "$1199$",
     "choice5": "$1296$",
     "correct": "E",
-    "id": 24
+    "id": 24,
+    "source": "AMC 10"
   },
   {
     "problem_number": 25,
@@ -297,7 +321,8 @@
     "choice4": "$339$",
     "choice5": "$340$",
     "correct": "B",
-    "id": 25
+    "id": 25,
+    "source": "AMC 10"
   },
   {
     "problem_number": 1,
@@ -309,7 +334,8 @@
     "choice4": "$\\tfrac{1}{6}$",
     "choice5": "$\\tfrac{1}{8}$",
     "correct": "B",
-    "id": 26
+    "id": 26,
+    "source": "HMMT"
   },
   {
     "problem_number": 2,
@@ -321,7 +347,8 @@
     "choice4": "$144$",
     "choice5": "$216$",
     "correct": "C",
-    "id": 27
+    "id": 27,
+    "source": "HMMT"
   },
   {
     "problem_number": 6,
@@ -333,7 +360,8 @@
     "choice4": "$7$",
     "choice5": "$21$",
     "correct": "B",
-    "id": 28
+    "id": 28,
+    "source": "HMMT"
   },
   {
     "problem_number": 4,
@@ -345,7 +373,8 @@
     "choice4": "$9$",
     "choice5": "$5$",
     "correct": "C",
-    "id": 29
+    "id": 29,
+    "source": "HMMT"
   },
   {
     "problem_number": 5,
@@ -357,7 +386,8 @@
     "choice4": "$22$",
     "choice5": "$18$",
     "correct": "B",
-    "id": 30
+    "id": 30,
+    "source": "HMMT"
   },
   {
     "problem_number": 6,
@@ -369,7 +399,8 @@
     "choice4": "$10$",
     "choice5": "$14$",
     "correct": "A",
-    "id": 31
+    "id": 31,
+    "source": "HMMT"
   },
   {
     "problem_number": 7,
@@ -381,7 +412,8 @@
     "choice4": "$22$",
     "choice5": "$18$",
     "correct": "B",
-    "id": 32
+    "id": 32,
+    "source": "HMMT"
   },
   {
     "problem_number": 11,
@@ -393,7 +425,8 @@
     "choice4": "$7$",
     "choice5": "$8$",
     "correct": "A",
-    "id": 33
+    "id": 33,
+    "source": "HMMT"
   },
   {
     "problem_number": 12,
@@ -405,7 +438,8 @@
     "choice4": "$101$",
     "choice5": "$31$",
     "correct": "A",
-    "id": 34
+    "id": 34,
+    "source": "HMMT"
   },
   {
     "problem_number": 11,
@@ -417,7 +451,8 @@
     "choice4": "$152$",
     "choice5": "$164$",
     "correct": "B",
-    "id": 35
+    "id": 35,
+    "source": "HMMT"
   },
   {
     "problem_number": 13,
@@ -429,7 +464,8 @@
     "choice4": "$372$",
     "choice5": "$397$",
     "correct": "A",
-    "id": 36
+    "id": 36,
+    "source": "HMMT"
   },
   {
     "problem_number": 14,
@@ -441,7 +477,8 @@
     "choice4": "$5\\sqrt{6}$",
     "choice5": "$\\sqrt{6}$",
     "correct": "B",
-    "id": 37
+    "id": 37,
+    "source": "HMMT"
   },
   {
     "problem_number": 19,
@@ -453,7 +490,8 @@
     "choice4": "$86$",
     "choice5": "$94$",
     "correct": "A",
-    "id": 38
+    "id": 38,
+    "source": "HMMT"
   },
   {
     "problem_number": 17,
@@ -465,7 +503,8 @@
     "choice4": "$1365$",
     "choice5": "$1156$",
     "correct": "B",
-    "id": 39
+    "id": 39,
+    "source": "HMMT"
   },
   {
     "problem_number": 18,
@@ -477,7 +516,8 @@
     "choice4": "$32$",
     "choice5": "$38$",
     "correct": "A",
-    "id": 40
+    "id": 40,
+    "source": "HMMT"
   },
   {
     "problem_number": 19,
@@ -489,7 +529,8 @@
     "choice4": "$400$",
     "choice5": "$430$",
     "correct": "A",
-    "id": 41
+    "id": 41,
+    "source": "HMMT"
   },
   {
     "problem_number": 20,
@@ -501,7 +542,8 @@
     "choice4": "$19$",
     "choice5": "$0$",
     "correct": "A",
-    "id": 42
+    "id": 42,
+    "source": "HMMT"
   },
   {
     "problem_number": 18,
@@ -513,7 +555,8 @@
     "choice4": "$\\tfrac{7}{10}$",
     "choice5": "$\\tfrac{4}{5}$",
     "correct": "A",
-    "id": 43
+    "id": 43,
+    "source": "HMMT"
   },
   {
     "problem_number": 22,
@@ -525,7 +568,8 @@
     "choice4": "$24$",
     "choice5": "$20$",
     "correct": "A",
-    "id": 44
+    "id": 44,
+    "source": "HMMT"
   },
   {
     "problem_number": 23,
@@ -537,7 +581,8 @@
     "choice4": "$\\tfrac{2}{3}$",
     "choice5": "$\\tfrac{2}{5}$",
     "correct": "A",
-    "id": 45
+    "id": 45,
+    "source": "HMMT"
   },
   {
     "problem_number": 24,
@@ -549,7 +594,8 @@
     "choice4": "$3^{1/16}-3$",
     "choice5": "$3^{1/8}-3$",
     "correct": "A",
-    "id": 46
+    "id": 46,
+    "source": "HMMT"
   },
   {
     "problem_number": 25,
@@ -561,7 +607,8 @@
     "choice4": "$2\\sqrt{3}+4\\sqrt{2}$",
     "choice5": "$\\sqrt{6}+2\\sqrt{2}$",
     "correct": "B",
-    "id": 47
+    "id": 47,
+    "source": "HMMT"
   },
   {
     "problem_number": 4,
@@ -573,7 +620,8 @@
     "choice4": "$20$",
     "choice5": "$12$",
     "correct": "B",
-    "id": 48
+    "id": 48,
+    "source": "HMMT"
   },
   {
     "problem_number": 8,
@@ -585,7 +633,8 @@
     "choice4": "$180$",
     "choice5": "$190$",
     "correct": "C",
-    "id": 49
+    "id": 49,
+    "source": "HMMT"
   },
   {
     "problem_number": 8,
@@ -597,7 +646,8 @@
     "choice4": "$460$",
     "choice5": "$575$",
     "correct": "D",
-    "id": 50
+    "id": 50,
+    "source": "HMMT"
   },
   {
     "problem_number": 4,
@@ -609,7 +659,8 @@
     "choice4": "$4.8$",
     "choice5": "$5.1$",
     "correct": "E",
-    "id": 51
+    "id": 51,
+    "source": "HMMT"
   },
   {
     "problem_number": 9,
@@ -621,7 +672,8 @@
     "choice4": "$\\tfrac{5}{36}$",
     "choice5": "$\\tfrac{1}{54}$",
     "correct": "B",
-    "id": 52
+    "id": 52,
+    "source": "HMMT"
   },
   {
     "problem_number": 12,
@@ -633,7 +685,8 @@
     "choice4": "$\\tfrac{7}{6}$",
     "choice5": "$\\tfrac{5}{6}$",
     "correct": "C",
-    "id": 53
+    "id": 53,
+    "source": "HMMT"
   },
   {
     "problem_number": 13,
@@ -645,7 +698,8 @@
     "choice4": "$9901$",
     "choice5": "$10007$",
     "correct": "D",
-    "id": 54
+    "id": 54,
+    "source": "HMMT"
   },
   {
     "problem_number": 16,
@@ -657,7 +711,8 @@
     "choice4": "$\\tfrac{3}{4}$",
     "choice5": "$\\tfrac{22}{25}$",
     "correct": "E",
-    "id": 55
+    "id": 55,
+    "source": "HMMT"
   },
   {
     "problem_number": 12,
@@ -669,7 +724,8 @@
     "choice4": "$\\tfrac{40}{97}$",
     "choice5": "$\\tfrac{42}{97}$",
     "correct": "C",
-    "id": 56
+    "id": 56,
+    "source": "HMMT"
   },
   {
     "problem_number": 14,
@@ -681,7 +737,8 @@
     "choice4": "$\\tfrac{60}{11}$",
     "choice5": "$\\tfrac{55}{11}$",
     "correct": "D",
-    "id": 57
+    "id": 57,
+    "source": "HMMT"
   },
   {
     "problem_number": 15,
@@ -693,7 +750,8 @@
     "choice4": "$301$",
     "choice5": "$321$",
     "correct": "E",
-    "id": 58
+    "id": 58,
+    "source": "HMMT"
   },
   {
     "problem_number": 16,
@@ -705,7 +763,8 @@
     "choice4": "$2010$",
     "choice5": "$1800$",
     "correct": "B",
-    "id": 59
+    "id": 59,
+    "source": "HMMT"
   },
   {
     "problem_number": 17,
@@ -717,7 +776,8 @@
     "choice4": "$2\\sqrt{3}$",
     "choice5": "$4\\sqrt{3}$",
     "correct": "C",
-    "id": 60
+    "id": 60,
+    "source": "HMMT"
   },
   {
     "problem_number": 18,
@@ -729,7 +789,8 @@
     "choice4": "$15$",
     "choice5": "$12$",
     "correct": "D",
-    "id": 61
+    "id": 61,
+    "source": "HMMT"
   },
   {
     "problem_number": 20,
@@ -741,7 +802,8 @@
     "choice4": "$95$",
     "choice5": "$100$",
     "correct": "E",
-    "id": 62
+    "id": 62,
+    "source": "HMMT"
   },
   {
     "problem_number": 21,
@@ -753,11 +815,12 @@
     "choice4": "$\\tfrac{270}{357}$",
     "choice5": "$\\tfrac{265}{360}$",
     "correct": "B",
-    "id": 63
+    "id": 63,
+    "source": "HMMT"
   },
   {
     "problem_number": 22,
-    "statement": "There is a $6\\times6$ grid of lights. There is a switch at the top of each column and on the left of each row. A light will only turn on if the switches corresponding to both its column and its row are in the “on” position. Compute the number of different configurations of lights.",
+    "statement": "There is a $6\\times6$ grid of lights. There is a switch at the top of each column and on the left of each row. A light will only turn on if the switches corresponding to both its column and its row are in the \u201con\u201d position. Compute the number of different configurations of lights.",
     "subject": "C",
     "choice1": "$3870$",
     "choice2": "$4096$",
@@ -765,7 +828,8 @@
     "choice4": "$3969$",
     "choice5": "$4000$",
     "correct": "C",
-    "id": 64
+    "id": 64,
+    "source": "HMMT"
   },
   {
     "problem_number": 23,
@@ -777,7 +841,8 @@
     "choice4": "$\\dfrac{\\sqrt{401}}{5}$",
     "choice5": "$\\dfrac{\\sqrt{401}}{4}$",
     "correct": "D",
-    "id": 65
+    "id": 65,
+    "source": "HMMT"
   },
   {
     "problem_number": 24,
@@ -789,7 +854,8 @@
     "choice4": "$10$",
     "choice5": "$7$",
     "correct": "E",
-    "id": 66
+    "id": 66,
+    "source": "HMMT"
   },
   {
     "problem_number": 25,
@@ -801,7 +867,8 @@
     "choice4": "$180$",
     "choice5": "$384$",
     "correct": "B",
-    "id": 67
+    "id": 67,
+    "source": "HMMT"
   },
   {
     "problem_number": 24,
@@ -813,7 +880,8 @@
     "choice4": "$3$",
     "choice5": "$4$",
     "correct": "B",
-    "id": 68
+    "id": 68,
+    "source": "HMMT"
   },
   {
     "problem_number": 7,
@@ -825,7 +893,8 @@
     "choice4": "$73$",
     "choice5": "$24$",
     "correct": "C",
-    "id": 69
+    "id": 69,
+    "source": "HMMT"
   },
   {
     "problem_number": 3,
@@ -837,7 +906,8 @@
     "choice4": "$8\\sqrt{2022}$",
     "choice5": "$3$",
     "correct": "D",
-    "id": 70
+    "id": 70,
+    "source": "HMMT"
   },
   {
     "problem_number": 8,
@@ -849,7 +919,8 @@
     "choice4": "$10$",
     "choice5": "$11$",
     "correct": "D",
-    "id": 71
+    "id": 71,
+    "source": "HMMT"
   },
   {
     "problem_number": 5,
@@ -861,11 +932,12 @@
     "choice4": "$2$",
     "choice5": "$3$",
     "correct": "A",
-    "id": 72
+    "id": 72,
+    "source": "HMMT"
   },
   {
     "problem_number": 13,
-    "statement": "Let $ABCDEF$ be a regular hexagon and let point $O$ be the center. How many ways can you color these seven points either red or blue such that there doesn’t exist any equilateral triangle with vertices of all the same color?",
+    "statement": "Let $ABCDEF$ be a regular hexagon and let point $O$ be the center. How many ways can you color these seven points either red or blue such that there doesn\u2019t exist any equilateral triangle with vertices of all the same color?",
     "subject": "C",
     "choice1": "$7$",
     "choice2": "$16$",
@@ -873,7 +945,8 @@
     "choice4": "$6$",
     "choice5": "$5$",
     "correct": "D",
-    "id": 73
+    "id": 73,
+    "source": "HMMT"
   },
   {
     "problem_number": 7,
@@ -885,7 +958,8 @@
     "choice4": "$7$",
     "choice5": "$11$",
     "correct": "A",
-    "id": 74
+    "id": 74,
+    "source": "HMMT"
   },
   {
     "problem_number": 8,
@@ -897,7 +971,8 @@
     "choice4": "$14$",
     "choice5": "$16$",
     "correct": "B",
-    "id": 75
+    "id": 75,
+    "source": "HMMT"
   },
   {
     "problem_number": 14,
@@ -909,7 +984,8 @@
     "choice4": "$80^\\circ$",
     "choice5": "$60^\\circ$",
     "correct": "C",
-    "id": 76
+    "id": 76,
+    "source": "HMMT"
   },
   {
     "problem_number": 16,
@@ -921,7 +997,8 @@
     "choice4": "$\\tfrac{4}{5}$",
     "choice5": "$\\tfrac{1}{2}$",
     "correct": "B",
-    "id": 77
+    "id": 77,
+    "source": "HMMT"
   },
   {
     "problem_number": 11,
@@ -933,7 +1010,8 @@
     "choice4": "$14$",
     "choice5": "$16$",
     "correct": "B",
-    "id": 78
+    "id": 78,
+    "source": "HMMT"
   },
   {
     "problem_number": 12,
@@ -945,7 +1023,8 @@
     "choice4": "$5:08\\ \\text{PM}$",
     "choice5": "$5:04\\ \\text{PM}$",
     "correct": "C",
-    "id": 79
+    "id": 79,
+    "source": "HMMT"
   },
   {
     "problem_number": 13,
@@ -957,7 +1036,8 @@
     "choice4": "$780$",
     "choice5": "$800$",
     "correct": "C",
-    "id": 80
+    "id": 80,
+    "source": "HMMT"
   },
   {
     "problem_number": 15,
@@ -969,7 +1049,8 @@
     "choice4": "$980$",
     "choice5": "$1010$",
     "correct": "C",
-    "id": 81
+    "id": 81,
+    "source": "HMMT"
   },
   {
     "problem_number": 17,
@@ -981,7 +1062,8 @@
     "choice4": "$2$",
     "choice5": "$10$",
     "correct": "C",
-    "id": 82
+    "id": 82,
+    "source": "HMMT"
   },
   {
     "problem_number": 18,
@@ -993,7 +1075,8 @@
     "choice4": "$8$",
     "choice5": "$2$",
     "correct": "C",
-    "id": 83
+    "id": 83,
+    "source": "HMMT"
   },
   {
     "problem_number": 19,
@@ -1005,7 +1088,8 @@
     "choice4": "$1011$",
     "choice5": "$2023$",
     "correct": "C",
-    "id": 84
+    "id": 84,
+    "source": "HMMT"
   },
   {
     "problem_number": 20,
@@ -1017,7 +1101,8 @@
     "choice4": "$30$",
     "choice5": "$20$",
     "correct": "D",
-    "id": 85
+    "id": 85,
+    "source": "HMMT"
   },
   {
     "problem_number": 21,
@@ -1029,7 +1114,8 @@
     "choice4": "$2600$",
     "choice5": "$2450$",
     "correct": "A",
-    "id": 86
+    "id": 86,
+    "source": "HMMT"
   },
   {
     "problem_number": 23,
@@ -1041,7 +1127,8 @@
     "choice4": "$6050$",
     "choice5": "$6200$",
     "correct": "C",
-    "id": 87
+    "id": 87,
+    "source": "HMMT"
   },
   {
     "problem_number": 24,
@@ -1053,7 +1140,8 @@
     "choice4": "$(4,0,1)$",
     "choice5": "$(5,0,-1)$",
     "correct": "A",
-    "id": 88
+    "id": 88,
+    "source": "HMMT"
   },
   {
     "problem_number": 25,
@@ -1065,7 +1153,8 @@
     "choice4": "$9$",
     "choice5": "$10$",
     "correct": "C",
-    "id": 89
+    "id": 89,
+    "source": "HMMT"
   },
   {
     "problem_number": 1,
@@ -1077,7 +1166,8 @@
     "choice4": "$12$",
     "choice5": "$15$",
     "correct": "B",
-    "id": 90
+    "id": 90,
+    "source": "BMT"
   },
   {
     "problem_number": 2,
@@ -1089,7 +1179,8 @@
     "choice4": "$-5$",
     "choice5": "$5$",
     "correct": "A",
-    "id": 91
+    "id": 91,
+    "source": "BMT"
   },
   {
     "problem_number": 3,
@@ -1101,7 +1192,8 @@
     "choice4": "$4$",
     "choice5": "$2\\sqrt{6}$",
     "correct": "A",
-    "id": 92
+    "id": 92,
+    "source": "BMT"
   },
   {
     "problem_number": 4,
@@ -1113,7 +1205,8 @@
     "choice4": "$100$",
     "choice5": "$125$",
     "correct": "C",
-    "id": 93
+    "id": 93,
+    "source": "BMT"
   },
   {
     "problem_number": 5,
@@ -1125,11 +1218,12 @@
     "choice4": "$3$",
     "choice5": "$4$",
     "correct": "B",
-    "id": 94
+    "id": 94,
+    "source": "BMT"
   },
   {
     "problem_number": 6,
-    "statement": "Compute the three-digit number that satisfies the following properties:\n• The hundreds digit and ones digit are the same, but the tens digit is different.\n• The number is divisible by $9.$\n• When the number is divided by $5$, the remainder is $1.$",
+    "statement": "Compute the three-digit number that satisfies the following properties:\n\u2022 The hundreds digit and ones digit are the same, but the tens digit is different.\n\u2022 The number is divisible by $9.$\n\u2022 When the number is divided by $5$, the remainder is $1.$",
     "subject": "N",
     "choice1": "$171$",
     "choice2": "$666$",
@@ -1137,7 +1231,8 @@
     "choice4": "$225$",
     "choice5": "$351$",
     "correct": "A",
-    "id": 95
+    "id": 95,
+    "source": "BMT"
   },
   {
     "problem_number": 7,
@@ -1149,7 +1244,8 @@
     "choice4": "$8092$",
     "choice5": "$10115$",
     "correct": "C",
-    "id": 96
+    "id": 96,
+    "source": "BMT"
   },
   {
     "problem_number": 9,
@@ -1161,7 +1257,8 @@
     "choice4": "$-14$",
     "choice5": "$-22$",
     "correct": "A",
-    "id": 97
+    "id": 97,
+    "source": "BMT"
   },
   {
     "problem_number": 10,
@@ -1173,7 +1270,8 @@
     "choice4": "$18\\pi$",
     "choice5": "$27\\pi$",
     "correct": "A",
-    "id": 98
+    "id": 98,
+    "source": "BMT"
   },
   {
     "problem_number": 11,
@@ -1185,7 +1283,8 @@
     "choice4": "$686$",
     "choice5": "$196$",
     "correct": "A",
-    "id": 99
+    "id": 99,
+    "source": "BMT"
   },
   {
     "problem_number": 13,
@@ -1197,7 +1296,8 @@
     "choice4": "$108$",
     "choice5": "$120$",
     "correct": "C",
-    "id": 100
+    "id": 100,
+    "source": "BMT"
   },
   {
     "problem_number": 14,
@@ -1209,7 +1309,8 @@
     "choice4": "$46$",
     "choice5": "$3$",
     "correct": "C",
-    "id": 101
+    "id": 101,
+    "source": "BMT"
   },
   {
     "problem_number": 15,
@@ -1221,7 +1322,8 @@
     "choice4": "$999$",
     "choice5": "$1100$",
     "correct": "B",
-    "id": 102
+    "id": 102,
+    "source": "BMT"
   },
   {
     "problem_number": 17,
@@ -1233,7 +1335,8 @@
     "choice4": "$1440\\pi$",
     "choice5": "$1680\\pi$",
     "correct": "A",
-    "id": 103
+    "id": 103,
+    "source": "BMT"
   },
   {
     "problem_number": 18,
@@ -1245,7 +1348,8 @@
     "choice4": "$\\frac{7}{11}$",
     "choice5": "$\\frac{4}{11}$",
     "correct": "B",
-    "id": 104
+    "id": 104,
+    "source": "BMT"
   },
   {
     "problem_number": 19,
@@ -1257,7 +1361,8 @@
     "choice4": "$30$",
     "choice5": "$32$",
     "correct": "D",
-    "id": 105
+    "id": 105,
+    "source": "BMT"
   },
   {
     "problem_number": 21,
@@ -1269,7 +1374,8 @@
     "choice4": "$1999$",
     "choice5": "$2000$",
     "correct": "C",
-    "id": 106
+    "id": 106,
+    "source": "BMT"
   },
   {
     "problem_number": 24,
@@ -1281,7 +1387,8 @@
     "choice4": "$70$",
     "choice5": "$60$",
     "correct": "C",
-    "id": 107
+    "id": 107,
+    "source": "BMT"
   },
   {
     "problem_number": 25,
@@ -1293,7 +1400,8 @@
     "choice4": "$\\frac{2\\sqrt{11}}{11}$",
     "choice5": "$\\frac{5\\sqrt{11}}{11}$",
     "correct": "A",
-    "id": 108
+    "id": 108,
+    "source": "BMT"
   },
   {
     "problem_number": 1,
@@ -1305,7 +1413,8 @@
     "choice4": "$24$",
     "choice5": "$32$",
     "correct": "B",
-    "id": 109
+    "id": 109,
+    "source": "BMT"
   },
   {
     "problem_number": 2,
@@ -1317,7 +1426,8 @@
     "choice4": "$43$",
     "choice5": "$53$",
     "correct": "D",
-    "id": 110
+    "id": 110,
+    "source": "BMT"
   },
   {
     "problem_number": 3,
@@ -1329,7 +1439,8 @@
     "choice4": "$36$",
     "choice5": "$42$",
     "correct": "A",
-    "id": 111
+    "id": 111,
+    "source": "BMT"
   },
   {
     "problem_number": 4,
@@ -1341,7 +1452,8 @@
     "choice4": "$4 + 2\\pi$",
     "choice5": "$2 + \\frac{2\\pi}{3}$",
     "correct": "C",
-    "id": 112
+    "id": 112,
+    "source": "BMT"
   },
   {
     "problem_number": 5,
@@ -1353,7 +1465,8 @@
     "choice4": "$\\frac{5}{9}$",
     "choice5": "$\\frac{2024}{4047}$",
     "correct": "E",
-    "id": 113
+    "id": 113,
+    "source": "BMT"
   },
   {
     "problem_number": 6,
@@ -1365,7 +1478,8 @@
     "choice4": "$888$",
     "choice5": "$858$",
     "correct": "B",
-    "id": 114
+    "id": 114,
+    "source": "BMT"
   },
   {
     "problem_number": 7,
@@ -1377,7 +1491,8 @@
     "choice4": "$20$",
     "choice5": "$30$",
     "correct": "D",
-    "id": 115
+    "id": 115,
+    "source": "BMT"
   },
   {
     "problem_number": 8,
@@ -1389,7 +1504,8 @@
     "choice4": "$16\\pi$",
     "choice5": "$12\\pi$",
     "correct": "A",
-    "id": 116
+    "id": 116,
+    "source": "BMT"
   },
   {
     "problem_number": 9,
@@ -1401,7 +1517,8 @@
     "choice4": "$0$",
     "choice5": "$2$",
     "correct": "C",
-    "id": 117
+    "id": 117,
+    "source": "BMT"
   },
   {
     "problem_number": 10,
@@ -1413,7 +1530,8 @@
     "choice4": "$1$",
     "choice5": "$-22$",
     "correct": "E",
-    "id": 118
+    "id": 118,
+    "source": "BMT"
   },
   {
     "problem_number": 11,
@@ -1425,7 +1543,8 @@
     "choice4": "$34560$",
     "choice5": "$13200$",
     "correct": "B",
-    "id": 119
+    "id": 119,
+    "source": "BMT"
   },
   {
     "problem_number": 12,
@@ -1437,7 +1556,8 @@
     "choice4": "$1$",
     "choice5": "$4$",
     "correct": "D",
-    "id": 120
+    "id": 120,
+    "source": "BMT"
   },
   {
     "problem_number": 13,
@@ -1449,7 +1569,8 @@
     "choice4": "$10$",
     "choice5": "$12$",
     "correct": "A",
-    "id": 121
+    "id": 121,
+    "source": "BMT"
   },
   {
     "problem_number": 14,
@@ -1461,7 +1582,8 @@
     "choice4": "$400$",
     "choice5": "$410$",
     "correct": "C",
-    "id": 122
+    "id": 122,
+    "source": "BMT"
   },
   {
     "problem_number": 15,
@@ -1473,7 +1595,8 @@
     "choice4": "$480$",
     "choice5": "$699$",
     "correct": "E",
-    "id": 123
+    "id": 123,
+    "source": "BMT"
   },
   {
     "problem_number": 16,
@@ -1485,7 +1608,8 @@
     "choice4": "$12\\sqrt{3} - \\frac{4\\pi}{3}$",
     "choice5": "$14\\sqrt{3} - \\frac{4\\pi}{3}$",
     "correct": "B",
-    "id": 124
+    "id": 124,
+    "source": "BMT"
   },
   {
     "problem_number": 17,
@@ -1497,7 +1621,8 @@
     "choice4": "$44$",
     "choice5": "$52$",
     "correct": "D",
-    "id": 125
+    "id": 125,
+    "source": "BMT"
   },
   {
     "problem_number": 18,
@@ -1509,7 +1634,8 @@
     "choice4": "$\\sqrt{40}$",
     "choice5": "$6$",
     "correct": "A",
-    "id": 126
+    "id": 126,
+    "source": "BMT"
   },
   {
     "problem_number": 19,
@@ -1521,7 +1647,8 @@
     "choice4": "$26$",
     "choice5": "$28$",
     "correct": "C",
-    "id": 127
+    "id": 127,
+    "source": "BMT"
   },
   {
     "problem_number": 20,
@@ -1533,7 +1660,8 @@
     "choice4": "$\\frac{66}{5}$",
     "choice5": "$\\frac{66}{25}$",
     "correct": "E",
-    "id": 128
+    "id": 128,
+    "source": "BMT"
   },
   {
     "problem_number": 21,
@@ -1545,7 +1673,8 @@
     "choice4": "$\\frac{2}{81}$",
     "choice5": "$\\frac{6}{81}$",
     "correct": "B",
-    "id": 129
+    "id": 129,
+    "source": "BMT"
   },
   {
     "problem_number": 22,
@@ -1557,7 +1686,8 @@
     "choice4": "$3$",
     "choice5": "$4$",
     "correct": "D",
-    "id": 130
+    "id": 130,
+    "source": "BMT"
   },
   {
     "problem_number": 23,
@@ -1569,7 +1699,8 @@
     "choice4": "$13$",
     "choice5": "$14$",
     "correct": "A",
-    "id": 131
+    "id": 131,
+    "source": "BMT"
   },
   {
     "problem_number": 24,
@@ -1581,7 +1712,8 @@
     "choice4": "$69$",
     "choice5": "$86$",
     "correct": "C",
-    "id": 132
+    "id": 132,
+    "source": "BMT"
   },
   {
     "problem_number": 25,
@@ -1593,7 +1725,8 @@
     "choice4": "$2880$",
     "choice5": "$2160$",
     "correct": "E",
-    "id": 133
+    "id": 133,
+    "source": "BMT"
   },
   {
     "problem_number": 4,
@@ -1605,7 +1738,8 @@
     "choice4": "$48$",
     "choice5": "$54$",
     "correct": "C",
-    "id": 134
+    "id": 134,
+    "source": "HMMT"
   },
   {
     "set": 1,
@@ -1617,7 +1751,8 @@
     "choice4": "$3$",
     "choice5": "$4$",
     "correct": "C",
-    "id": 135
+    "id": 135,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1629,7 +1764,8 @@
     "choice4": "$4$",
     "choice5": "$5$",
     "correct": "A",
-    "id": 136
+    "id": 136,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1641,7 +1777,8 @@
     "choice4": "$12$",
     "choice5": "$15$",
     "correct": "D",
-    "id": 137
+    "id": 137,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1653,7 +1790,8 @@
     "choice4": "$84$",
     "choice5": "$91$",
     "correct": "B",
-    "id": 138
+    "id": 138,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1665,7 +1803,8 @@
     "choice4": "$90$",
     "choice5": "$120$",
     "correct": "D",
-    "id": 139
+    "id": 139,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1677,7 +1816,8 @@
     "choice4": "$4$",
     "choice5": "$5$",
     "correct": "C",
-    "id": 140
+    "id": 140,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1689,7 +1829,8 @@
     "choice4": "$8$",
     "choice5": "$6\\sqrt{2}$",
     "correct": "C",
-    "id": 141
+    "id": 141,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1701,7 +1842,8 @@
     "choice4": "$998$",
     "choice5": "$999$",
     "correct": "B",
-    "id": 142
+    "id": 142,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1713,7 +1855,8 @@
     "choice4": "$27$",
     "choice5": "$28$",
     "correct": "C",
-    "id": 143
+    "id": 143,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1725,7 +1868,8 @@
     "choice4": "$39$",
     "choice5": "$41$",
     "correct": "C",
-    "id": 144
+    "id": 144,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1737,7 +1881,8 @@
     "choice4": "$d < M < \\mu$",
     "choice5": "$d < \\mu < M$",
     "correct": "E",
-    "id": 145
+    "id": 145,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1749,7 +1894,8 @@
     "choice4": "$110$",
     "choice5": "$120$",
     "correct": "D",
-    "id": 146
+    "id": 146,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1761,7 +1907,8 @@
     "choice4": "$19$",
     "choice5": "$21$",
     "correct": "D",
-    "id": 147
+    "id": 147,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1773,7 +1920,8 @@
     "choice4": "$6061$",
     "choice5": "$8078$",
     "correct": "E",
-    "id": 148
+    "id": 148,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1785,7 +1933,8 @@
     "choice4": "$1,260$",
     "choice5": "$40,320$",
     "correct": "A",
-    "id": 149
+    "id": 149,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1797,7 +1946,8 @@
     "choice4": "$16$",
     "choice5": "$17$",
     "correct": "D",
-    "id": 150
+    "id": 150,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1809,7 +1959,8 @@
     "choice4": "$2020$",
     "choice5": "$2021$",
     "correct": "B",
-    "id": 151
+    "id": 151,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1821,7 +1972,8 @@
     "choice4": "$\\tfrac{2}{21}$",
     "choice5": "$\\tfrac{1}{7}$",
     "correct": "B",
-    "id": 152
+    "id": 152,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1833,7 +1985,8 @@
     "choice4": "$2\\sqrt{5}$",
     "choice5": "$5$",
     "correct": "D",
-    "id": 153
+    "id": 153,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1845,7 +1998,8 @@
     "choice4": "$9/16$",
     "choice5": "$2/3$",
     "correct": "B",
-    "id": 154
+    "id": 154,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1857,7 +2011,8 @@
     "choice4": "$6001$",
     "choice5": "$6011$",
     "correct": "C",
-    "id": 155
+    "id": 155,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1869,7 +2024,8 @@
     "choice4": "$246$",
     "choice5": "$247$",
     "correct": "B",
-    "id": 156
+    "id": 156,
+    "source": "AMC 10"
   },
   {
     "set": 1,
@@ -1881,7 +2037,8 @@
     "choice4": "$34$",
     "choice5": "$35$",
     "correct": "D",
-    "id": 157
+    "id": 157,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1893,7 +2050,8 @@
     "choice4": "$\\frac{9}{10}$",
     "choice5": "$\\frac{11}{12}$",
     "correct": "D",
-    "id": 158
+    "id": 158,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1905,7 +2063,8 @@
     "choice4": "$21$",
     "choice5": "$27$",
     "correct": "C",
-    "id": 159
+    "id": 159,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1917,7 +2076,8 @@
     "choice4": "$220$",
     "choice5": "$266$",
     "correct": "D",
-    "id": 160
+    "id": 160,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1929,7 +2089,8 @@
     "choice4": "$(1,0)$",
     "choice5": "$(1,2)$",
     "correct": "B",
-    "id": 161
+    "id": 161,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1941,7 +2102,8 @@
     "choice4": "$\\text{The slopes of lines }AA'\\text{ and }CC'\\text{ are the same.}$",
     "choice5": "$\\text{Lines }AB\\text{ and }A'B'\\text{ are perpendicular to each other.}$",
     "correct": "D",
-    "id": 162
+    "id": 162,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1953,7 +2115,8 @@
     "choice4": "$12$",
     "choice5": "$15$",
     "correct": "C",
-    "id": 163
+    "id": 163,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1965,7 +2128,8 @@
     "choice4": "$25$",
     "choice5": "$28$",
     "correct": "C",
-    "id": 164
+    "id": 164,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1977,7 +2141,8 @@
     "choice4": "$4\\sqrt{3}$",
     "choice5": "$16-\\sqrt{3}$",
     "correct": "C",
-    "id": 165
+    "id": 165,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -1989,7 +2154,8 @@
     "choice4": "$\\{0\\}$",
     "choice5": "$\\text{The set of nonnegative integers}$",
     "correct": "B",
-    "id": 166
+    "id": 166,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2001,7 +2167,8 @@
     "choice4": "$8$",
     "choice5": "$\\text{infinitely many}$",
     "correct": "C",
-    "id": 167
+    "id": 167,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2013,7 +2180,8 @@
     "choice4": "$45$",
     "choice5": "$50$",
     "correct": "C",
-    "id": 168
+    "id": 168,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2025,7 +2193,8 @@
     "choice4": "$23$",
     "choice5": "$27$",
     "correct": "C",
-    "id": 169
+    "id": 169,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2037,7 +2206,8 @@
     "choice4": "$\\tfrac{15}{4}$",
     "choice5": "$35$",
     "correct": "B",
-    "id": 170
+    "id": 170,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2049,7 +2219,8 @@
     "choice4": "$14$",
     "choice5": "$17$",
     "correct": "B",
-    "id": 171
+    "id": 171,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2061,7 +2232,8 @@
     "choice4": "$\\tfrac{34}{3}$",
     "choice5": "$12$",
     "correct": "A",
-    "id": 172
+    "id": 172,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2073,7 +2245,8 @@
     "choice4": "$3:\\sqrt{5}$",
     "choice5": "$3:2$",
     "correct": "A",
-    "id": 173
+    "id": 173,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2085,7 +2258,8 @@
     "choice4": "$3/8$",
     "choice5": "$3/7$",
     "correct": "A",
-    "id": 174
+    "id": 174,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2097,7 +2271,8 @@
     "choice4": "$11/4$",
     "choice5": "$11/2$",
     "correct": "B",
-    "id": 175
+    "id": 175,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2109,7 +2284,8 @@
     "choice4": "$119$",
     "choice5": "$121$",
     "correct": "D",
-    "id": 176
+    "id": 176,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2121,7 +2297,8 @@
     "choice4": "$1/12$",
     "choice5": "$1/6$",
     "correct": "D",
-    "id": 177
+    "id": 177,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2133,7 +2310,8 @@
     "choice4": "$1/2$",
     "choice5": "$2/3$",
     "correct": "B",
-    "id": 178
+    "id": 178,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2145,7 +2323,8 @@
     "choice4": "$\\tfrac{43\\pi}{4}$",
     "choice5": "$\\tfrac{87\\pi}{8}$",
     "correct": "C",
-    "id": 179
+    "id": 179,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2157,7 +2336,8 @@
     "choice4": "$[243,728]$",
     "choice5": "$[729,\\infty)$",
     "correct": "C",
-    "id": 180
+    "id": 180,
+    "source": "AMC 10"
   },
   {
     "set": 2,
@@ -2169,6 +2349,260 @@
     "choice4": "$70$",
     "choice5": "$75$",
     "correct": "C",
-    "id": 181
+    "id": 181,
+    "source": "AMC 10"
+  },
+  {
+    "problem_number": 1,
+    "statement": "A circle of area 1 is cut by two distinct chords; what is the maximum possible area of the smallest resulting piece?",
+    "subject": "G",
+    "choice1": "1/4",
+    "choice2": "1/3",
+    "choice3": "1/2",
+    "choice4": "1/6",
+    "choice5": "1/8",
+    "correct": "B"
+  },
+  {
+    "problem_number": 2,
+    "statement": "What is the smallest integer n > 72 that has exactly the same set of prime divisors as 72?",
+    "subject": "N",
+    "choice1": "84",
+    "choice2": "108",
+    "choice3": "96",
+    "choice4": "144",
+    "choice5": "216",
+    "correct": "C"
+  },
+  {
+    "problem_number": 3,
+    "statement": "Six lines y = x+2, y = 3x+4, y = 5x+6, y = 7x+8, y = 9x+10, and y = 11x+12 are drawn; into how many regions do these lines divide the plane?",
+    "subject": "C",
+    "choice1": "13",
+    "choice2": "12",
+    "choice3": "15",
+    "choice4": "7",
+    "choice5": "21",
+    "correct": "B"
+  },
+  {
+    "problem_number": 4,
+    "statement": "A nine-digit number uses eight distinct nonzero digits from 1 to 9 with no repeats; if the digits include 1, 7, and 6 among others, which nonzero digit is missing?",
+    "subject": "N",
+    "choice1": "4",
+    "choice2": "2",
+    "choice3": "8",
+    "choice4": "9",
+    "choice5": "5",
+    "correct": "C"
+  },
+  {
+    "problem_number": 5,
+    "statement": "Let ABCD be a trapezoid with AB ∥ CD, AB = 20, CD = 24, and area 880; what is the area of the triangle with vertices at the midpoints of AB, AC, and BD?",
+    "subject": "G",
+    "choice1": "16",
+    "choice2": "20",
+    "choice3": "24",
+    "choice4": "22",
+    "choice5": "18",
+    "correct": "B"
+  },
+  {
+    "problem_number": 6,
+    "statement": "The vertices of a cube are labeled with the integers 1 through 8 (each used exactly once). Let s be the maximum sum of labels of two edge-adjacent vertices; what is the minimum possible value of s over all labelings?",
+    "subject": "C",
+    "choice1": "11",
+    "choice2": "12",
+    "choice3": "13",
+    "choice4": "10",
+    "choice5": "14",
+    "correct": "A"
+  },
+  {
+    "problem_number": 7,
+    "statement": "A regular 10-gon P is placed in the plane in some orientation; what are the possible distinct counts of x-coordinates of its vertices, and what is the sum of all possible counts across all placements?",
+    "subject": "G",
+    "choice1": "20",
+    "choice2": "21",
+    "choice3": "19",
+    "choice4": "22",
+    "choice5": "18",
+    "correct": "B"
+  },
+  {
+    "problem_number": 9,
+    "statement": "What is the remainder when the integer 1,002,003,004,005,006,007,008,009 is divided by 13?",
+    "subject": "N",
+    "choice1": "5",
+    "choice2": "6",
+    "choice3": "4",
+    "choice4": "7",
+    "choice5": "8",
+    "correct": "A"
+  },
+  {
+    "problem_number": 10,
+    "statement": "What is the largest prime factor of 3^12 + 3^9 + 3^5 + 1?",
+    "subject": "N",
+    "choice1": "41",
+    "choice2": "37",
+    "choice3": "61",
+    "choice4": "101",
+    "choice5": "31",
+    "correct": "A"
+  },
+  {
+    "problem_number": 11,
+    "statement": "A four-digit integer is 'friendly' if its digits are four consecutive digits in any order, and 'shy' if it has two adjacent digits that differ by 1; how many four-digit integers are both friendly and shy?",
+    "subject": "C",
+    "choice1": "120",
+    "choice2": "148",
+    "choice3": "136",
+    "choice4": "152",
+    "choice5": "164",
+    "correct": "B"
+  },
+  {
+    "problem_number": 13,
+    "statement": "If f and g are quadratic polynomials with real coefficients and the equation f(g(x)) = 0 has four distinct real solutions 112, 131, 146, and a, what is the sum of all possible values of a?",
+    "subject": "A",
+    "choice1": "389",
+    "choice2": "380",
+    "choice3": "400",
+    "choice4": "372",
+    "choice5": "397",
+    "correct": "A"
+  },
+  {
+    "problem_number": 14,
+    "statement": "In trapezoid ABCD with AB ∥ CD, point X is on BC such that ∠BAX = ∠XDC. Given AB = 5, BX = 3, CX = 4, and CD = 12, what is AX?",
+    "subject": "G",
+    "choice1": "2√6",
+    "choice2": "3√6",
+    "choice3": "4√6",
+    "choice4": "5√6",
+    "choice5": "√6",
+    "correct": "B"
+  },
+  {
+    "problem_number": 15,
+    "statement": "Compute the sum of the three smallest positive integers n for which (1+2+...+2024n)/(1+2+...+4n) is an integer; what is that sum?",
+    "subject": "N",
+    "choice1": "89",
+    "choice2": "90",
+    "choice3": "92",
+    "choice4": "86",
+    "choice5": "94",
+    "correct": "A"
+  },
+  {
+    "problem_number": 16,
+    "statement": "Evaluate the expression (2 + 3 + · · · + 100)/(1 + ...) + (3 + 4 + · · · + 100)/(1 + 2 + ... + 100) + (1 + 2 + · · · + 99)/(1 + 2 + · · · + 100); what is the value?",
+    "subject": "A",
+    "choice1": "9800",
+    "choice2": "9900",
+    "choice3": "10000",
+    "choice4": "9950",
+    "choice5": "9850",
+    "correct": "B"
+  },
+  {
+    "problem_number": 17,
+    "statement": "How many ways are there to shade some subset of the 16 cells in a 4×4 grid so that each of the 25 grid vertices is a corner of at least one shaded cell?",
+    "subject": "C",
+    "choice1": "1024",
+    "choice2": "1215",
+    "choice3": "1092",
+    "choice4": "1365",
+    "choice5": "1156",
+    "correct": "B"
+  },
+  {
+    "problem_number": 18,
+    "statement": "Let ABCD be a rectangle with AB = 32 and AD = 60. Rotate ABCD counterclockwise about A by 60° to get rectangle AB'C'D'. If lines BB' and DD' meet at X, what is CX?",
+    "subject": "G",
+    "choice1": "34",
+    "choice2": "36",
+    "choice3": "30",
+    "choice4": "32",
+    "choice5": "38",
+    "correct": "A"
+  },
+  {
+    "problem_number": 19,
+    "statement": "An equilateral triangle is inscribed in a circle. A chord of the circle is cut by the triangle's perimeter into three segments of lengths 55, 121, and 55 (in that order); what is the sum of all possible side lengths of the triangle?",
+    "subject": "G",
+    "choice1": "410",
+    "choice2": "420",
+    "choice3": "390",
+    "choice4": "400",
+    "choice5": "430",
+    "correct": "A"
+  },
+  {
+    "problem_number": 20,
+    "statement": "There is a unique line tangent to the curve y = x^4 − 20x^3 + 24x^2 − 20x + 25 at two distinct points; what is the product of the x-coordinates of those tangency points?",
+    "subject": "A",
+    "choice1": "-38",
+    "choice2": "38",
+    "choice3": "-19",
+    "choice4": "19",
+    "choice5": "0",
+    "correct": "A"
+  },
+  {
+    "problem_number": 21,
+    "statement": "Two points are chosen independently and uniformly at random from the interior of the X-pentomino. What is the probability that the segment joining them lies entirely within the pentomino?",
+    "subject": "C",
+    "choice1": "21/25",
+    "choice2": "5/6",
+    "choice3": "3/4",
+    "choice4": "7/10",
+    "choice5": "4/5",
+    "correct": "A"
+  },
+  {
+    "problem_number": 22,
+    "statement": "Suppose positive integers a and b satisfy gcd(a^3 − b^3, (a − b)^3) is squarefree (no perfect square divisors >1). For 1 ≤ a−b ≤ 50, how many possible values of a−b occur?",
+    "subject": "N",
+    "choice1": "23",
+    "choice2": "22",
+    "choice3": "21",
+    "choice4": "24",
+    "choice5": "20",
+    "correct": "A"
+  },
+  {
+    "problem_number": 23,
+    "statement": "A quarter-circle of radius 2 has center O and arc AB. A semicircle with diameter OA lies inside the quarter circle. Points P on the semicircle and Q on segment OB vary such that line PQ is tangent to the semicircle; what is the maximum possible area of triangle BQP?",
+    "subject": "G",
+    "choice1": "1/2",
+    "choice2": "1",
+    "choice3": "3/4",
+    "choice4": "2/3",
+    "choice5": "2/5",
+    "correct": "A"
+  },
+  {
+    "problem_number": 24,
+    "statement": "Let f(x) = x^2 + 6x + 6. What is the greatest real x such that f(f(f(f(f(f(x)))))) = 0?",
+    "subject": "A",
+    "choice1": "3^(1/64) - 3",
+    "choice2": "3^(1/32) - 3",
+    "choice3": "3^(1/128) - 3",
+    "choice4": "3^(1/16) - 3",
+    "choice5": "3^(1/8) - 3",
+    "correct": "A"
+  },
+  {
+    "problem_number": 25,
+    "statement": "Let ABC be equilateral and place a regular hexagon PXQYRZ of side length 2 so that P,Q,R lie on BC,CA,AB respectively and A, X, Y are collinear; what is BC?",
+    "subject": "G",
+    "choice1": "2√6 + 3√2",
+    "choice2": "√6 + 3√2",
+    "choice3": "3√6 + √2",
+    "choice4": "2√3 + 4√2",
+    "choice5": "√6 + 2√2",
+    "correct": "B"
   }
 ]
