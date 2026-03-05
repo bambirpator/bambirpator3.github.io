@@ -1025,7 +1025,7 @@
 },
 {
 "problem_number": 5,
-"statement": "Lakshay chooses two numbers, $m$ and $n$ , and draws two lines, $y = mx + 3$ and $y = nx + 23$ . Given that the two lines intersect at $(20, 23)$ , compute $m + n$ .",
+"statement": "Lakshay chooses two numbers, $m$ and $n$, and draws two lines, $y = mx + 3$ and $y = nx + 23$ . Given that the two lines intersect at $(20, 23)$ , compute $m + n$ .",
 "subject": "A",
 "choice1": "$0$",
 "choice2": "$1$",
@@ -1047,7 +1047,7 @@
 },
 {
 "problem_number": 7,
-"statement": "Recall that an arithmetic sequence is a sequence of numbers such that the difference between any two consecutive terms is the same. Suppose x1, x2, x3 forms an arithmetic sequence. If x2 = 2023, compute x1 + x2 + x3.",
+"statement": "Recall that an arithmetic sequence is a sequence of numbers such that the difference between any two consecutive terms is the same. Suppose $x_1, x_2, x_3$ forms an arithmetic sequence. If $x_2 = 2023$, compute $x_1 + x_2 + x_3$.",
 "subject": "A",
 "choice1": "$2023$",
 "choice2": "$4046$",
