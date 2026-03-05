@@ -683,7 +683,7 @@
   },
   {
     "problem_number": 21,
-    "statement": "An integer $n$ is chosen uniformly at random from the set $\\{1,2,3,\\ldots,2023!\\}$. Compute the probability that $\\gcd\\bigl(n^{n+50},n+1\\bigr)=1$.",
+    "statement": "An integer $n$ is chosen uniformly at random from the set $\\{1,2,3,\\ldots,2023!\\}$. Compute the probability that $\\gcd\\bigl(n^{n}+50,n+1\\bigr)=1$.",
     "subject": "N",
     "choice1": "$\\tfrac{265}{356}$",
     "choice2": "$\\tfrac{265}{357}$",
@@ -2006,7 +2006,7 @@
   {
     "set": 2,
     "problem_number": 24,
-    "statement": "Define the sequence $x_0=5$ and $$x_{n+1}=\\frac{x_n^2+5x_n+4}{x_n+6}$$ for all $n\\ge0$. Let $m$ be the least positive integer such that $x_m\\le 4 + \\frac{1}{220}$. In which interval does $m$ lie?",
+    "statement": "Define the sequence $x_0=5$ and $$x_{n+1}=\\frac{x_n^2+5x_n+4}{x_n+6}$$ for all $n\\ge0$. Let $m$ be the least positive integer such that $x_m\\le 4 + \\frac{1}{2^{20}}$. In which interval does $m$ lie?",
     "choice1": "$[9,26]$",
     "choice2": "$[27,80]$",
     "choice3": "$[81,242]$",
@@ -2016,7 +2016,7 @@
   },
   {
     "set": 2,
-    "problem_number": 25,
+    "problem_number": 22,
     "statement": "How many sequences of 0s and 1s of length 19 begin with 0, end with 0, contain no two consecutive 0s, and contain no three consecutive 1s?",
     "choice1": "$55$",
     "choice2": "$60$",
