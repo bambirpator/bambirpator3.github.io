@@ -1388,13 +1388,13 @@
 },
 {
 "problem_number": 19,
-"statement": "Consider an $n$-digit number $d_1 d_2 d_3 \\ldots d_n$ such that:\n- there are no leading zeroes,\n- the number formed from the first $k$ digits $d_1 \\ldots d_k$ is divisible by $k$ (for all $1 \\leq k \\leq n$),\n- all of the digits are either 0, 2, or 4.\nIf the number ends in the digits 2024, what's the minimum value the number can be?",
+"statement": "Consider an $n$-digit number $d_1 d_2 d_3 \\ldots d_n$ such that:\n- there are no leading zeroes,\n- the number formed from the first $k$ digits $d_1 \\ldots d_k$ is divisible by $k$ (for all $1 \\leq k \\leq n$),\n- all of the digits are either 0, 2, or 4.\nIf the number ends in the digits 2024, what is the sum of the digits of the minimum value of this number?",
 "subject": "N",
-"choice1": "$240402402034$",
-"choice2": "$240402402014$",
-"choice3": "$240402402024$",
-"choice4": "$240402402124$",
-"choice5": "$240402402224$",
+"choice1": "$20$",
+"choice2": "$22$",
+"choice3": "$24$",
+"choice4": "$26$",
+"choice5": "$28$",
 "correct": "C"
 },
 {
