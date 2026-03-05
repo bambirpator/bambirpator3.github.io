@@ -1477,7 +1477,7 @@
   {
     "set": 1,
     "problem_number": 1,
-    "statement": "What is the value of $2\\bigl(0(1 9)\\bigr)+\\bigl((20)1\\bigr)9$?",
+    "statement": "What is the value of $2^{(0^{(1^9))}+((2^0)^1)^9$?",
     "choice1": "$0$",
     "choice2": "$1$",
     "choice3": "$2$",
@@ -1532,7 +1532,7 @@
   {
     "set": 1,
     "problem_number": 6,
-    "statement": "For how many of the following types of quadrilaterals does there exist a point in the plane of the quadrilateral that is equidistant from all four vertices of the quadrilateral?\n\n- a square\n- a rectangle that is not a square\n- a rhombus that is not a square\n- a parallelogram that is not a rectangle or a rhombus\n- an isosceles trapezoid that is not a parallelogram",
+    "statement": "For how many of the following types of quadrilaterals does there exist a point in the plane of the quadrilateral that is equidistant from all four vertices of the quadrilateral?\n- a square\n- a rectangle that is not a square\n- a rhombus that is not a square\n- a parallelogram that is not a rectangle or a rhombus\n- an isosceles trapezoid that is not a parallelogram",
     "choice1": "$1$",
     "choice2": "$2$",
     "choice3": "$3$",
