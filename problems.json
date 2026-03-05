@@ -781,7 +781,7 @@
   },
   {
     "problem_number": 24,
-    "statement": "Compute sum of the digits of the positive integer $k$ such that $49$ divides $\\binom{2k}{k}$.",
+    "statement": "Compute the sum of the digits of the positive integer $k$ such that $49$ divides $\\binom{2k}{k}$.",
     "subject": "N",
     "choice1": "$6$",
     "choice2": "$8$",
