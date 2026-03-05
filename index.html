@@ -476,35 +476,39 @@
         // Fix labels and normalize problem data
         fixLabels();
         normalizeDataProblem();
-
-    const submitBtn = document.createElement('button');
-    submitBtn.id = 'submitBtn';
-    submitBtn.textContent = 'Submit Answers';
-    submitBtn.style.display = 'block';
-    submitBtn.style.width = '90%';
-    submitBtn.style.margin = '24px auto';
-    submitBtn.disabled = false;
-
-    document.getElementById('problemsSection').appendChild(submitBtn);
-
-    submitBtn.addEventListener('click', () => {
-        document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
-        submitBtn.disabled = true;
-
-          const {resultsSection} = createResults();
-
-          // hide interactive problems and show results
-          problemsSection.style.display = 'none';
-          document.body.insertBefore(resultsSection, document.body.firstChild);
-
-          // typeset math in results
-          if (window.MathJax) MathJax.typesetPromise().catch(e => console.log(e));
-
-          // scroll to top to show score
-          window.scrollTo({top: 0, behavior: 'smooth'});
-        });
       } catch (err) {
         console.error('Failed to load problems:', err);
+      } finally {
+        // Always create and append submit button, even if there were errors
+        let submitBtn = document.getElementById('submitBtn');
+        if (!submitBtn) {
+          submitBtn = document.createElement('button');
+          submitBtn.id = 'submitBtn';
+          submitBtn.textContent = 'Submit Answers';
+          submitBtn.style.display = 'block';
+          submitBtn.style.width = '90%';
+          submitBtn.style.margin = '24px auto';
+          submitBtn.disabled = false;
+
+          document.getElementById('problemsSection').appendChild(submitBtn);
+
+          submitBtn.addEventListener('click', () => {
+              document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
+              submitBtn.disabled = true;
+
+                const {resultsSection} = createResults();
+
+                // hide interactive problems and show results
+                problemsSection.style.display = 'none';
+                document.body.insertBefore(resultsSection, document.body.firstChild);
+
+                // typeset math in results
+                if (window.MathJax) MathJax.typesetPromise().catch(e => console.log(e));
+
+                // scroll to top to show score
+                window.scrollTo({top: 0, behavior: 'smooth'});
+              });
+        }
       }
     }
 
