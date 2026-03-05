@@ -12,7 +12,7 @@
   },
   {
     "problem_number": 2,
-    "statement": "Mike cycled 15 laps in 57 minutes. Assume he cycled at a constant speed throughout. Approximately how many laps did he complete in the first 27 minutes?",
+    "statement": "Mike cycled $15$ laps in $57$ minutes. Assume he cycled at a constant speed throughout. Approximately how many laps did he complete in the first $27$ minutes?",
     "subject": "A",
     "choice1": "$5$",
     "choice2": "$7$",
@@ -23,7 +23,7 @@
   },
   {
     "problem_number": 3,
-    "statement": "The sum of three numbers is 96. The first number is 6 times the third number, and the third number is 40 less than the second number. What is the absolute value of the difference between the first and second numbers?",
+    "statement": "The sum of three numbers is $96.$ The first number is $6$ times the third number, and the third number is $40$ less than the second number. What is the absolute value of the difference between the first and second numbers?",
     "subject": "A",
     "choice1": "$1$",
     "choice2": "$2$",
@@ -34,7 +34,7 @@
   },
   {
     "problem_number": 4,
-    "statement": "In some countries, automobile fuel efficiency is measured in liters per 100 kilometers while other countries use miles per gallon. Suppose that $1$ kilometer equals $m$ miles, and $1$ gallon equals $\\ell$ liters. Which of the following gives the fuel efficiency in liters per 100 kilometers for a car that gets $x$ miles per gallon?",
+    "statement": "In some countries, automobile fuel efficiency is measured in liters per $100$ kilometers while other countries use miles per gallon. Suppose that $1$ kilometer equals $m$ miles, and $1$ gallon equals $\\ell$ liters. Which of the following gives the fuel efficiency in liters per $100$ kilometers for a car that gets $x$ miles per gallon?",
     "subject": "A",
     "choice1": "$\\dfrac{x}{100\\ell m}$",
     "choice2": "$\\dfrac{x\\ell m}{100}$",
@@ -78,7 +78,7 @@
   },
   {
     "problem_number": 8,
-    "statement": "A data set consists of 6 (not distinct) positive integers: $1,7,5,2,5,$ and $X$. The average (arithmetic mean) of the 6 numbers equals a value in the data set. What is the sum of all positive values of $X$?",
+    "statement": "A data set consists of $6$ (not distinct) positive integers: $1,7,5,2,5,$ and $X$. The average (arithmetic mean) of the $6$ numbers equals a value in the data set. What is the sum of all positive values of $X$?",
     "subject": "A",
     "choice1": "$10$",
     "choice2": "$26$",
@@ -89,7 +89,7 @@
   },
   {
     "problem_number": 9,
-    "statement": "A rectangle is partitioned into 5 regions as shown. Each region is to be painted a solid color—red, orange, yellow, blue, or green—so that regions that touch are painted different colors, and colors can be used more than once. How many different colorings are possible?",
+    "statement": "A rectangle is partitioned into $5$ regions as shown. Each region is to be painted a solid color\u2014red, orange, yellow, blue, or green\u2014so that regions that touch are painted different colors, and colors can be used more than once. How many different colorings are possible?",
     "subject": "C",
     "choice1": "$120$",
     "choice2": "$270$",
@@ -122,7 +122,7 @@
   },
   {
     "problem_number": 12,
-    "statement": "On Halloween 31 children walked into the principal's office asking for candy. They can be classified into three types: some always lie; some always tell the truth; and some alternately lie and tell the truth. The alternaters arbitrarily choose their first response, either a lie or the truth, but each subsequent statement has the opposite truth value from its predecessor. The principal asked everyone the same three questions in this order. <em>\\\"Are you a truth-teller?\\\"</em> The principal gave a piece of candy to each of the 22 children who answered yes. <em>\\\"Are you an alternater?\\\"</em> The principal gave a piece of candy to each of the 15 children who answered yes. <em>\\\"Are you a liar?\\\"</em> The principal gave a piece of candy to each of the 9 children who answered yes. How many pieces of candy in all did the principal give to the children who always tell the truth?",
+    "statement": "On Halloween $31$ children walked into the principal's office asking for candy. They can be classified into three types: some always lie; some always tell the truth; and some alternately lie and tell the truth. The alternaters arbitrarily choose their first response, either a lie or the truth, but each subsequent statement has the opposite truth value from its predecessor. The principal asked everyone the same three questions in this order. <em>\\\"Are you a truth-teller?\\\"</em> The principal gave a piece of candy to each of the $22$ children who answered yes. <em>\\\"Are you an alternater?\\\"</em> The principal gave a piece of candy to each of the $15$ children who answered yes. <em>\\\"Are you a liar?\\\"</em> The principal gave a piece of candy to each of the $9$ children who answered yes. How many pieces of candy in all did the principal give to the children who always tell the truth?",
     "subject": "N",
     "choice1": "$7$",
     "choice2": "$12$",
@@ -232,7 +232,7 @@
   },
   {
     "problem_number": 22,
-    "statement": "Suppose that 13 cards numbered $1,2,\\dots,13$ are arranged in a row. The task is to pick them up in numerically increasing order, working repeatedly from left to right. For how many of the $13!$ possible orderings of the cards will the 13 cards be picked up in exactly two passes?",
+    "statement": "Suppose that $13$ cards numbered $1,2,\\dots,13$ are arranged in a row. The task is to pick them up in numerically increasing order, working repeatedly from left to right. For how many of the $13!$ possible orderings of the cards will the $13$ cards be picked up in exactly two passes?",
     "subject": "C",
     "choice1": "$4082$",
     "choice2": "$4095$",
@@ -529,7 +529,7 @@
   },
   {
     "problem_number": 8,
-    "statement": "Compute the number of dates in the year 2023 such that when put in $\\mathrm{MM/DD/YY}$ form, the three numbers are in strictly increasing order. For example, $06/18/23$ is such a date since $6<18<23$, while $11/11/23$ is not. How many such dates are there?",
+    "statement": "Compute the number of dates in the year $2023$ such that when put in $\\mathrm{MM/DD/YY}$ form, the three numbers are in strictly increasing order. For example, $06/18/23$ is such a date since $6<18<23$, while $11/11/23$ is not. How many such dates are there?",
     "subject": "C",
     "choice1": "$171$",
     "choice2": "$195$",
@@ -694,7 +694,7 @@
   },
   {
     "problem_number": 22,
-    "statement": "There is a $6\\times6$ grid of lights. There is a switch at the top of each column and on the left of each row. A light will only turn on if the switches corresponding to both its column and its row are in the “on” position. Compute the number of different configurations of lights.",
+    "statement": "There is a $6\\times6$ grid of lights. There is a switch at the top of each column and on the left of each row. A light will only turn on if the switches corresponding to both its column and its row are in the \u201con\u201d position. Compute the number of different configurations of lights.",
     "subject": "C",
     "choice1": "$3870$",
     "choice2": "$4096$",
@@ -738,7 +738,7 @@
   },
   {
     "problem_number": 24,
-    "statement": "Compute the remainder when the smallest multiple of $63$ with an odd number of ones in its base two representation is divided by 5.",
+    "statement": "Compute the remainder when the smallest multiple of $63$ with an odd number of ones in its base two representation is divided by $5.$",
     "subject": "N",
     "choice1": "$0$",
     "choice2": "$1$",
@@ -749,7 +749,7 @@
   },
   {
     "problem_number": 7,
-    "statement": "The English alphabet, which has 26 letters, is randomly permuted. Let $p_1$ be the probability that $AB$, $CD$, and $EF$ all appear as contiguous substrings. Let $p_2$ be the probability that $ABC$ and $DEF$ both appear as contiguous substrings. Compute $\\dfrac{p_1}{p_2}.$",
+    "statement": "The English alphabet, which has $26$ letters, is randomly permuted. Let $p_1$ be the probability that $AB$, $CD$, and $EF$ all appear as contiguous substrings. Let $p_2$ be the probability that $ABC$ and $DEF$ both appear as contiguous substrings. Compute $\\dfrac{p_1}{p_2}.$",
     "subject": "C",
     "choice1": "$33$",
     "choice2": "$25$",
@@ -793,7 +793,7 @@
   },
   {
     "problem_number": 13,
-    "statement": "Let $ABCDEF$ be a regular hexagon and let point $O$ be the center. How many ways can you color these seven points either red or blue such that there doesn’t exist any equilateral triangle with vertices of all the same color?",
+    "statement": "Let $ABCDEF$ be a regular hexagon and let point $O$ be the center. How many ways can you color these seven points either red or blue such that there doesn\u2019t exist any equilateral triangle with vertices of all the same color?",
     "subject": "C",
     "choice1": "$7$",
     "choice2": "$16$",
@@ -846,7 +846,6 @@
     "choice5": "$\\tfrac{1}{2}$",
     "correct": "B"
   },
-
   {
     "problem_number": 11,
     "statement": "Isosceles trapezoid $ABCD$ with bases $AB$ and $CD$ has a point $P$ on $AB$ with $AP=11$, $BP=27$, $CD=34$, and $\\angle CPD=90^\\circ$. Compute the height of the trapezoid.",
@@ -860,7 +859,7 @@
   },
   {
     "problem_number": 12,
-    "statement": "Candice starts driving home at 5:00 PM. Starting at exactly 5:01 PM, and every minute after that, she encounters a new speed limit sign and slows down by $1$ mph. Her speed in mph is always a positive integer. Candice drives a total of $\\tfrac{2}{3}$ miles and for a whole number of minutes, arriving slower than when she left. What time is it when she gets home?",
+    "statement": "Candice starts driving home at $5$:$00$ PM. Starting at exactly $5$:$01$ PM, and every minute after that, she encounters a new speed limit sign and slows down by $1$ mph. Her speed in mph is always a positive integer. Candice drives a total of $\\tfrac{2}{3}$ miles and for a whole number of minutes, arriving slower than when she left. What time is it when she gets home?",
     "subject": "A",
     "choice1": "$5:06\\ \\text{PM}$",
     "choice2": "$5:07\\ \\text{PM}$",
@@ -979,501 +978,501 @@
     "choice5": "$10$",
     "correct": "C"
   },
-{
-"problem_number": 1,
-"statement": "Arjun eats twice as many chocolates as Theo, and Wen eats twice as many chocolates as Arjun. If Arjun eats 6 chocolates, compute the total number of chocolates that Arjun, Theo, and Wen eat.",
-"subject": "A",
-"choice1": "$18$",
-"choice2": "$21$",
-"choice3": "$24$",
-"choice4": "$12$",
-"choice5": "$15$",
-"correct": "B"
-},
-{
-"problem_number": 2,
-"statement": "Compute $1\\times 4 - 2\\times 3 + 2\\times 5 - 3\\times 4 + 3\\times 6 - 4\\times 5 + 4\\times 7 - 5\\times 6 + 5\\times 8 - 6\\times 7.$",
-"subject": "A",
-"choice1": "$-10$",
-"choice2": "$10$",
-"choice3": "$0$",
-"choice4": "$-5$",
-"choice5": "$5$",
-"correct": "A"
-},
-{
-"problem_number": 3,
-"statement": "A semicircle of radius 2 is inscribed inside of a rectangle, as shown in the diagram below. The diameter of the semicircle coincides with the bottom side of the rectangle, and the semicircle is tangent to the rectangle at all points of intersection. Compute the length of the diagonal of the rectangle.",
-"subject": "G",
-"choice1": "$2\\sqrt{5}$",
-"choice2": "$4\\sqrt{2}$",
-"choice3": "$2\\sqrt{3}$",
-"choice4": "$4$",
-"choice5": "$2\\sqrt{6}$",
-"correct": "A"
-},
-{
-"problem_number": 4,
-"statement": "Suppose $a,b,$ and $c$ are numbers satisfying the three equations $a+2b=20$, $b+2c=2$, $c+2a=3$. What is $9a+9b+9c$?",
-"subject": "A",
-"choice1": "$25$",
-"choice2": "$50$",
-"choice3": "$75$",
-"choice4": "$100$",
-"choice5": "$125$",
-"correct": "C"
-},
-{
-"problem_number": 5,
-"statement": "Lakshay chooses two numbers, $m$ and $n$, and draws two lines, $y = mx + 3$ and $y = nx + 23$ . Given that the two lines intersect at $(20, 23)$ , compute $m + n$ .",
-"subject": "A",
-"choice1": "$0$",
-"choice2": "$1$",
-"choice3": "$2$",
-"choice4": "$3$",
-"choice5": "$4$",
-"correct": "B"
-},
-{
-"problem_number": 6,
-"statement": "Compute the three-digit number that satisfies the following properties:\n• The hundreds digit and ones digit are the same, but the tens digit is different.\n• The number is divisible by 9.\n• When the number is divided by 5, the remainder is 1.",
-"subject": "N",
-"choice1": "$171$",
-"choice2": "$666$",
-"choice3": "$441$",
-"choice4": "$225$",
-"choice5": "$351$",
-"correct": "A"
-},
-{
-"problem_number": 7,
-"statement": "Recall that an arithmetic sequence is a sequence of numbers such that the difference between any two consecutive terms is the same. Suppose $x_1, x_2, x_3$ forms an arithmetic sequence. If $x_2 = 2023$, compute $x_1 + x_2 + x_3$.",
-"subject": "A",
-"choice1": "$2023$",
-"choice2": "$4046$",
-"choice3": "$6069$",
-"choice4": "$8092$",
-"choice5": "$10115$",
-"correct": "C"
-},
-{
-"problem_number": 9,
-"statement": "The boxes in the expression below are filled with the numbers 3, 4, 5, 6, 7, and 8, so that each number is used exactly once. What is the least possible value of the expression? $\\_ \\times \\_ + \\_ \\times \\_ - \\_ \\times \\_$",
-"subject": "A",
-"choice1": "$-18$",
-"choice2": "$-20$",
-"choice3": "$-16$",
-"choice4": "$-14$",
-"choice5": "$-22$",
-"correct": "A"
-},
-{
-"problem_number": 10,
-"statement": "Consider an equilateral triangle with side length 9. Each side is divided into 3 equal segments by 2 points, for a total of 6 points. Compute the area of the circle passing through these 6 points.",
-"subject": "G",
-"choice1": "$9\\pi$",
-"choice2": "$12\\pi$",
-"choice3": "$6\\pi$",
-"choice4": "$18\\pi$",
-"choice5": "$27\\pi$",
-"correct": "A"
-},
-{
-"problem_number": 11,
-"statement": "Consider two geometric sequences 16, $a_{1},a_{2},\\ldots$ and 56, $b_{1},b_{2},\\ldots$ with the same common nonzero ratio. Given that $a_{2023} = b_{2020}$ , compute $b_{6} - a_{6}$",
-"subject": "A",
-"choice1": "$490$",
-"choice2": "$392$",
-"choice3": "$588$",
-"choice4": "$686$",
-"choice5": "$196$",
-"correct": "A"
-},
-{
-"problem_number": 13,
-"statement": "Three people, Pranav, Sumith, and Jacklyn, are attending a fair. Every time a person enters or exits, the groundskeeper writes their name down in chronological order. If each person enters and exits the fairgrounds exactly once, in how many ways can the groundskeeper write down their names?",
-"subject": "C",
-"choice1": "$60$",
-"choice2": "$72$",
-"choice3": "$90$",
-"choice4": "$108$",
-"choice5": "$120$",
-"correct": "C"
-},
-{
-"problem_number": 14,
-"statement": "For real numbers $x$ and $y$ , suppose that $|x| - |y| = 20$ and $|x| + |y| = 23$ . Compute the sum of all possible distinct values of $|x - y|$ .",
-"subject": "A",
-"choice1": "$20$",
-"choice2": "$23$",
-"choice3": "$43$",
-"choice4": "$46$",
-"choice5": "$3$",
-"correct": "C"
-},
-{
-"problem_number": 15,
-"statement": "Find the number of positive integers $n$ less than 10000 such that there are more 4's in the digits of $n + 1$ than in the digits of $n$ .",
-"subject": "N",
-"choice1": "$1000$",
-"choice2": "$1111$",
-"choice3": "$1234$",
-"choice4": "$999$",
-"choice5": "$1100$",
-"correct": "B"
-},
-{
-"problem_number": 17,
-"statement": "Jingyuan is designing a bucket hat for BMT merchandise. The hat has the shape of a cylinder on top of a truncated cone, as shown in the diagram below. The cylinder has radius 9 and height 12. The truncated cone has base radius 15 and height 4, and its top radius is the same as the cylinder's radius. Compute the total volume of this bucket hat.",
-"subject": "G",
-"choice1": "$1560\\pi$",
-"choice2": "$1500\\pi$",
-"choice3": "$1620\\pi$",
-"choice4": "$1440\\pi$",
-"choice5": "$1680\\pi$",
-"correct": "A"
-},
-{
-"problem_number": 18,
-"statement": "Kait rolls a fair 6-sided die until she rolls a 6. If she rolls a 6 on the $N$ th roll, she then rolls the die $N$ more times. What is the probability that she rolls a 6 during these next $N$ times?",
-"subject": "C",
-"choice1": "$\\frac{5}{11}$",
-"choice2": "$\\frac{6}{11}$",
-"choice3": "$\\frac{1}{2}$",
-"choice4": "$\\frac{7}{11}$",
-"choice5": "$\\frac{4}{11}$",
-"correct": "B"
-},
-{
-"problem_number": 19,
-"statement": "Let $\\omega$ be a circle with center $O$ and radius $8$, and let $A$ be a point such that $AO = 17$. Let $P$ and $Q$ be points on $\\omega$ such that line segments $AP$ and $AQ$ are tangent to $\\omega$. Let $B$ and $C$ be points chosen on $AP$ and $AQ$, respectively, such that $BC$ is also tangent to $\\omega$. Compute the perimeter of triangle $\\triangle ABC$.",
-"subject": "G",
-"choice1": "$25$",
-"choice2": "$34$",
-"choice3": "$40$",
-"choice4": "$30$",
-"choice5": "$32$",
-"correct": "D"
-},
-{
-"problem_number": 21,
-"statement": "Let $p,q$ , and $r$ be the three roots of the polynomial $x^{3} - 2x^{2} + 3x - 2023$ . Suppose that the polynomial $x^{3} + Bx^{2} + Mx + T$ has roots $p + q$ , $p + r$ , and $q + r$ for real numbers $B$ , $M$ , and $T$ . Compute $B - M + T$ .",
-"subject": "A",
-"choice1": "$2023$",
-"choice2": "$2017$",
-"choice3": "$2006$",
-"choice4": "$1999$",
-"choice5": "$2000$",
-"correct": "C"
-},
-{
-"problem_number": 24,
-"statement": "Let $a_n$ be a sequence such that $a_0=0$, $a_1=1$, and $a_n=a_{n-1}+xa_n$ for all $n \\ge 0$. Given that $\\sum_{i=0}^{\\infty}{\\frac{a_i}{10^i}}=1$, find $x$.",
-"subject": "A",
-"choice1": "$100$",
-"choice2": "$90$",
-"choice3": "$80$",
-"choice4": "$70$",
-"choice5": "$60$",
-"correct": "C"
-},
-{
-"problem_number": 25,
-"statement": "A tetrahedron has three edges of length 2 and three edges of length 4, and one of its faces is an equilateral triangle. Compute the radius of the sphere that is tangent to every edge of this tetrahedron.",
-"subject": "G",
-"choice1": "$\\frac{3\\sqrt{11}}{11}$",
-"choice2": "$\\frac{\\sqrt{11}}{3}$",
-"choice3": "$\\frac{10}{11}$",
-"choice4": "$\\frac{2\\sqrt{11}}{11}$",
-"choice5": "$\\frac{5\\sqrt{11}}{11}$",
-"correct": "A"
-},
-{
-"problem_number": 1,
-"statement": "Compute $2 + 0 + 2 + 4 + 2\\times 0 + 2\\times 2 + 2\\times 4 + 0\\times 2 + 0\\times 4 + 2\\times 4$.",
-"subject": "A",
-"choice1": "$26$",
-"choice2": "$28$",
-"choice3": "$30$",
-"choice4": "$24$",
-"choice5": "$32$",
-"correct": "B"
-},
-{
-"problem_number": 2,
-"statement": "When the odd positive two-digit number 11 is added to 46, the result is 57, whose sum of digits is 12. What odd positive two-digit number can be added to 46 so the result is a number whose digits sum to 17?",
-"subject": "N",
-"choice1": "$52$",
-"choice2": "$41$",
-"choice3": "$42$",
-"choice4": "$43$",
-"choice5": "$53$",
-"correct": "D"
-},
-{
-"problem_number": 3,
-"statement": "At a certain point in time, Nikhil had 3 more apples than Brian. Theo then gave Nikhil 9 apples and took away 3 apples from Brian. Now, Nikhil has twice as many apples as Brian. Compute the number of apples that Nikhil and Brian now have in total.",
-"subject": "A",
-"choice1": "$45$",
-"choice2": "$48$",
-"choice3": "$33$",
-"choice4": "$36$",
-"choice5": "$42$",
-"correct": "A"
-},
-{
-"problem_number": 4,
-"statement": "Jessica cuts a pie into perfect sixths. If the pie's radius is 2, what is the perimeter of one slice of the pie?",
-"subject": "G",
-"choice1": "$4 + \\frac{\\pi}{3}$",
-"choice2": "$2\\pi$",
-"choice3": "$4 + \\frac{2\\pi}{3}$",
-"choice4": "$4 + 2\\pi$",
-"choice5": "$2 + \\frac{2\\pi}{3}$",
-"correct": "C"
-},
-{
-"problem_number": 5,
-"statement": "Find the smallest number among the following numbers: $\\frac{7}{13},\\frac{10}{19},\\frac{5}{9},\\frac{3}{5},\\frac{2023}{4045},\\frac{6}{11},\\frac{2024}{4047},\\frac{4}{7}$.",
-"subject": "A",
-"choice1": "$\\frac{2023}{4045}$",
-"choice2": "$\\frac{7}{13}$",
-"choice3": "$\\frac{10}{19}$",
-"choice4": "$\\frac{5}{9}$",
-"choice5": "$\\frac{2024}{4047}$",
-"correct": "E"
-},
-{
-"problem_number": 6,
-"statement": "Find the third-largest three-digit multiple of three that is a palindrome. (Recall that a palindrome is a number that reads the same forward and backward, such as 444 or 838, but not 227.)",
-"subject": "N",
-"choice1": "$969$",
-"choice2": "$939$",
-"choice3": "$909$",
-"choice4": "$888$",
-"choice5": "$858$",
-"correct": "B"
-},
-{
-"problem_number": 7,
-"statement": "Cafe BMT makes their famous Bacon, Mozzarella, Tomato sandwich with 3 strips of bacon, 1 slice of mozzarella, and 1 tomato slice stacked on top of each other. How many ways can the toppings of a Bacon, Mozzarella, Tomato sandwich be arranged?",
-"subject": "C",
-"choice1": "$120$",
-"choice2": "$60$",
-"choice3": "$10$",
-"choice4": "$20$",
-"choice5": "$30$",
-"correct": "D"
-},
-{
-"problem_number": 8,
-"statement": "On a chalkboard, Benji draws a square with side length 6. He then splits each side into 3 equal segments using 2 points for a total of 12 segments and 8 points. After trying some shapes, Benji finds that by using a circle, he can connect all 8 points together. What is the area of this circle?",
-"subject": "G",
-"choice1": "$10\\pi$",
-"choice2": "$9\\pi$",
-"choice3": "$18\\pi$",
-"choice4": "$16\\pi$",
-"choice5": "$12\\pi$",
-"correct": "A"
-},
-{
-"problem_number": 9,
-"statement": "Find the real number $x$ satisfying $\\frac{x^{2} - 20}{x^{2} + 20x + 4} = \\frac{x^{2} - 24}{x^{2} + 24x + 4} = \\frac{1}{2}$.",
-"subject": "A",
-"choice1": "$22$",
-"choice2": "$26$",
-"choice3": "$-2$",
-"choice4": "$0$",
-"choice5": "$2$",
-"correct": "C"
-},
-{
-"problem_number": 10,
-"statement": "Suppose $a_{1},a_{2},\\ldots$ is an arithmetic sequence, and suppose $g_{1},g_{2},\\ldots$ is a geometric sequence with common ratio 2. Suppose $a_{1} + g_{1} = 1$ and $a_{2} + g_{2} = 1$. If $a_{24} = g_{7}$, find $a_{2024}$.",
-"subject": "A",
-"choice1": "$-23$",
-"choice2": "$23$",
-"choice3": "$0$",
-"choice4": "$1$",
-"choice5": "$-22$",
-"correct": "E"
-},
-{
-"problem_number": 11,
-"statement": "The 35-step staircase of Sather Tower is being renovated. Each step will be painted a single color such that the stairs repeat color every 5 steps. There are 14 available stair colors, including blue and gold. Each color may only cover up to 10 steps, but both blue and gold must be used. With these restrictions, in how many different ways can the stairs be colored?",
-"subject": "C",
-"choice1": "$4400$",
-"choice2": "$26400$",
-"choice3": "$2640$",
-"choice4": "$34560$",
-"choice5": "$13200$",
-"correct": "B"
-},
-{
-"problem_number": 12,
-"statement": "Find the greatest integer less than $\\frac{2}{1} -\\frac{2}{2} +\\frac{2}{3} -\\frac{2}{4} +\\frac{2}{5} -\\frac{2}{6} +\\dots -\\frac{2}{2024}$.",
-"subject": "A",
-"choice1": "$0$",
-"choice2": "$2$",
-"choice3": "$3$",
-"choice4": "$1$",
-"choice5": "$4$",
-"correct": "D"
-},
-{
-"problem_number": 13,
-"statement": "Find the number of positive integers, $n$, such that $\\frac{20 + n}{24 - n}$ is an integer.",
-"subject": "N",
-"choice1": "$11$",
-"choice2": "$5$",
-"choice3": "$6$",
-"choice4": "$10$",
-"choice5": "$12$",
-"correct": "A"
-},
-{
-"problem_number": 14,
-"statement": "How many terms of the sequence $3^{1} + 1, 3^{2} + 2, 3^{3} + 3, \\ldots , 3^{2024} + 2024$ are divisible by 5?",
-"subject": "N",
-"choice1": "$404$",
-"choice2": "$405$",
-"choice3": "$406$",
-"choice4": "$400$",
-"choice5": "$410$",
-"correct": "C"
-},
-{
-"problem_number": 15,
-"statement": "For a real number $n$, let $\\lfloor n\\rfloor$ be the greatest integer less than or equal to $n$ and let $\\lceil n\\rceil$ be the smallest integer greater than or equal to $n$. For example, $\\lfloor 2.5\\rfloor = 2$ and $\\lceil 2\\rceil = 2$, while $\\lceil 2.5\\rceil = 3$ and $\\lfloor 2\\rfloor = 2$. Find the greatest integer $x$ such that $\\left\\lfloor \\frac{x}{20} +20\\right\\rfloor = \\left\\lceil \\frac{x}{24} +24\\right\\rceil$.",
-"subject": "A",
-"choice1": "$719$",
-"choice2": "$700$",
-"choice3": "$680$",
-"choice4": "$480$",
-"choice5": "$699$",
-"correct": "E"
-},
-{
-"problem_number": 16,
-"statement": "A square with side length 6 has a circle with radius 2 inside of it, with the centers of the square and circle vertically aligned. Aarush is standing 4 units directly above the center of the circle, at point $P$. What is the area of the region inside the square that he can see? (Assume that Aarush can only see parts of the square along straight lines of sight from $P$ that are unblocked by any other objects.)",
-"subject": "G",
-"choice1": "$13\\sqrt{3} - \\frac{2\\pi}{3}$",
-"choice2": "$13\\sqrt{3} - \\frac{4\\pi}{3}$",
-"choice3": "$13\\sqrt{3} - \\pi$",
-"choice4": "$12\\sqrt{3} - \\frac{4\\pi}{3}$",
-"choice5": "$14\\sqrt{3} - \\frac{4\\pi}{3}$",
-"correct": "B"
-},
-{
-"problem_number": 17,
-"statement": "Eight players are seated around a circular table. Each player is assigned to either Team Green or Team Yellow so that each team has at least one player. In how many ways can the players be assigned to the teams such that each player is on the same team as at least one player adjacent to them?",
-"subject": "C",
-"choice1": "$40$",
-"choice2": "$48$",
-"choice3": "$36$",
-"choice4": "$44$",
-"choice5": "$52$",
-"correct": "D"
-},
-{
-"problem_number": 18,
-"statement": "Two circles, $\\omega_1$ and $\\omega_2$, are internally tangent at $A$. Let $B$ be the point on $\\omega_2$ opposite of $A$. The radius of $\\omega_1$ is 4 times the radius of $\\omega_2$. Point $P$ is chosen on the circumference of $\\omega_1$ such that the ratio $\\frac{AP}{BP} = \\frac{2\\sqrt{3}}{\\sqrt{7}}$. Let $O$ denote the center of $\\omega_2$. Determine the ratio $\\frac{OP}{AO}$.",
-"subject": "G",
-"choice1": "$\\sqrt{37}$",
-"choice2": "$\\sqrt{35}$",
-"choice3": "$\\sqrt{38}$",
-"choice4": "$\\sqrt{40}$",
-"choice5": "$6$",
-"correct": "A"
-},
-{
-"problem_number": 19,
-"statement": "Consider an $n$-digit number $d_1 d_2 d_3 \\ldots d_n$ such that:\n- there are no leading zeroes,\n- the number formed from the first $k$ digits $d_1 \\ldots d_k$ is divisible by $k$ (for all $1 \\leq k \\leq n$),\n- all of the digits are either 0, 2, or 4.\nIf the number ends in the digits 2024, what is the sum of the digits of the minimum value of this number?",
-"subject": "N",
-"choice1": "$20$",
-"choice2": "$22$",
-"choice3": "$24$",
-"choice4": "$26$",
-"choice5": "$28$",
-"correct": "C"
-},
-{
-"problem_number": 20,
-"statement": "Let $U$ and $C$ be two circles, and kite $BERK$ have vertices that lie on $U$ and sides that are tangent to $C$. Given that the diagonals of the kite measure 5 and 6, find the ratio of the area of $U$ to the area of $C$.",
-"subject": "G",
-"choice1": "$\\frac{25}{66}$",
-"choice2": "$\\frac{75}{22}$",
-"choice3": "$\\frac{22}{75}$",
-"choice4": "$\\frac{66}{5}$",
-"choice5": "$\\frac{66}{25}$",
-"correct": "E"
-},
-{
-"problem_number": 21,
-"statement": "Clara has a pair of nine-sided fair dice, each of whose faces are labeled 1, 2, 3, ..., 9. Justin also has a pair of nine-sided fair dice, and the faces of his dice have positive integer labels, but one of Justin's dice has the number 13. When Clara and Justin roll their dice, it turns out that for every number $S$, the probability that the sum of the results of Clara's dice is $S$ is equal to the probability that the sum of the results of Justin's dice is $S$. What is the probability that when Justin's dice are rolled, the results of the dice are equal?",
-"subject": "C",
-"choice1": "$\\frac{1}{81}$",
-"choice2": "$\\frac{5}{81}$",
-"choice3": "$\\frac{4}{81}$",
-"choice4": "$\\frac{2}{81}$",
-"choice5": "$\\frac{6}{81}$",
-"correct": "B"
-},
-{
-"problem_number": 22,
-"statement": "There exist nonzero real numbers $B, M$, and $T$ that satisfy the equations:\n$2B + M + T - 2B^{2} - 2BM - 2MT - 2BT = 0$,\n$B + 2M + T - 3M^{2} - 3BM - 3MT - 3BT = 0$,\n$B + M + 2T - 4T^{2} - 4BM - 4MT - 4BT = 0$.\nCompute $2B + 3M + 4T$.",
-"subject": "A",
-"choice1": "$0$",
-"choice2": "$1$",
-"choice3": "$2$",
-"choice4": "$3$",
-"choice5": "$4$",
-"correct": "D"
-},
-{
-"problem_number": 23,
-"statement": "Find the sum of the digits of the greatest multiple of 43 whose base 6 representation is a permutation of the digits 1, 2, 3, 4, and 5. (Express your answer in base 10).",
-"subject": "N",
-"choice1": "$8$",
-"choice2": "$10$",
-"choice3": "$12$",
-"choice4": "$13$",
-"choice5": "$14$",
-"correct": "A"
-},
-{
-"problem_number": 24,
-"statement": "Compute the number of positive integer triples $(B,M,T)$ satisfying $B,M,T< 24$ and\n$BM + MT + BT = (B + M + T)\\sqrt[3]{BMT}$.",
-"subject": "N",
-"choice1": "$66$",
-"choice2": "$23$",
-"choice3": "$89$",
-"choice4": "$69$",
-"choice5": "$86$",
-"correct": "C"
-},
-{
-"problem_number": 25,
-"statement": "For an arbitrary positive integer $n$, we define $f(n)$ to be the number of ordered 5-tuples of positive integers, $(a_{1},a_{2},a_{3},a_{4},a_{5})$, such that $a_{1}a_{2}a_{3}a_{4}a_{5}\\mid n$. Compute the sum of all $n$ for which $f(n) / n$ is maximized.",
-"subject": "N",
-"choice1": "$720$",
-"choice2": "$1440$",
-"choice3": "$1080$",
-"choice4": "$2880$",
-"choice5": "$2160$",
-"correct": "E"
-},
-{
-"problem_number": 4,
-"statement": "Six consecutive positive integers are written on slips of paper. The slips are then handed out to Ethan, Jacob, and Karthik, such that each of them receives two slips. The product of Ethan's numbers is $20,$ and the product of Jacob's numbers is $24.$ Compute the product of Karthik's numbers.$, such that $a_{1}a_{2}a_{3}a_{4}a_{5}\\mid n$. Compute the sum of all $n$ for which $f(n) / n$ is maximized.",
-"subject": "A",
-"choice1": "$36$",
-"choice2": "$40$",
-"choice3": "$42$",
-"choice4": "$48$",
-"choice5": "$54$",
-"correct": "C"
-},
+  {
+    "problem_number": 1,
+    "statement": "Arjun eats twice as many chocolates as Theo, and Wen eats twice as many chocolates as Arjun. If Arjun eats $6$ chocolates, compute the total number of chocolates that Arjun, Theo, and Wen eat.",
+    "subject": "A",
+    "choice1": "$18$",
+    "choice2": "$21$",
+    "choice3": "$24$",
+    "choice4": "$12$",
+    "choice5": "$15$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 2,
+    "statement": "Compute $1\\times 4 - 2\\times 3 + 2\\times 5 - 3\\times 4 + 3\\times 6 - 4\\times 5 + 4\\times 7 - 5\\times 6 + 5\\times 8 - 6\\times 7.$",
+    "subject": "A",
+    "choice1": "$-10$",
+    "choice2": "$10$",
+    "choice3": "$0$",
+    "choice4": "$-5$",
+    "choice5": "$5$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 3,
+    "statement": "A semicircle of radius $2$ is inscribed inside of a rectangle, as shown in the diagram below. The diameter of the semicircle coincides with the bottom side of the rectangle, and the semicircle is tangent to the rectangle at all points of intersection. Compute the length of the diagonal of the rectangle.",
+    "subject": "G",
+    "choice1": "$2\\sqrt{5}$",
+    "choice2": "$4\\sqrt{2}$",
+    "choice3": "$2\\sqrt{3}$",
+    "choice4": "$4$",
+    "choice5": "$2\\sqrt{6}$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 4,
+    "statement": "Suppose $a,b,$ and $c$ are numbers satisfying the three equations $a+2b=20$, $b+2c=2$, $c+2a=3$. What is $9a+9b+9c$?",
+    "subject": "A",
+    "choice1": "$25$",
+    "choice2": "$50$",
+    "choice3": "$75$",
+    "choice4": "$100$",
+    "choice5": "$125$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 5,
+    "statement": "Lakshay chooses two numbers, $m$ and $n$, and draws two lines, $y = mx + 3$ and $y = nx + 23$ . Given that the two lines intersect at $(20, 23)$ , compute $m + n$ .",
+    "subject": "A",
+    "choice1": "$0$",
+    "choice2": "$1$",
+    "choice3": "$2$",
+    "choice4": "$3$",
+    "choice5": "$4$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 6,
+    "statement": "Compute the three-digit number that satisfies the following properties:\n\u2022 The hundreds digit and ones digit are the same, but the tens digit is different.\n\u2022 The number is divisible by $9.$\n\u2022 When the number is divided by $5$, the remainder is $1.$",
+    "subject": "N",
+    "choice1": "$171$",
+    "choice2": "$666$",
+    "choice3": "$441$",
+    "choice4": "$225$",
+    "choice5": "$351$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 7,
+    "statement": "Recall that an arithmetic sequence is a sequence of numbers such that the difference between any two consecutive terms is the same. Suppose $x_1, x_2, x_3$ forms an arithmetic sequence. If $x_2 = 2023$, compute $x_1 + x_2 + x_3$.",
+    "subject": "A",
+    "choice1": "$2023$",
+    "choice2": "$4046$",
+    "choice3": "$6069$",
+    "choice4": "$8092$",
+    "choice5": "$10115$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 9,
+    "statement": "The boxes in the expression below are filled with the numbers $3$, $4$, $5$, $6$, $7$, and $8$, so that each number is used exactly once. What is the least possible value of the expression? $\\_ \\times \\_ + \\_ \\times \\_ - \\_ \\times \\_$",
+    "subject": "A",
+    "choice1": "$-18$",
+    "choice2": "$-20$",
+    "choice3": "$-16$",
+    "choice4": "$-14$",
+    "choice5": "$-22$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 10,
+    "statement": "Consider an equilateral triangle with side length $9.$ Each side is divided into $3$ equal segments by $2$ points, for a total of $6$ points. Compute the area of the circle passing through these $6$ points.",
+    "subject": "G",
+    "choice1": "$9\\pi$",
+    "choice2": "$12\\pi$",
+    "choice3": "$6\\pi$",
+    "choice4": "$18\\pi$",
+    "choice5": "$27\\pi$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 11,
+    "statement": "Consider two geometric sequences $16$, $a_{1},a_{2},\\ldots$ and $56$, $b_{1},b_{2},\\ldots$ with the same common nonzero ratio. Given that $a_{2023} = b_{2020}$ , compute $b_{6} - a_{6}$",
+    "subject": "A",
+    "choice1": "$490$",
+    "choice2": "$392$",
+    "choice3": "$588$",
+    "choice4": "$686$",
+    "choice5": "$196$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 13,
+    "statement": "Three people, Pranav, Sumith, and Jacklyn, are attending a fair. Every time a person enters or exits, the groundskeeper writes their name down in chronological order. If each person enters and exits the fairgrounds exactly once, in how many ways can the groundskeeper write down their names?",
+    "subject": "C",
+    "choice1": "$60$",
+    "choice2": "$72$",
+    "choice3": "$90$",
+    "choice4": "$108$",
+    "choice5": "$120$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 14,
+    "statement": "For real numbers $x$ and $y$ , suppose that $|x| - |y| = 20$ and $|x| + |y| = 23$ . Compute the sum of all possible distinct values of $|x - y|$ .",
+    "subject": "A",
+    "choice1": "$20$",
+    "choice2": "$23$",
+    "choice3": "$43$",
+    "choice4": "$46$",
+    "choice5": "$3$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 15,
+    "statement": "Find the number of positive integers $n$ less than $10000$ such that there are more $4$'s in the digits of $n + 1$ than in the digits of $n$ .",
+    "subject": "N",
+    "choice1": "$1000$",
+    "choice2": "$1111$",
+    "choice3": "$1234$",
+    "choice4": "$999$",
+    "choice5": "$1100$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 17,
+    "statement": "Jingyuan is designing a bucket hat for BMT merchandise. The hat has the shape of a cylinder on top of a truncated cone, as shown in the diagram below. The cylinder has radius $9$ and height $12.$ The truncated cone has base radius $15$ and height $4$, and its top radius is the same as the cylinder's radius. Compute the total volume of this bucket hat.",
+    "subject": "G",
+    "choice1": "$1560\\pi$",
+    "choice2": "$1500\\pi$",
+    "choice3": "$1620\\pi$",
+    "choice4": "$1440\\pi$",
+    "choice5": "$1680\\pi$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 18,
+    "statement": "Kait rolls a fair $6$-sided die until she rolls a $6.$ If she rolls a $6$ on the $N$ th roll, she then rolls the die $N$ more times. What is the probability that she rolls a $6$ during these next $N$ times?",
+    "subject": "C",
+    "choice1": "$\\frac{5}{11}$",
+    "choice2": "$\\frac{6}{11}$",
+    "choice3": "$\\frac{1}{2}$",
+    "choice4": "$\\frac{7}{11}$",
+    "choice5": "$\\frac{4}{11}$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 19,
+    "statement": "Let $\\omega$ be a circle with center $O$ and radius $8$, and let $A$ be a point such that $AO = 17$. Let $P$ and $Q$ be points on $\\omega$ such that line segments $AP$ and $AQ$ are tangent to $\\omega$. Let $B$ and $C$ be points chosen on $AP$ and $AQ$, respectively, such that $BC$ is also tangent to $\\omega$. Compute the perimeter of triangle $\\triangle ABC$.",
+    "subject": "G",
+    "choice1": "$25$",
+    "choice2": "$34$",
+    "choice3": "$40$",
+    "choice4": "$30$",
+    "choice5": "$32$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 21,
+    "statement": "Let $p,q$ , and $r$ be the three roots of the polynomial $x^{3} - 2x^{2} + 3x - 2023$ . Suppose that the polynomial $x^{3} + Bx^{2} + Mx + T$ has roots $p + q$ , $p + r$ , and $q + r$ for real numbers $B$ , $M$ , and $T$ . Compute $B - M + T$ .",
+    "subject": "A",
+    "choice1": "$2023$",
+    "choice2": "$2017$",
+    "choice3": "$2006$",
+    "choice4": "$1999$",
+    "choice5": "$2000$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 24,
+    "statement": "Let $a_n$ be a sequence such that $a_0=0$, $a_1=1$, and $a_n=a_{n-1}+xa_n$ for all $n \\ge 0$. Given that $\\sum_{i=0}^{\\infty}{\\frac{a_i}{10^i}}=1$, find $x$.",
+    "subject": "A",
+    "choice1": "$100$",
+    "choice2": "$90$",
+    "choice3": "$80$",
+    "choice4": "$70$",
+    "choice5": "$60$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 25,
+    "statement": "A tetrahedron has three edges of length $2$ and three edges of length $4$, and one of its faces is an equilateral triangle. Compute the radius of the sphere that is tangent to every edge of this tetrahedron.",
+    "subject": "G",
+    "choice1": "$\\frac{3\\sqrt{11}}{11}$",
+    "choice2": "$\\frac{\\sqrt{11}}{3}$",
+    "choice3": "$\\frac{10}{11}$",
+    "choice4": "$\\frac{2\\sqrt{11}}{11}$",
+    "choice5": "$\\frac{5\\sqrt{11}}{11}$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 1,
+    "statement": "Compute $2 + 0 + 2 + 4 + 2\\times 0 + 2\\times 2 + 2\\times 4 + 0\\times 2 + 0\\times 4 + 2\\times 4$.",
+    "subject": "A",
+    "choice1": "$26$",
+    "choice2": "$28$",
+    "choice3": "$30$",
+    "choice4": "$24$",
+    "choice5": "$32$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 2,
+    "statement": "When the odd positive two-digit number $11$ is added to $46$, the result is $57$, whose sum of digits is $12.$ What odd positive two-digit number can be added to $46$ so the result is a number whose digits sum to $17$?",
+    "subject": "N",
+    "choice1": "$52$",
+    "choice2": "$41$",
+    "choice3": "$42$",
+    "choice4": "$43$",
+    "choice5": "$53$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 3,
+    "statement": "At a certain point in time, Nikhil had $3$ more apples than Brian. Theo then gave Nikhil $9$ apples and took away $3$ apples from Brian. Now, Nikhil has twice as many apples as Brian. Compute the number of apples that Nikhil and Brian now have in total.",
+    "subject": "A",
+    "choice1": "$45$",
+    "choice2": "$48$",
+    "choice3": "$33$",
+    "choice4": "$36$",
+    "choice5": "$42$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 4,
+    "statement": "Jessica cuts a pie into perfect sixths. If the pie's radius is $2$, what is the perimeter of one slice of the pie?",
+    "subject": "G",
+    "choice1": "$4 + \\frac{\\pi}{3}$",
+    "choice2": "$2\\pi$",
+    "choice3": "$4 + \\frac{2\\pi}{3}$",
+    "choice4": "$4 + 2\\pi$",
+    "choice5": "$2 + \\frac{2\\pi}{3}$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 5,
+    "statement": "Find the smallest number among the following numbers: $\\frac{7}{13},\\frac{10}{19},\\frac{5}{9},\\frac{3}{5},\\frac{2023}{4045},\\frac{6}{11},\\frac{2024}{4047},\\frac{4}{7}$.",
+    "subject": "A",
+    "choice1": "$\\frac{2023}{4045}$",
+    "choice2": "$\\frac{7}{13}$",
+    "choice3": "$\\frac{10}{19}$",
+    "choice4": "$\\frac{5}{9}$",
+    "choice5": "$\\frac{2024}{4047}$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 6,
+    "statement": "Find the third-largest three-digit multiple of three that is a palindrome. (Recall that a palindrome is a number that reads the same forward and backward, such as $444$ or $838$, but not $227.$)",
+    "subject": "N",
+    "choice1": "$969$",
+    "choice2": "$939$",
+    "choice3": "$909$",
+    "choice4": "$888$",
+    "choice5": "$858$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 7,
+    "statement": "Cafe BMT makes their famous Bacon, Mozzarella, Tomato sandwich with $3$ strips of bacon, $1$ slice of mozzarella, and $1$ tomato slice stacked on top of each other. How many ways can the toppings of a Bacon, Mozzarella, Tomato sandwich be arranged?",
+    "subject": "C",
+    "choice1": "$120$",
+    "choice2": "$60$",
+    "choice3": "$10$",
+    "choice4": "$20$",
+    "choice5": "$30$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 8,
+    "statement": "On a chalkboard, Benji draws a square with side length $6.$ He then splits each side into $3$ equal segments using $2$ points for a total of $12$ segments and $8$ points. After trying some shapes, Benji finds that by using a circle, he can connect all $8$ points together. What is the area of this circle?",
+    "subject": "G",
+    "choice1": "$10\\pi$",
+    "choice2": "$9\\pi$",
+    "choice3": "$18\\pi$",
+    "choice4": "$16\\pi$",
+    "choice5": "$12\\pi$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 9,
+    "statement": "Find the real number $x$ satisfying $\\frac{x^{2} - 20}{x^{2} + 20x + 4} = \\frac{x^{2} - 24}{x^{2} + 24x + 4} = \\frac{1}{2}$.",
+    "subject": "A",
+    "choice1": "$22$",
+    "choice2": "$26$",
+    "choice3": "$-2$",
+    "choice4": "$0$",
+    "choice5": "$2$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 10,
+    "statement": "Suppose $a_{1},a_{2},\\ldots$ is an arithmetic sequence, and suppose $g_{1},g_{2},\\ldots$ is a geometric sequence with common ratio $2.$ Suppose $a_{1} + g_{1} = 1$ and $a_{2} + g_{2} = 1$. If $a_{24} = g_{7}$, find $a_{2024}$.",
+    "subject": "A",
+    "choice1": "$-23$",
+    "choice2": "$23$",
+    "choice3": "$0$",
+    "choice4": "$1$",
+    "choice5": "$-22$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 11,
+    "statement": "The $35$-step staircase of Sather Tower is being renovated. Each step will be painted a single color such that the stairs repeat color every $5$ steps. There are $14$ available stair colors, including blue and gold. Each color may only cover up to $10$ steps, but both blue and gold must be used. With these restrictions, in how many different ways can the stairs be colored?",
+    "subject": "C",
+    "choice1": "$4400$",
+    "choice2": "$26400$",
+    "choice3": "$2640$",
+    "choice4": "$34560$",
+    "choice5": "$13200$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 12,
+    "statement": "Find the greatest integer less than $\\frac{2}{1} -\\frac{2}{2} +\\frac{2}{3} -\\frac{2}{4} +\\frac{2}{5} -\\frac{2}{6} +\\dots -\\frac{2}{2024}$.",
+    "subject": "A",
+    "choice1": "$0$",
+    "choice2": "$2$",
+    "choice3": "$3$",
+    "choice4": "$1$",
+    "choice5": "$4$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 13,
+    "statement": "Find the number of positive integers, $n$, such that $\\frac{20 + n}{24 - n}$ is an integer.",
+    "subject": "N",
+    "choice1": "$11$",
+    "choice2": "$5$",
+    "choice3": "$6$",
+    "choice4": "$10$",
+    "choice5": "$12$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 14,
+    "statement": "How many terms of the sequence $3^{1} + 1, 3^{2} + 2, 3^{3} + 3, \\ldots , 3^{2024} + 2024$ are divisible by $5$?",
+    "subject": "N",
+    "choice1": "$404$",
+    "choice2": "$405$",
+    "choice3": "$406$",
+    "choice4": "$400$",
+    "choice5": "$410$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 15,
+    "statement": "For a real number $n$, let $\\lfloor n\\rfloor$ be the greatest integer less than or equal to $n$ and let $\\lceil n\\rceil$ be the smallest integer greater than or equal to $n$. For example, $\\lfloor 2.5\\rfloor = 2$ and $\\lceil 2\\rceil = 2$, while $\\lceil 2.5\\rceil = 3$ and $\\lfloor 2\\rfloor = 2$. Find the greatest integer $x$ such that $\\left\\lfloor \\frac{x}{20} +20\\right\\rfloor = \\left\\lceil \\frac{x}{24} +24\\right\\rceil$.",
+    "subject": "A",
+    "choice1": "$719$",
+    "choice2": "$700$",
+    "choice3": "$680$",
+    "choice4": "$480$",
+    "choice5": "$699$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 16,
+    "statement": "A square with side length $6$ has a circle with radius $2$ inside of it, with the centers of the square and circle vertically aligned. Aarush is standing $4$ units directly above the center of the circle, at point $P$. What is the area of the region inside the square that he can see? (Assume that Aarush can only see parts of the square along straight lines of sight from $P$ that are unblocked by any other objects.)",
+    "subject": "G",
+    "choice1": "$13\\sqrt{3} - \\frac{2\\pi}{3}$",
+    "choice2": "$13\\sqrt{3} - \\frac{4\\pi}{3}$",
+    "choice3": "$13\\sqrt{3} - \\pi$",
+    "choice4": "$12\\sqrt{3} - \\frac{4\\pi}{3}$",
+    "choice5": "$14\\sqrt{3} - \\frac{4\\pi}{3}$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 17,
+    "statement": "Eight players are seated around a circular table. Each player is assigned to either Team Green or Team Yellow so that each team has at least one player. In how many ways can the players be assigned to the teams such that each player is on the same team as at least one player adjacent to them?",
+    "subject": "C",
+    "choice1": "$40$",
+    "choice2": "$48$",
+    "choice3": "$36$",
+    "choice4": "$44$",
+    "choice5": "$52$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 18,
+    "statement": "Two circles, $\\omega_1$ and $\\omega_2$, are internally tangent at $A$. Let $B$ be the point on $\\omega_2$ opposite of $A$. The radius of $\\omega_1$ is $4$ times the radius of $\\omega_2$. Point $P$ is chosen on the circumference of $\\omega_1$ such that the ratio $\\frac{AP}{BP} = \\frac{2\\sqrt{3}}{\\sqrt{7}}$. Let $O$ denote the center of $\\omega_2$. Determine the ratio $\\frac{OP}{AO}$.",
+    "subject": "G",
+    "choice1": "$\\sqrt{37}$",
+    "choice2": "$\\sqrt{35}$",
+    "choice3": "$\\sqrt{38}$",
+    "choice4": "$\\sqrt{40}$",
+    "choice5": "$6$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 19,
+    "statement": "Consider an $n$-digit number $d_1 d_2 d_3 \\ldots d_n$ such that:\n- there are no leading zeroes,\n- the number formed from the first $k$ digits $d_1 \\ldots d_k$ is divisible by $k$ (for all $1 \\leq k \\leq n$),\n- all of the digits are either $0$, $2$, or $4.$\nIf the number ends in the digits $2024$, what is the sum of the digits of the minimum value of this number?",
+    "subject": "N",
+    "choice1": "$20$",
+    "choice2": "$22$",
+    "choice3": "$24$",
+    "choice4": "$26$",
+    "choice5": "$28$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 20,
+    "statement": "Let $U$ and $C$ be two circles, and kite $BERK$ have vertices that lie on $U$ and sides that are tangent to $C$. Given that the diagonals of the kite measure $5$ and $6$, find the ratio of the area of $U$ to the area of $C$.",
+    "subject": "G",
+    "choice1": "$\\frac{25}{66}$",
+    "choice2": "$\\frac{75}{22}$",
+    "choice3": "$\\frac{22}{75}$",
+    "choice4": "$\\frac{66}{5}$",
+    "choice5": "$\\frac{66}{25}$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 21,
+    "statement": "Clara has a pair of nine-sided fair dice, each of whose faces are labeled $1$, $2$, $3$, ..., $9.$ Justin also has a pair of nine-sided fair dice, and the faces of his dice have positive integer labels, but one of Justin's dice has the number $13.$ When Clara and Justin roll their dice, it turns out that for every number $S$, the probability that the sum of the results of Clara's dice is $S$ is equal to the probability that the sum of the results of Justin's dice is $S$. What is the probability that when Justin's dice are rolled, the results of the dice are equal?",
+    "subject": "C",
+    "choice1": "$\\frac{1}{81}$",
+    "choice2": "$\\frac{5}{81}$",
+    "choice3": "$\\frac{4}{81}$",
+    "choice4": "$\\frac{2}{81}$",
+    "choice5": "$\\frac{6}{81}$",
+    "correct": "B"
+  },
+  {
+    "problem_number": 22,
+    "statement": "There exist nonzero real numbers $B, M$, and $T$ that satisfy the equations:\n$2B + M + T - 2B^{2} - 2BM - 2MT - 2BT = 0$,\n$B + 2M + T - 3M^{2} - 3BM - 3MT - 3BT = 0$,\n$B + M + 2T - 4T^{2} - 4BM - 4MT - 4BT = 0$.\nCompute $2B + 3M + 4T$.",
+    "subject": "A",
+    "choice1": "$0$",
+    "choice2": "$1$",
+    "choice3": "$2$",
+    "choice4": "$3$",
+    "choice5": "$4$",
+    "correct": "D"
+  },
+  {
+    "problem_number": 23,
+    "statement": "Find the sum of the digits of the greatest multiple of $43$ whose base $6$ representation is a permutation of the digits $1$, $2$, $3$, $4$, and $5.$ (Express your answer in base $10$).",
+    "subject": "N",
+    "choice1": "$8$",
+    "choice2": "$10$",
+    "choice3": "$12$",
+    "choice4": "$13$",
+    "choice5": "$14$",
+    "correct": "A"
+  },
+  {
+    "problem_number": 24,
+    "statement": "Compute the number of positive integer triples $(B,M,T)$ satisfying $B,M,T< 24$ and\n$BM + MT + BT = (B + M + T)\\sqrt[3]{BMT}$.",
+    "subject": "N",
+    "choice1": "$66$",
+    "choice2": "$23$",
+    "choice3": "$89$",
+    "choice4": "$69$",
+    "choice5": "$86$",
+    "correct": "C"
+  },
+  {
+    "problem_number": 25,
+    "statement": "For an arbitrary positive integer $n$, we define $f(n)$ to be the number of ordered $5$-tuples of positive integers, $(a_{1},a_{2},a_{3},a_{4},a_{5})$, such that $a_{1}a_{2}a_{3}a_{4}a_{5}\\mid n$. Compute the sum of all $n$ for which $f(n) / n$ is maximized.",
+    "subject": "N",
+    "choice1": "$720$",
+    "choice2": "$1440$",
+    "choice3": "$1080$",
+    "choice4": "$2880$",
+    "choice5": "$2160$",
+    "correct": "E"
+  },
+  {
+    "problem_number": 4,
+    "statement": "Six consecutive positive integers are written on slips of paper. The slips are then handed out to Ethan, Jacob, and Karthik, such that each of them receives two slips. The product of Ethan's numbers is $20,$ and the product of Jacob's numbers is $24.$ Compute the product of Karthik's numbers.$, such that $a_{$1$}a_{$2$}a_{$3$}a_{$4$}a_{$5$}\\mid n$. Compute the sum of all $n$ for which $f(n) / n$ is maximized.",
+    "subject": "A",
+    "choice1": "$36$",
+    "choice2": "$40$",
+    "choice3": "$42$",
+    "choice4": "$48$",
+    "choice5": "$54$",
+    "correct": "C"
+  },
   {
     "set": 1,
     "problem_number": 1,
@@ -1587,7 +1586,7 @@
   {
     "set": 1,
     "problem_number": 12,
-    "statement": "Melanie computes the mean $\\mu$, the median $M$, and the modes of the $365$ values that are the dates in the months of 2019. Thus her data consist of $12$ 1's, $12$ 2's, ..., $12$ 28's, $11$ 29's, $11$ 30's, and $7$ 31's. Let $d$ be the median of the modes. Which of the following statements is true?",
+    "statement": "Melanie computes the mean $\\mu$, the median $M$, and the modes of the $365$ values that are the dates in the months of $2019.$ Thus her data consist of $12$ $1$'s, $12$ $2$'s, ..., $12$ $28$'s, $11$ $29$'s, $11$ $30$'s, and $7$ $31$'s. Let $d$ be the median of the modes. Which of the following statements is true?",
     "choice1": "$\\mu < d < M$",
     "choice2": "$M < d < \\mu$",
     "choice3": "$d = M = \\mu$",
@@ -1631,7 +1630,7 @@
   {
     "set": 1,
     "problem_number": 17,
-    "statement": "A child builds towers using identically shaped cubes of different color. How many different towers with a height 8 cubes can the child build with 2 red cubes, 3 blue cubes, and 4 green cubes? (One cube will be left out.)",
+    "statement": "A child builds towers using identically shaped cubes of different color. How many different towers with a height $8$ cubes can the child build with $2$ red cubes, $3$ blue cubes, and $4$ green cubes? (One cube will be left out.)",
     "choice1": "$24$",
     "choice2": "$288$",
     "choice3": "$312$",
@@ -1697,7 +1696,7 @@
   {
     "set": 1,
     "problem_number": 23,
-    "statement": "Travis devises a counting game: Tadd says 1, Todd says the next 2 numbers, Tucker the next 3, and so on rotating through the three children, each saying one more number than the previous, until the number 10,000 is reached. What is the 2019th number said by Tadd?",
+    "statement": "Travis devises a counting game: Tadd says $1$, Todd says the next $2$ numbers, Tucker the next $3$, and so on rotating through the three children, each saying one more number than the previous, until the number $10$,$000$ is reached. What is the $2019$th number said by Tadd?",
     "choice1": "$5743$",
     "choice2": "$5885$",
     "choice3": "$5979$",
@@ -1727,7 +1726,6 @@
     "choice5": "$35$",
     "correct": "D"
   },
-
   {
     "set": 2,
     "problem_number": 1,
@@ -1797,7 +1795,7 @@
   {
     "set": 2,
     "problem_number": 7,
-    "statement": "Each piece of candy costs a whole number of cents. Casper has exactly enough money to buy either 12 pieces of red candy, 14 of green, 15 of blue, or $n$ pieces of purple candy. A piece of purple candy costs 20 cents. What is the smallest possible value of $n$?",
+    "statement": "Each piece of candy costs a whole number of cents. Casper has exactly enough money to buy either $12$ pieces of red candy, $14$ of green, $15$ of blue, or $n$ pieces of purple candy. A piece of purple candy costs $20$ cents. What is the smallest possible value of $n$?",
     "choice1": "$18$",
     "choice2": "$21$",
     "choice3": "$24$",
@@ -1841,7 +1839,7 @@
   {
     "set": 2,
     "problem_number": 11,
-    "statement": "Two jars each contain the same number of marbles, every marble either blue or green. In Jar 1 ratio blue:green is $9:1$, in Jar 2 ratio blue:green is $8:1$. There are $95$ green marbles in all. How many more blue marbles are in Jar 1 than in Jar 2?",
+    "statement": "Two jars each contain the same number of marbles, every marble either blue or green. In Jar $1$ ratio blue:green is $9:1$, in Jar $2$ ratio blue:green is $8:1$. There are $95$ green marbles in all. How many more blue marbles are in Jar $1$ than in Jar $2$?",
     "choice1": "$5$",
     "choice2": "$10$",
     "choice3": "$25$",
@@ -1918,7 +1916,7 @@
   {
     "set": 2,
     "problem_number": 18,
-    "statement": "Henry walks $3/4$ of the way to his gym (2 km away), then $3/4$ of the way back toward home from that point, then $3/4$ of the way toward the gym from there, and so on. He will approach walking between two points $A$ and $B$ kilometers from home. What is $|A-B|$?",
+    "statement": "Henry walks $3/4$ of the way to his gym ($2$ km away), then $3/4$ of the way back toward home from that point, then $3/4$ of the way toward the gym from there, and so on. He will approach walking between two points $A$ and $B$ kilometers from home. What is $|A-B|$?",
     "choice1": "$2/3$",
     "choice2": "$1$",
     "choice3": "$11/5$",
@@ -1951,7 +1949,7 @@
   {
     "set": 2,
     "problem_number": 22,
-    "statement": "Raashan, Sylvia, and Ted each start with $1$. Every 15 seconds each player who currently has money chooses one of the other two uniformly at random and gives $1$ to that player. What is the probability that after $2019$ rounds each player will again have $1$?",
+    "statement": "Raashan, Sylvia, and Ted each start with $1$. Every $15$ seconds each player who currently has money chooses one of the other two uniformly at random and gives $1$ to that player. What is the probability that after $2019$ rounds each player will again have $1$?",
     "choice1": "$1/7$",
     "choice2": "$1/4$",
     "choice3": "$1/3$",
@@ -1984,7 +1982,7 @@
   {
     "set": 2,
     "problem_number": 22,
-    "statement": "How many sequences of 0s and 1s of length 19 begin with 0, end with 0, contain no two consecutive 0s, and contain no three consecutive 1s?",
+    "statement": "How many sequences of $0$s and $1$s of length $19$ begin with $0$, end with $0$, contain no two consecutive $0$s, and contain no three consecutive $1$s?",
     "choice1": "$55$",
     "choice2": "$60$",
     "choice3": "$65$",
@@ -1992,9 +1990,4 @@
     "choice5": "$75$",
     "correct": "C"
   }
-
-
-  
-
-  
 ]
