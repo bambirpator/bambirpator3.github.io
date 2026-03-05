@@ -1146,7 +1146,7 @@
 },
 {
 "problem_number": 19,
-"statement": "Let ω be a circle with center O and radius 8, and let A be a point such that AO = 17. Let P and Q be points on ω such that line segments AP and AQ are tangent to ω. Let B and C be points chosen on AP and AQ, respectively, such that BC is also tangent to ω. Compute the perimeter of triangle △ABC.",
+"statement": "Let $\\omega$ be a circle with center $O$ and radius $8$, and let $A$ be a point such that $AO = 17$. Let $P$ and $Q$ be points on $\\omega$ such that line segments $AP$ and $AQ$ are tangent to $\\omega$. Let $B$ and $C$ be points chosen on $AP$ and $AQ$, respectively, such that $BC$ is also tangent to $\\omega$. Compute the perimeter of triangle $\\triangle ABC$.",
 "subject": "G",
 "choice1": "$25$",
 "choice2": "$34$",
