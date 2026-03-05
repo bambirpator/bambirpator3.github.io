@@ -1610,7 +1610,7 @@
   {
     "set": 1,
     "problem_number": 1,
-    "statement": "What is the value of $2^{(0^{(1^9))}+((2^0)^1)^9$?",
+    "statement": "What is the value of $2^{(0^{(1^9))}}+((2^0)^1)^9$?",
     "choice1": "$0$",
     "choice2": "$1$",
     "choice3": "$2$",
