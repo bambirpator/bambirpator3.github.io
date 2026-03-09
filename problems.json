@@ -104,19 +104,6 @@
     "source": "AMC 10"
   },
   {
-    "problem_number": 9,
-    "statement": "A rectangle is partitioned into $5$ regions as shown. Each region is to be painted a solid color\u2014red, orange, yellow, blue, or green\u2014so that regions that touch are painted different colors, and colors can be used more than once. How many different colorings are possible?",
-    "subject": "C",
-    "choice1": "$120$",
-    "choice2": "$270$",
-    "choice3": "$360$",
-    "choice4": "$540$",
-    "choice5": "$720$",
-    "correct": "D",
-    "id": 9,
-    "source": "AMC 10"
-  },
-  {
     "problem_number": 10,
     "statement": "Daniel finds a rectangular index card and measures its diagonal to be $8$ centimeters. Daniel then cuts out equal squares of side $1$ cm at two opposite corners of the index card and measures the distance between the two closest vertices of these squares to be $4\\sqrt{2}$ centimeters, as shown. What is the area of the original index card?",
     "subject": "A",
